@@ -3,3 +3,5 @@
 	email = hanseol33@naver.com
 [push]
 	default = matching
+[core]
+	editor = vi
