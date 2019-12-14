@@ -95,6 +95,10 @@ alias gs='git status'
 alias cls='clear'
 alias desktop='cd /mnt/c/USers/minhwasoo/Desktop'
 alias minhwasoo='cd /mnt/c/USers/minhwasoo'
+alias gl='git log --oneline --all --graph --decorate'
+alias gs='git status'
+alias ga='git add'
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
