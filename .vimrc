@@ -67,14 +67,13 @@ function! LightlineFilename()
 
 "------------------------------------------------------------------------------------------------------
 
-"colorscheme monokai-chris
+colorscheme monokai-chris
 "colorscheme torte 
 
-colorscheme wombat256mod 
+"colorscheme wombat256mod 
 
 
 "------------------------------------------------------------------------------------------------------
-
 
 " Sample .vimrc file by Martin Brochhaus
 "
@@ -188,7 +187,7 @@ noremap <Leader>E :qa!<CR>   " Quit all windows
  set tw=79   " width of document (used by gd)
  set nowrap  " don't automatically wrap on load
  set fo-=t   " don't automatically wrap text when typing
- set colorcolumn=80
+ set colorcolumn=100
  highlight ColorColumn ctermbg=233
 "
 "
