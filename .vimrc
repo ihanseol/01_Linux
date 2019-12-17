@@ -21,11 +21,9 @@ call plug#begin('~/.vim/plugged')
 let g:plug_url_format = 'https://github.com/%s.git'
 "}}}
 
-
 set path+=**
 set wildmenu
 set laststatus=2
-
 
 set langmenu=en_US.UTF-8
 language messages en_US.UTF-8
