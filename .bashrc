@@ -149,8 +149,18 @@ else
     fortune | ponysay
 fi
 
+FILE=/etc/machine-id
+if [ -f "$FILE" ]; then
+    echo "$FILE" exist
+else
+    sudo systemd-machine-id-setup
+    sudo dbus-uuidgen --ensure
+    cat "$FILE"
+    echo "created ...."
+fi
+
 export DISPLAY=localhost:0
 xset r rate 220 40
 alias a='terminator --geometry=1200x700 < /dev/null &>/dev/null &'
-
+alias aa='gnome-terminal < /dev/null &> /dev/null &'
 
