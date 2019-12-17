@@ -162,5 +162,5 @@ fi
 export DISPLAY=localhost:0
 xset r rate 220 40
 alias a='terminator --geometry=1200x700 < /dev/null &>/dev/null &'
-alias aa='gnome-terminal < /dev/null &> /dev/null &'
+alias aa='mate-terminal < /dev/null &> /dev/null &'
 
