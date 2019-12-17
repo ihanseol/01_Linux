@@ -125,6 +125,9 @@ colorscheme monokai-chris
 " " Quick quit command
 noremap <Leader>e :quit<CR>  " Quit current window
 noremap <Leader>E :qa!<CR>   " Quit all windows
+map <F3> :NERDTreeToggle<cr>
+let NERDTreeQuitOnOpen=1
+let NERDTreeShowHidden=1
 "
 "
 " " bind Ctrl+<movement> keys to move around the windows, instead of using
