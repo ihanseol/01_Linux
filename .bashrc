@@ -159,8 +159,20 @@ else
     echo "created ...."
 fi
 
-export DISPLAY=localhost:0
+export DISPLAY=localhost:0.0
 xset r rate 220 40
 alias a='terminator --geometry=1200x700 < /dev/null &>/dev/null &'
 alias aa='mate-terminal &'
+
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export FZF_DEFAULT_OPTS='--height 70% --layout=reverse --border'
+
+
+function fzfv()
+{
+    fzf --preview '[[ $(file --mime {}) =~ binary ]] &&
+                         echo {} is a binary file ||
+                                          (cat {}) 2> /dev/null | head -500'
+}
 

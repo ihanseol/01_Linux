@@ -6,4 +6,4 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/dnvim for more book information.
 ***/
-var foo = "method("+argument1+","+argument2+")";
+var foo = "method("+argument11+","+argument2+")";
