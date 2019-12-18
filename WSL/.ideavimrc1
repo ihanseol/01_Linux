@@ -1,0 +1,93 @@
+
+"외부 경로를 지정할 때는 다음과 같이 한다.
+"source /Users/johngrib/git/myconfig/vim/.ideavimrc
+
+" 참고 link ---------------------------------------------------------------------
+
+  "http://ideavim.sourceforge.net/vim/
+  "https://github.com/JetBrains/ideavim/blob/master/doc/set-commands.md
+  "https://gist.github.com/zchee/9c78f91cc5ad771c1f5d " action list
+
+  nnoremap <F10>r :source ~/.ideavimrc<CR>
+
+" set commands -----------------------------------------------------------------
+
+  " set vimpath=~/Applications/MacVim/mvim
+  set vimpath=~/Applications/VimR.app/Contents/MacOS/VimR
+  set nu
+  " set relativenumber
+  set hi=1000 "history=1000
+  set hls     "hlsearch
+  set ic      "ignorecase
+  set is      "incsearch
+  set scs     "smartcase
+  set mps     "matchpairs
+  set ul=2000 "undolevels
+
+  " plugins
+  set surround
+  set commentary
+
+" copy , paste , select 기능 보완 ------------------------------------------------
+  nnoremap <C-m> :
+  vnoremap <C-m> :
+  inoremap <C-m> <CR>
+  cnoremap <C-m> <CR>
+
+  nnoremap <Esc> <Esc>:w<CR>
+  inoremap <Esc> <Esc>:w<CR>
+
+
+  nnoremap Y y$
+  nnoremap <SPACE>y "+y
+  vnoremap <SPACE>y "+y
+  nnoremap <SPACE>p "+p
+  nnoremap <SPACE>a ggVG
+  vnoremap <SPACE>a ggVG
+
+" 키 navigation 기능 보완 ---------------------------------------------------------
+  nnoremap gr gT
+  nnoremap gl 1gtgT
+  nnoremap gf 1gt
+
+" IntelliJ action 명령 테스트 ----------------------------------------------------
+
+  "ideavim 에서는 :command 명령을 사용할 수 없다...
+
+  "라인 스플릿. :action 을 부르는 방식의 성능이 나쁘고, number operation 반복이 안 됨. 그냥 i<CR> 이 낫다.
+  "nnoremap <c-j> :action EditorSplitLine<CR>
+  nnoremap K i<CR><ESC>
+
+  "다음 기능들은 검색 창이 열린 다음에 포커스가 곧바로 에디터로 이동하므로 불편하고 쓸모가 없음.
+  "실행한 다음 포커스가 남아 있기만 해도 굉장히 쓸만할 것 같은데 아쉽다.
+  nnoremap <F1><F1> :action GotoFile<CR>
+  nnoremap <SPACE>r :action RecentChangedFiles<CR>
+  nnoremap <SPACE>w :w<CR>
+
+  nnoremap \s :action Switcher<CR>
+  nnoremap \t :action ActivateStructureToolWindow<CR>
+  nnoremap \u :action ShowUsages<CR>
+  nnoremap \r :action ManageRecentProjects<CR>
+
+" IntelliJ IDEA 에서 제공하지 않는 VIM 기능들 ----------------------------------------
+
+  "ideavim 에서는 insert mode <C-P>, <C-N> 이 작동하지 않는다. 대신 IntelliJ 의 keymap 중
+  "  Main Menu > Code > Code > Completion > Cyclic Expand Word 가 비슷한 기능을 한다.
+  "  Cyclic Expand Word 에 ^p, Cyclic Expand Word (Backward) 에 ^n 을 지정해주면 된다.
+
+nnoremap '. :action JumpToLastChange<CR>0
+nnoremap `. :action JumpToLastChange<CR>0
+
+nnoremap [m :action MethodUp<CR>
+nnoremap ]m :action MethodDown<CR>
+onoremap [m :action MethodUp<CR>
+onoremap ]m :action MethodDown<CR>
+
+nnoremap <C-S-5> :action EditorMatchBrace<CR>
+
+" set gvimpath=/usr/local/opt/macvim/bin/mvim
+set gvimpath=/Users/johngrib/Applications/VimR.app/Contents/MacOS/VimR
+
+nnoremap <Space>v :action CopyPaths<CR>
+set ideajoin
+set ideamarks
