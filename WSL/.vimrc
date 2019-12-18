@@ -39,8 +39,12 @@ call plug#begin()
 	Plug 'raimondi/delimitmate'
 	Plug 'flazz/vim-colorschemes'
     "" Plug 'python-mode/python-mode', { 'branch': 'develop' }
+    Plug 'johngrib/vim-game-code-break'
 
+    Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+    Plug 'junegunn/fzf.vim'
 call plug#end()
+
 
 
 
@@ -65,8 +69,9 @@ function! LightlineFilename()
 
 "------------------------------------------------------------------------------------------------------
 
-colorscheme monokai-chris
+"colorscheme monokai-chris
 "colorscheme torte 
+colorscheme tender
 
 "colorscheme wombat256mod 
 
