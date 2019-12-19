@@ -67,17 +67,6 @@ function! LightlineFilename()
   let g:vimfiler_force_overwrite_statusline = 0
   let g:vimshell_force_overwrite_statusline = 0
 
-"------------------------------------------------------------------------------------------------------
-
-"colorscheme monokai-chris
-"colorscheme torte 
-colorscheme tender
-
-"colorscheme wombat256mod 
-
-
-"------------------------------------------------------------------------------------------------------
-
 " Sample .vimrc file by Martin Brochhaus
 "
 "
@@ -90,8 +79,8 @@ colorscheme tender
 " " ============================================
 "
 "
-" " Automatic reloading of .vimrc
-" " autocmd! bufwritepost .vimrc source %
+"Automatic reloading of .vimrc
+autocmd! bufwritepost .vimrc source %
 "
 "
 " " Better copy & paste
@@ -144,8 +133,6 @@ let NERDTreeShowHidden=1
  map <c-h> <c-w>h
 
 
-"
-"
 " " easier moving between tabs
  map <Leader>n <esc>:tabprevious<CR>
  map <Leader>m <esc>:tabnext<CR>
@@ -167,20 +154,11 @@ let NERDTreeShowHidden=1
  vnoremap > >gv  " better indentation
 "
 "
-" " Show whitespace
-" " MUST be inserted BEFORE the colorscheme command
-" " autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
-" "" au InsertLeave * match ExtraWhitespace /\s\+$/
-"
-"
-" " Color scheme
-" " mkdir -p ~/.vim/colors && cd ~/.vim/colors
-" " wget -O wombat256mod.vim
-" http://www.vim.org/scripts/download_script.php?src_id=13400
-" " set t_Co=256
-" "" color wombat256mod
-"
-"
+" Show whitespace
+" MUST be inserted BEFORE the colorscheme command
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+au InsertLeave * match ExtraWhitespace /\s\+$/
+
 " " Enable syntax highlighting
 " " You need to reload this file for the change to apply
 " " filetype off
@@ -195,7 +173,18 @@ let NERDTreeShowHidden=1
  set fo-=t   " don't automatically wrap text when typing
  set colorcolumn=100
  highlight ColorColumn ctermbg=233
-"
+
+"------------------------------------------------------------------------------------------------------
+
+"colorscheme monokai-chris
+"colorscheme torte
+colorscheme tender
+
+"colorscheme wombat256mod
+
+"------------------------------------------------------------------------------------------------------
+
+
 "
 " " easier formatting of paragraphs
 " " vmap Q gq
