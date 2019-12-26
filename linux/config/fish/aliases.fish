@@ -29,3 +29,6 @@ alias gpull='git pull origin master'
 
 
 alias l='ls -al'
+alias cls='clear'
+
+

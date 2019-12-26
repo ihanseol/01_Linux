@@ -5,6 +5,27 @@
 #set fish_color_hostname 'a67523'
 set -gx fish_greeting ''
 
+eval `dircolors ~/Git/dircolors-solarized/dircolors.256dark`
+
+
+MAXCOUNT=1
+RANGE=2
+count=1
+
+while  "$count" -le $MAXCOUNT
+    number=$RANDOM
+    let "number %= $RANGE"
+    #echo $number
+    let "count += 1"
+end
+
+if  "$number" = "0"
+    fortune | cowsay
+else
+    fortune | ponysay
+end
+
+
 function fish_prompt
     set last_status $status
 
