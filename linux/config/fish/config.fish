@@ -2,29 +2,21 @@
 
 # Fish prompt/color config {{{
 
-#set fish_color_hostname 'a67523'
-set -gx fish_greeting ''
+set MAXCOUNT 1
+set RANGE 2
+set count 1
 
-eval `dircolors ~/Git/dircolors-solarized/dircolors.256dark`
-
-
-MAXCOUNT=1
-RANGE=2
-count=1
-
-while  "$count" -le $MAXCOUNT
-    number=$RANDOM
-    let "number %= $RANGE"
-    #echo $number
-    let "count += 1"
+while [ $count -le $MAXCOUNT ]
+    set number (random)
+    set number (math  $number % $RANGE)
+    set count (math $count + 1 )
 end
 
-if  "$number" = "0"
+if [ $number -eq 0 ]
     fortune | cowsay
 else
     fortune | ponysay
 end
-
 
 function fish_prompt
     set last_status $status
@@ -44,7 +36,7 @@ function fish_prompt
 
     printf ' in '
     set_color $fish_color_cwd
-    printf '%s' (echo $PWD | sed -e "s|^$HOME|~|" -e 's|^/private||' -e 's|~/Projects/SimpleContacts/core/||')
+    printf '%s' (echo $PWD | sed -e "s|^$HOME|~|" -e 's|^/private||') 
     set_color normal
 
     git_prompt
@@ -154,14 +146,6 @@ function fish_user_key_bindings
     bind \ey 'commandline -b | pbcopy'
     bind \e'>' 'commandline -a -- "| shiftr"'
     bind \e'<' 'commandline -a -- "| shiftl"'
-end
-
-# }}}
-
-# Interactive/login shells {{{
-
-if status --is-login
-    . ~/.config/fish/env.fish
 end
 
 # }}}
