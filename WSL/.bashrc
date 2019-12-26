@@ -90,7 +90,7 @@ fi
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
+alias l='ls -alF'
 alias gs='git status'
 alias cls='clear'
 alias desktop='cd /mnt/c/USers/minhwasoo/Desktop'
@@ -160,10 +160,15 @@ else
 fi
 
 export DISPLAY=localhost:0.0
+
 xset r rate 220 40
 alias a='terminator --geometry=1200x700 < /dev/null &>/dev/null &'
 alias aa='mate-terminal &'
 
+
+if [ -t 1 ]; then  
+      cd ~
+  fi  
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_OPTS='--height 70% --layout=reverse --border'
