@@ -74,13 +74,13 @@ set -g mouse on
 
 set-window-option -g mode-keys vi
 
-set-window-option -g mouse on
+# set-window-option -g mouse on
 
-set -g mode-mouse on
-set -g mode-mouse copy-mode
-set -g mouse-resize-pane on
-set -g mouse-select-pane on
-set -g mouse-select-window on
+# set -g mode-mouse on
+# set -g mode-mouse copy-mode
+# set -g mouse-resize-pane on
+# set -g mouse-select-pane on
+# set -g mouse-select-window on
 
 set -g @yank_selection 'primary'
 set -g @shell_mode 'vi'
