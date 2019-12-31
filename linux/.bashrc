@@ -163,7 +163,7 @@ fi
 xset r rate 220 40
 alias a='terminator --geometry=1200x700 < /dev/null &>/dev/null &'
 alias aa='mate-terminal &'
-
+alias tmux='tmux -2u'
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_OPTS='--height 70% --layout=reverse --border'
