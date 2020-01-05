@@ -1,6 +1,5 @@
 
 " Variables {{{
-let mapleader = "\<Space>"
 let s:is_windows = has('win32') || has('win64')
 let s:is_nvim = has('nvim')
 "}}}
@@ -282,3 +281,31 @@ endif
 set nofoldenable
 
 
+
+" Cycle between line numbers, relative numbers, no numbers
+if exists('+relativenumber')
+  "CTRL-N is traditionally mapped to move the cursor down;
+  "I never use it that way, and there are already four other
+  "ways to do that
+  nnoremap <expr> <Leader>n CycleLNum()
+  xnoremap <expr> <Leader>n CycleLNum()
+  onoremap <expr> <Leader>n CycleLNum()
+
+  " function to cycle between normal, relative, and no line numbering
+  function! CycleLNum()
+    if &l:rnu
+      setlocal nonu nornu
+    elseif &l:nu
+      setlocal nu rnu
+    else
+      setlocal nu
+    endif
+    " sometimes (like in op-pending mode) the redraw doesn't happen
+    " automatically
+    redraw
+    " do nothing, even in op-pending mode
+    return ""
+  endfunc
+endif
+
+"
