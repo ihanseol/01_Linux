@@ -9,18 +9,15 @@ alias ....='cd ../../..'
 alias e='vim'
 alias :e='vim'
 
-#alias ll='ls -alF'
-#alias la='ls -A'
-#alias l='ls -CF'
-
 alias cls='clear'
 
 LINUX=$?
 if [ $LINUX -eq 0 ]; then
-    alias l.='ls -d .* --color=auto'
-    alias lh='ls -lh --color=auto'
-    alias ll='ls -l --color=auto'
-    alias ls='ls --color=auto'
+    alias l='ls -aCF'
+    alias l.='ls -dF .* --color=auto'
+    alias lh='ls -lhF --color=auto'
+    alias ll='ls -alF --color=auto'
+    alias ls='ls -F --color=auto'
 else
     alias l.='ls -d .* -G'
     alias lh='ls -lh -G'
