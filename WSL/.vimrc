@@ -208,8 +208,9 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
 
 "colorscheme monokai-chris
 "colorscheme torte
-colorscheme tender
+"colorscheme tender
 
+colorscheme seoul256
 "colorscheme wombat256mod
 
 "------------------------------------------------------------------------------------------------------
