@@ -1,0 +1,38 @@
+
+# some more ls aliases
+
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias e='vim'
+alias :e='vim'
+
+alias cls='clear'
+
+LINUX=$?
+if [ $LINUX -eq 0 ]; then
+    alias l='ls -aCF'
+    alias l.='ls -dF .* --color=auto'
+    alias lh='ls -lhF --color=auto'
+    alias ll='ls -alF --color=auto'
+    alias ls='ls -F --color=auto'
+else
+    alias l.='ls -d .* -G'
+    alias lh='ls -lh -G'
+    alias ll='ls -l -G'
+    alias ls='ls -G'
+fi
+
+
+ls --color=auth >/dev/null 2>&1
+
+alias gl='git log --oneline --all --graph --decorate'
+alias gs='git status'
+alias ga='git add $@'
+alias gc='git commit $@'
+alias gpush='git push origin master'
+alias gpull='git pull origin master'
+
+
