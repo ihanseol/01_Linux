@@ -10,10 +10,10 @@
 	// If set to false, a new file will be written next to the original file.
 	// The new file will have (legacyFile) in the name.
 	// Files with (legacyFile) in the file name are always ignored.
-var overwrite = true, // boolean
+var overwrite = false, // boolean
 	// Accepted values:
 	// 8, 9, 10, 11 (cs), 12 (cs2), 13 (cs3), 14 (cs4), 15 (cs5), 16 (cs6), 17 (cc)
-	targetVersion = 10;
+	targetVersion = 16;
 
 if ( app.documents.length > 0 ) {
 

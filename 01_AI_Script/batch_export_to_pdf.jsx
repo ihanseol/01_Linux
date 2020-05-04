@@ -52,12 +52,12 @@ if ( sourceFolder != null )
     // Get all files matching the pattern
     files = sourceFolder.getFiles( fileType );
  
-    if ( files.length &amp;amp;amp;amp;amp;amp;amp;gt; 0 )
+    if ( files.length > 0 )
     {
         // Get the destination to save the files
         //destFolder = Folder.selectDialog( 'Select the folder where you want to save the converted PDF files.', '~' );
         destFolder = sourceFolder;
-        for ( i = 0; i &amp;amp;amp;amp;amp;amp;amp;lt; files.length; i++ )
+        for ( i = 0; i < files.length; i++ )
         {
             sourceDoc = app.open(files[i]); // returns the document object
  
