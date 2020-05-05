@@ -1,0 +1,77 @@
+[Accelerator]
+Count=59
+0 0 0 I selectImageIglooTool:
+0 0 1 Z viewZoomExtents:
+0 0 0 A selectArcTool:
+0 0 0 C selectCircleTool:
+0 0 0 P selectPushPullTool:
+0 0 0 Space selectSelectionTool:
+0 0 0 L selectLineTool:
+0 0 0 M selectMoveTool:
+0 0 0 G Edit/Make Component...
+0 0 0 S selectScaleTool:
+0 0 0 F selectExtrudeTool:
+0 0 0 O selectOffsetTool:
+0 0 0 R selectRotateTool:
+0 0 0 Y selectAxisTool:
+0 0 0 D selectDimensionTool:
+0 0 0 U selectMeasureTool:
+0 0 1 A selectProtractorTool:
+0 0 1 R selectRectangleTool:
+1 0 0 G Edit/Make Group
+0 0 1 P selectPolygonTool:
+1 0 0 D Edit/Delete Guides
+1 0 0 B selectPaintTool:
+0 0 0 T Tools/Solid Tools/Trim
+0 0 1 O Tools/Outer Shell
+0 0 0 J Tools/Fredo6 Collection/JointPushPull/Joint Push Pull
+1 0 0 R Edit/Item/Reverse Faces
+0 0 0 Z selectZoomWindowTool:
+0 0 1 T selectTextTool:
+1 0 1 3 Edit/Unhide/All
+0 0 0 E editDelete:
+1 0 0 2 Edit/Lock
+1 0 1 2 Edit/Unlock/All
+1 0 0 3 editHide:
+0 0 1 E selectEraseTool:
+1 0 0 1 View/Component Edit/Hide Rest Of Model
+0 0 0 F2 viewIso:
+0 0 0 H editHide:
+0 0 0 B Edit/Item/Explode
+1 0 0 F1 viewFront:
+1 0 0 F2 viewTop:
+1 0 0 F3 viewRight:
+0 0 0 X Camera/Parallel Projection
+1 0 0 H viewShowGuides:
+0 0 0 Q viewZoomExtents:
+0 0 0 F3 viewBottom:
+0 0 1 V Edit/Paste In Place
+0 1 0 V Edit/Paste In Place
+0 0 1 S Edit/Intersect Faces/With Selection
+0 0 1 H viewShowHidden:
+0 0 1 X View/Face Style/X-ray
+0 0 1 D Window/Hide Dialogs
+0 0 0 N Edit/Unhide/Last
+1 0 0 Space Edit/Item/Align View
+0 0 1 1 Edit/Item/Select/Bounding Edges
+0 0 0 F4 viewBack:
+1 0 1 S Edit/Item/Zoom Selection
+1 0 0 ` Camera/Parallel Projection
+0 0 1 2 Edit/Item/Select/All Connected
+0 0 1 3 Edit/Item/Select/Connected Faces
+[File Locations]
+Models=C:\Users\hwasoo\Desktop\
+Classifications=C:\Users\hwasoo\AppData\Roaming\SketchUp\SketchUp 2015\SketchUp\Classifications\
+Components=C:\Users\hanseol\Documents\
+Materials=C:\Users\hanseol\Documents\
+Styles=C:\Users\hanseol\Documents\
+Textures=C:\Users\hanseol\Documents\
+Images=C:\Users\hanseol\Documents\
+ImportExport=C:\Users\hanseol\Documents\
+ComponentBrowser=C:\Program Files\Google\Google SketchUp 8\Components\
+ComponentBrowser1=C:\PROGRA~1\SketchUp\SKETCH~1\Components\Components Sampler\
+ComponentBrowser2=C:\Program Files\Google\Google SketchUp 8\Components\
+MaterialsBrowser=C:\PROGRA~1\SketchUp\SKETCH~1\Materials\Wood\
+MaterialsBrowser2=C:\Program Files\Google\Google SketchUp 8\Materials\
+StylesBrowser=C:\Program Files (x86)\SketchUp\SketchUp 2013\Styles\Default Styles\
+StylesBrowser2=C:\PROGRA~1\SketchUp\SKETCH~1\Styles\Color Sets\
