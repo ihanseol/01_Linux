@@ -50,6 +50,7 @@
 		</format>
 		<format description="Nsis" guid="{23170F69-40C1-278A-1000-000110090000}" />
 		<format description="lzma" guid="{23170F69-40C1-278A-1000-0001100A0000}">
+			<ext val="gz" />
 			<ext val="lzma" />
 		</format>
 		<format description="lzma86" guid="{23170F69-40C1-278A-1000-0001100B0000}">
