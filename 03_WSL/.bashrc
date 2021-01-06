@@ -159,7 +159,10 @@ else
     echo "created ...."
 fi
 
-export DISPLAY=localhost:0.0
+# export DISPLAY=localhost:0.0
+
+VETHER_IP=$(/bin/grep nameserver /etc/resolv.conf 2> /dev/null | /bin/tr -s ' ' | /bin/cut -d' ' -f2)
+export DISPLAY=$VETHER_IP:0.0
 
 xset r rate 220 40
 alias a='terminator --geometry=1200x700 < /dev/null &>/dev/null &'
@@ -181,3 +184,8 @@ function fzfv()
                                           (cat {}) 2> /dev/null | head -500'
 }
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
