@@ -1,51 +1,31 @@
-/*
-Placeholder for custom user CSS
-mainly to be overridden in profile/static/custom/custom.css
-This will always be an empty file in IPython
-*/
 
+div.CodeMirror,
+div.CodeMirror pre { /*코드 블록*/
+    font-family: D2Coding, Consolas;
+    font-size: 11pt;
+    line-height: 150%;
+}
 
-/* Change code font */
-/*.CodeMirror pre {
+.text_cell_render { /*마크다운*/
     font-family: Consolas;
-    font-size: 9pt;
-}
-*/
-
-
-/*.CodeMirror pre {font-family: Arial; font-size: 14pt; line-height: 140%;}
-
-.output pre {font-family: Arial; font-size: 14pt; line-height: 140%;}
-*/
-
-/*
-.CodeMirror pre {font-family: Consolas; font-size: 12pt; line-height: 130%;}
-
-.output pre {font-family: Consolas; font-size: 12pt; line-height: 120%;}
-*/
-
-div#notebook p, div#notebook{
-	font-family: Consolas;
-    font-size: 110%;
-    line-height: 120%;
 }
 
-.rendered_html pre, .rendered_html table{
-	font-family: Consolas;
-    font-size:110%;
-    line-height: 120%;
+.input_prompt { /*줄번호*/
+    font-family: D2Coding, Consolas;
 }
 
-.CodeMirror, .CodeMirror pre, .CodeMirror-dialog, .CodeMirror-dialog .CodeMirror-search-field, .terminal-app .terminal {
-	font-family: Consolas;
-    font-size: 110%;
-    line-height: 120%;
+.output_result pre { /*출력결과-맨마지막 출력*/
+    font-family: D2Coding, Consolas;
+}
+
+.output_stdout pre { /*출력결과-긴출력, 중간출력*/
+    font-family: D2Coding, Consolas;
+}
+
+.output_area { /*표*/
+    font-family: D2Coding, Consolas;
 }
 
 
-/*
-.output pre{
-    font-family: Monaco;
-    font-size: 9pt;
-}
-*/
+
+
