@@ -1,0 +1,51 @@
+/*
+Placeholder for custom user CSS
+mainly to be overridden in profile/static/custom/custom.css
+This will always be an empty file in IPython
+*/
+
+
+/* Change code font */
+/*.CodeMirror pre {
+    font-family: Consolas;
+    font-size: 9pt;
+}
+*/
+
+
+/*.CodeMirror pre {font-family: Arial; font-size: 14pt; line-height: 140%;}
+
+.output pre {font-family: Arial; font-size: 14pt; line-height: 140%;}
+*/
+
+/*
+.CodeMirror pre {font-family: Consolas; font-size: 12pt; line-height: 130%;}
+
+.output pre {font-family: Consolas; font-size: 12pt; line-height: 120%;}
+*/
+
+div#notebook p, div#notebook{
+	font-family: Consolas;
+    font-size: 110%;
+    line-height: 120%;
+}
+
+.rendered_html pre, .rendered_html table{
+	font-family: Consolas;
+    font-size:110%;
+    line-height: 120%;
+}
+
+.CodeMirror, .CodeMirror pre, .CodeMirror-dialog, .CodeMirror-dialog .CodeMirror-search-field, .terminal-app .terminal {
+	font-family: Consolas;
+    font-size: 110%;
+    line-height: 120%;
+}
+
+
+/*
+.output pre{
+    font-family: Monaco;
+    font-size: 9pt;
+}
+*/
