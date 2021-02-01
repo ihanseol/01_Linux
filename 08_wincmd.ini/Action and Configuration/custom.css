@@ -10,20 +10,28 @@ div.CodeMirror pre { /*코드 블록*/
     font-family: Consolas;
 }
 
-.input_prompt { /*줄번호*/
-    font-family: D2Coding, Consolas;
+.input_prompt pre { /*줄번호*/
+    font-family: Consolas; 
+    font-size: 11pt;
+    line-height: 150%;
+}
+
+.prompt {
+    font-family: Consolas;
+    font-size: 11pt;
+    /*min-width: 40px;*/
 }
 
 .output_result pre { /*출력결과-맨마지막 출력*/
-    font-family: D2Coding, Consolas;
+    font-family: Consolas;
 }
 
 .output_stdout pre { /*출력결과-긴출력, 중간출력*/
-    font-family: D2Coding, Consolas;
+    font-family: Consolas;
 }
 
-.output_area { /*표*/
-    font-family: D2Coding, Consolas;
+.output_area pre { /*표*/
+    font-family: Consolas;
 }
 
 

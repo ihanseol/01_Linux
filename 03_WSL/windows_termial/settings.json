@@ -10,6 +10,11 @@
 
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
 
+    //"launchMode" : "maximized",
+    "initialCols": 130,
+    "initialRows": 38,
+    "theme" : "dark",
+
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
 
@@ -28,12 +33,12 @@
         "defaults":
         {
 
-	 		 "fontFace": "Consolas",
-	  		 "fontSize": 11,
-	  	 	 "fontWeight":  "normal"
-	
-        // Put settings here that you want to apply to all profiles.
+             "fontFace": "Consolas",
+             "fontSize": 11,
+             "fontWeight":  "normal"
+                        
         },
+
         "list":
         [
             {
