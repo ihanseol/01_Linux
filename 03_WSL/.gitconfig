@@ -1,0 +1,9 @@
+[user]
+	name = ihanseol
+	email = hanseol33@naver.com
+[push]
+	default = matching
+[core]
+	editor = vi
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
