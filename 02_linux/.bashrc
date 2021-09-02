@@ -93,8 +93,6 @@ alias la='ls -A'
 alias l='ls -CF'
 alias gs='git status'
 alias cls='clear'
-alias desktop='cd /mnt/c/USers/minhwasoo/Desktop'
-alias minhwasoo='cd /mnt/c/USers/minhwasoo'
 
 alias gl='git log --oneline --all --graph --decorate'
 alias gs='git status'
@@ -128,7 +126,7 @@ if ! shopt -oq posix; then
 fi
 
 
-eval `dircolors ~/Git/dircolors-solarized/dircolors.256dark`
+# eval `dircolors ~/Git/dircolors-solarized/dircolors.256dark`
 
 
 MAXCOUNT=1
@@ -149,20 +147,8 @@ else
     fortune | ponysay
 fi
 
-FILE=/etc/machine-id
-if [ -f "$FILE" ]; then
-    echo "$FILE" exist
-else
-    sudo systemd-machine-id-setup
-    sudo dbus-uuidgen --ensure
-    cat "$FILE"
-    echo "created ...."
-fi
-
-
 xset r rate 220 40
 alias a='terminator --geometry=1200x700 < /dev/null &>/dev/null &'
-alias aa='mate-terminal &'
 alias tmux='tmux -2u'
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
@@ -183,6 +169,12 @@ function terminal-color()
 {
     bash -c  "$(wget -qO- https://git.io/vQgMr)" 
 }
+
+
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+    source /etc/profile.d/vte-2.91.sh
+fi
+
 
 
 

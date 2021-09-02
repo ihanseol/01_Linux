@@ -184,7 +184,7 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
  set tw=79   " width of document (used by gd)
  set nowrap  " don't automatically wrap on load
  set fo-=t   " don't automatically wrap text when typing
- set colorcolumn=100
+ "set colorcolumn=100
  highlight ColorColumn ctermbg=233
 
 
@@ -207,10 +207,12 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
 
 "colorscheme monokai-chris
 "colorscheme torte
-colorscheme tender
+"colorscheme tender
+
 
 "colorscheme wombat256mod
-
+"colorscheme monokain 
+colorscheme mojave 
 "------------------------------------------------------------------------------------------------------
 
 
