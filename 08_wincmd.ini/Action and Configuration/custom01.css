@@ -1,0 +1,39 @@
+
+div.CodeMirror,
+div.CodeMirror pre { /*코드 블록*/
+    font-family:  Consolas;
+    font-size: 13pt;
+    line-height: 150%;
+}
+
+.text_cell_render { /*마크다운*/
+    font-family: Consolas;
+}
+
+.input_prompt pre { /*줄번호*/
+    font-family: Consolas; 
+    font-size: 11pt;
+    line-height: 150%;
+}
+
+.prompt {
+    font-family: Consolas;
+    font-size: 11pt;
+    /*min-width: 40px;*/
+}
+
+.output_result pre { /*출력결과-맨마지막 출력*/
+    font-family: Consolas;
+}
+
+.output_stdout pre { /*출력결과-긴출력, 중간출력*/
+    font-family: Consolas;
+}
+
+.output_area pre { /*표*/
+    font-family: Consolas;
+}
+
+
+
+
