@@ -42,9 +42,9 @@
 
 ::@echo off
 
-SET VI="C:\Program Files\VIM\Vim81\gvim.exe"
+SET VI="c:\Program Files\Vim\vim90\gvim.exe"
 Set me="c:\Users\minhwasoo\"
-SET PATH=%PATH%;C:\Program Files\Vim\vim81;c:\Program Files\Sublime Text 3\;c:\Users\minhwasoo;
+SET PATH=%PATH%;c:\Program Files\Vim\vim90;c:\Program Files\Sublime Text 3\;c:\Users\minhwasoo;
 
 
 d:
