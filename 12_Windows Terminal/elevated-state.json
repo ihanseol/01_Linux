@@ -2,11 +2,11 @@
 	"persistedWindowLayouts" : 
 	[
 		{
-			"initialPosition" : "684,236",
+			"initialPosition" : "879,262",
 			"initialSize" : 
 			{
-				"height" : 880.0,
-				"width" : 1193.0
+				"height" : 1024.0,
+				"width" : 1408.0
 			},
 			"launchMode" : "default",
 			"tabLayout" : 
