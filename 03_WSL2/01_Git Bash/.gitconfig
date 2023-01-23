@@ -1,0 +1,11 @@
+[user]
+	name = ihanseol
+	email = hanseol33@naver.com
+[push]
+	default = matching
+[core]
+	editor = vi
+[credential]
+	helper = cache
+[safe]
+	directory = D:/12_dev/04_PyhtonDemoDojang

@@ -1,0 +1,41 @@
+# ~/.zshenv
+# This is the first file that zsh is loading
+
+# my preferred locale/lang settings
+export LC_ALL=C.utf8
+export LANG=en_US.utf8
+export LC_CTYPE=en_US.utf8
+
+if [ "x${EXEPATH}" = "x" ]; then
+    # Change this to reflect your path to git
+    export EXEPATH=$(/usr/bin/cygpath -u -p "C:/Program Files/Git")
+fi
+if [ "x${MSYSTEM}" = "x" ]; then
+    # important msys env var
+    export MSYSTEM=MINGW64
+fi
+if [ "x${PLINK_PROTOCOL}" = "x" ]; then
+    # some putty env var from git-bash 
+    export PLINK_PROTOCOL=ssh
+fi
+if [ "x${HOME}" = "x" ]; then
+    # Change this to reflect your ~
+    export HOME=$(/usr/bin/cygpath -u -p "C:/Users/Michael")
+fi
+
+# Change this to paths you really need in zsh, only forward slashes!
+ENV_PATH_USER="D:/dev/WIN32PATH;C:/ProgramData/chocolatey/bin;C:/Python310/Scripts/;C:/Python310/;C:/Program Files/PuTTY/;C:/Users/Michael/.cargo/bin"
+ENV_PATH_USER=$(/usr/bin/cygpath -u -p "${ENV_PATH_USER}")
+
+ENV_PATH_WIN="/c/Windows/System32:/c/Windows:/c/Windows/System32/wbem:/c/Windows/System32/WindowsPowerShell/v1.0"
+
+export PATH="${ENV_PATH_USER}:${ENV_PATH_WIN}"
+
+#if you have problems with your path, just print it somewhere
+#echo "PATH set to" >> ~/.shelllog
+#echo $PATH | /usr/bin/sed 's/^\|:/\n    /g'>> ~/.shelllog
+
+export HISTSIZE=999999999
+export SAVEHIST=$HISTSIZE
+
+

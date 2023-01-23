@@ -1,0 +1,9 @@
+ThemeFile=dracula
+CursorType=block
+Font=Consolas
+FontHeight=11
+AllowBlinking=yes
+Locale=ko_KR
+Charset=UTF-8
+Columns=168
+Rows=53
