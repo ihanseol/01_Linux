@@ -64,6 +64,12 @@ function! LightlineFilename()
   let g:unite_force_overwrite_statusline = 0
   let g:vimfiler_force_overwrite_statusline = 0
   let g:vimshell_force_overwrite_statusline = 0
+  
+  " fzf-settings, https://codevion.github.io/#!vim/fzf.md
+  " 
+  let g:fzf_layout = { 'down': '40%' }
+  nnoremap <C-p> :Files<Cr>
+
 
 " Sample .vimrc file by Martin Brochhaus
 "

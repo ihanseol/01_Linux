@@ -10,15 +10,30 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/files
+
 # Command Line History (newest to oldest):
 :q
-|2,0,1674401024,,"q"
+|2,0,1674520182,,"q"
+:bbuffers
+|2,0,1674520180,,"bbuffers"
+:Buffers
+|2,0,1674520088,,"Buffers"
+:Files
+|2,0,1674519491,,"Files"
+:files
+|2,0,1674519485,,"files"
+:wq
+|2,0,1674517997,,"wq"
 :q!
 |2,0,1674398313,,"q!"
-:wq
-|2,0,1674387531,,"wq"
 
 # Search String History (newest to oldest):
+?/files
+|2,1,1674519476,47,"files"
+?/^gc
+|2,1,1674519206,47,"^gc"
 
 # Expression History (newest to oldest):
 
@@ -53,228 +68,285 @@
 |3,0,36,0,1,0,1674384604,"ir"
 
 # File marks:
-'0  126  0  ~\_viminfo
-|4,48,126,0,1674398313,"~\\_viminfo"
-'1  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,49,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
-'2  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,50,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
-'3  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,51,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
-'4  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,52,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
-'5  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,53,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
-'6  46  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,54,46,0,1674387013,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
-'7  46  0  C:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,55,46,0,1674387013,"C:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
-'8  1  0  c:\Program
-|4,56,1,0,1674386859,"c:\\Program"
-'9  1  0  c:\Program
-|4,57,1,0,1674386810,"c:\\Program"
+'0  37  0  ~\AppData\Roaming\GHISLER\WINCMD.INI
+|4,48,37,0,1674520673,"~\\AppData\\Roaming\\GHISLER\\WINCMD.INI"
+'1  20  0  ~\AppData\Roaming\GHISLER\wcx_ftp.ini
+|4,49,20,0,1674520653,"~\\AppData\\Roaming\\GHISLER\\wcx_ftp.ini"
+'2  3  30  ~\.bash_profile
+|4,50,3,30,1674520182,"~\\.bash_profile"
+'3  56  2  ~\.profile
+|4,51,56,2,1674519644,"~\\.profile"
+'4  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,52,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+'5  1  0  C:\Program Files\totalcmd\ini\config\$(fzf)
+|4,53,1,0,1674518628,"C:\\Program Files\\totalcmd\\ini\\config\\$(fzf)"
+'6  65  55  C:\Program Files\totalcmd\ini\config\user_profile.cmd
+|4,54,65,55,1674517997,"C:\\Program Files\\totalcmd\\ini\\config\\user_profile.cmd"
+'7  34  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,55,34,0,1674517945,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+'8  34  0  C:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,56,34,0,1674517945,"C:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+'9  52  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,57,52,0,1674517468,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
 
 # Jumplist (newest first):
--'  126  0  ~\_viminfo
-|4,39,126,0,1674398313,"~\\_viminfo"
--'  126  0  ~\_viminfo
-|4,39,126,0,1674398313,"~\\_viminfo"
--'  1  0  ~\_viminfo
-|4,39,1,0,1674398305,"~\\_viminfo"
--'  1  0  ~\_viminfo
-|4,39,1,0,1674398305,"~\\_viminfo"
--'  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  20  7  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,20,7,1674396864,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396827,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396827,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396827,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396827,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396827,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396827,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396827,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396827,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\user_aliases.cmd
-|4,39,1,0,1674396759,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  1  0  c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
-|4,39,1,0,1674396715,"c:\\Program Files\\totalcmd\\RunAsTool\\cmder\\config\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
--'  47  34  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-|4,39,47,34,1674387531,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  37  0  ~\AppData\Roaming\GHISLER\WINCMD.INI
+|4,39,37,0,1674520673,"~\\AppData\\Roaming\\GHISLER\\WINCMD.INI"
+-'  1  0  ~\AppData\Roaming\GHISLER\WINCMD.INI
+|4,39,1,0,1674520667,"~\\AppData\\Roaming\\GHISLER\\WINCMD.INI"
+-'  20  0  ~\AppData\Roaming\GHISLER\wcx_ftp.ini
+|4,39,20,0,1674520653,"~\\AppData\\Roaming\\GHISLER\\wcx_ftp.ini"
+-'  20  0  ~\AppData\Roaming\GHISLER\wcx_ftp.ini
+|4,39,20,0,1674520653,"~\\AppData\\Roaming\\GHISLER\\wcx_ftp.ini"
+-'  13  0  C:\Users\MINHWA~1\AppData\Roaming\GHISLER\NERD_tree_1
+|4,39,13,0,1674520645,"C:\\Users\\MINHWA~1\\AppData\\Roaming\\GHISLER\\NERD_tree_1"
+-'  13  0  C:\Users\MINHWA~1\AppData\Roaming\GHISLER\NERD_tree_1
+|4,39,13,0,1674520645,"C:\\Users\\MINHWA~1\\AppData\\Roaming\\GHISLER\\NERD_tree_1"
+-'  1  0  C:\Users\MINHWA~1\AppData\Roaming\GHISLER\NERD_tree_1
+|4,39,1,0,1674520617,"C:\\Users\\MINHWA~1\\AppData\\Roaming\\GHISLER\\NERD_tree_1"
+-'  14  2  C:\Users\MINHWA~1\AppData\Roaming\GHISLER\NERD_tree_1
+|4,39,14,2,1674520617,"C:\\Users\\MINHWA~1\\AppData\\Roaming\\GHISLER\\NERD_tree_1"
+-'  1  0  C:\Users\MINHWA~1\AppData\Roaming\GHISLER\NERD_tree_1
+|4,39,1,0,1674520617,"C:\\Users\\MINHWA~1\\AppData\\Roaming\\GHISLER\\NERD_tree_1"
+-'  14  2  C:\Users\MINHWA~1\AppData\Roaming\GHISLER\NERD_tree_1
+|4,39,14,2,1674520617,"C:\\Users\\MINHWA~1\\AppData\\Roaming\\GHISLER\\NERD_tree_1"
+-'  3  30  ~\.bash_profile
+|4,39,3,30,1674520182,"~\\.bash_profile"
+-'  3  30  ~\.bash_profile
+|4,39,3,30,1674520182,"~\\.bash_profile"
+-'  3  30  ~\.bash_profile
+|4,39,3,30,1674520182,"~\\.bash_profile"
+-'  3  30  ~\.bash_profile
+|4,39,3,30,1674520182,"~\\.bash_profile"
+-'  306  1  ~\.viminfo
+|4,39,306,1,1674520084,"~\\.viminfo"
+-'  306  1  ~\.viminfo
+|4,39,306,1,1674520084,"~\\.viminfo"
+-'  306  1  ~\.viminfo
+|4,39,306,1,1674520084,"~\\.viminfo"
+-'  306  1  ~\.viminfo
+|4,39,306,1,1674520084,"~\\.viminfo"
+-'  129  0  ~\.vimrc
+|4,39,129,0,1674520077,"~\\.vimrc"
+-'  129  0  ~\.vimrc
+|4,39,129,0,1674520077,"~\\.vimrc"
+-'  129  0  ~\.vimrc
+|4,39,129,0,1674520077,"~\\.vimrc"
+-'  129  0  ~\.vimrc
+|4,39,129,0,1674520077,"~\\.vimrc"
+-'  1  0  ~\.vimrc
+|4,39,1,0,1674520044,"~\\.vimrc"
+-'  1  0  ~\.vimrc
+|4,39,1,0,1674520044,"~\\.vimrc"
+-'  1  0  ~\.vimrc
+|4,39,1,0,1674520044,"~\\.vimrc"
+-'  1  0  ~\.vimrc
+|4,39,1,0,1674520044,"~\\.vimrc"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  56  2  ~\.profile
+|4,39,56,2,1674519644,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  1  0  ~\.profile
+|4,39,1,0,1674519506,"~\\.profile"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
+-'  16  0  c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+|4,39,16,0,1674519218,"c:\\Program Files\\totalcmd\\ini\\config\\user_aliases.cmd"
 
 # History of marks within files (newest to oldest):
+
+> ~\AppData\Roaming\GHISLER\WINCMD.INI
+	*	1674520671	0
+	"	37	0
+	^	20	0
+	.	20	0
+	+	26	0
+	+	27	0
+	+	19	0
+	+	20	0
+
+> ~\AppData\Roaming\GHISLER\wcx_ftp.ini
+	*	1674520650	0
+	"	20	0
+
+> C:\Users\MINHWA~1\AppData\Roaming\GHISLER\NERD_tree_1
+	*	1674520645	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~\.bash_profile
+	*	1674520180	0
+	"	3	30
+
+> ~\.viminfo
+	*	1674520079	0
+	"	306	1
+
+> ~\.vimrc
+	*	1674520072	0
+	"	129	0
+
+> ~\.profile
+	*	1674519641	0
+	"	56	2
+
+> c:\Program Files\totalcmd\ini\config\user_aliases.cmd
+	*	1674519217	0
+	"	16	0
+	^	47	35
+	.	47	34
+	+	45	23
+	+	47	34
+
+> C:\Program Files\totalcmd\ini\config\$(fzf)
+	*	1674518626	0
+	"	1	0
+
+> C:\Program Files\totalcmd\ini\config\user_profile.cmd
+	*	1674517996	0
+	"	65	55
+	^	65	56
+	.	65	56
+	+	65	56
 
 > ~\_viminfo
 	*	1674398310	0
@@ -287,14 +359,6 @@
 > c:\Program Files\totalcmd\RunAsTool\cmder\config\config\user_aliases.cmd
 	*	1674396714	0
 	"	1	0
-
-> c:\Program Files\totalcmd\ini\config\user_aliases.cmd
-	*	1674387529	0
-	"	47	34
-	^	47	35
-	.	47	34
-	+	45	23
-	+	47	34
 
 > c:\Program
 	*	1674386856	0
@@ -309,16 +373,6 @@
 > C:\Program Files\totalcmd\ini\config\SetUserFTA\version.txt
 	*	1674222081	0
 	"	16	0
-
-> ~\AppData\Roaming\GHISLER\WINCMD.INI
-	*	1674202912	0
-	"	1	0
-	^	20	0
-	.	20	0
-	+	26	0
-	+	27	0
-	+	19	0
-	+	20	0
 
 > d:\12_dev\02_Excel\07_LandSlide\07_양수시험\mod_CopyLongTerm.bas
 	*	1674202779	0
@@ -374,10 +428,6 @@
 
 > ~\.gitconfig
 	*	1674191589	0
-	"	1	0
-
-> ~\.vimrc
-	*	1674189448	0
 	"	1	0
 
 > D:\12_dev\04_PyhtonDemoDojang\03_hwp_automation\04_regular_express\hwp_regex.py
