@@ -1,0 +1,11 @@
+{
+    "file_patterns": ["*.bat", "*.cmd"],
+    "selector": "source.Batch",
+    // This outputs to Sublime Texts' console
+    "cmd": ["cmd", "/C", "${file}"]
+}
+
+
+
+
+
