@@ -1,0 +1,31 @@
+[
+  /* Terminus */
+  { "keys": ["shift+alt+t"], "command": "terminus_open", "args": {"cwd": "${file_path:${folder}}"} },	
+
+
+  // {
+  //   "keys": ["ctrl+enter"],
+  //   "command": "shell_command",
+  //   "args": {
+  //     "command": "ls -al",
+  //     "region": "arg"
+  //   }
+  // },
+
+  {
+    "keys": ["ctrl+enter"],
+    "command": "shell_command",
+    "args": {
+      "command_prefix": "git",
+      "prompt": "Git Command"
+    }
+  },
+
+   // Start from the parent folder of the current view's file
+  { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
+  
+  // Show bookmarked folders
+  { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
+]
+
+

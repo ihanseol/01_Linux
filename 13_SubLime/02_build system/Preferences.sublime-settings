@@ -1,0 +1,11 @@
+{
+	"ignored_packages":	[
+	],
+	"vintage_start_in_command_mode": true,
+	"vintage_ctrl_keys": true,
+	"font_size": 11,
+	"theme": "ayu-mirage.sublime-theme",
+	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Wombat.tmTheme",
+	"dark_theme": "Default.sublime-theme",
+	"light_theme": "Default.sublime-theme",	
+}

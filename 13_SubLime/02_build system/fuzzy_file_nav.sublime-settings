@@ -1,0 +1,62 @@
+{
+
+    
+    "bookmarks": [
+        {"name": "My Computer", "path": {"#multiconf#": [{"os:windows": ""}]}},
+        {"name": "dev", "path": {"#multiconf#": [{"os:windows": "d:\\12_dev"}]}},
+        {"name": "ini config", "path": {"#multiconf#": [{"os:windows": "c:\\Program Files\\totalcmd\\ini\\config"}]}},
+        {"name": "sublime user settings", "path": {"#multiconf#": [{"os:windows": "c:\\Users\\minhwasoo\\AppData\\Roaming\\Sublime Text\\Packages\\User"}]}},
+        {"name": "Root", "path": {"#multiconf#": [{"os:linux": "/"}, {"os:osx": "/"}]}}
+    ],
+
+
+    // Bookmarked paths
+    // "bookmarks": [
+    //     {"name": "My Computer", "path": ""},
+    //     {"name": "Root", "path": "/"},
+    //     {"name": "12_dev", "path": "d:\\12_dev"}
+    // ],
+
+    "home": {
+        "#multiconf#": [
+            {"os:windows": "d:\\12_dev"},
+            {"os:linux;host:his_pc": "/home"},
+            {"os:linux;host:her_pc": "/home/"}
+        ],
+    },
+
+    
+     // Patterns of files/folders to exclude
+    "regex_exclude": [".*\\.(DS_Store|svn|git)$"],
+
+
+     // Keep panel open after a file is opened, deleted, created, etc. so
+    // More files can be have actions performed on them.
+    "keep_panel_open_after_action": true,
+
+    // Controls whether system hidden files are shown in FuzzyFileNav.
+    "show_system_hidden_files": true,
+
+    // (fuzzy/windows/nix)
+    // fuzzy   - this will auto-complete with the selected index in the quick panel
+    // windows - this will complete like a windows terminal would complete paths
+    // nix     - this will complete like a unix/linux terminal traditionally completes paths
+    "completion_style": "fuzzy",
+
+
+    // If the "FuzzyStartFromFileCommand" is run outside of an open buffer
+    // or from a buffer that does not exist on disk, you can specify
+    // its default action to do instead of starting navigation from
+    // a file's location.  Options are "bookmarks", "home", "root", "project".
+    "start_from_here_default_action": "bookmarks",
+
+
+
+    // Add your folders relative to the project file (if project file exists on disk)
+    "add_folder_to_project_relative": false,
+
+     // When adding folder to project, set "follow_symlinks" setting as true or false
+    "add_folder_to_project_follow_symlink": true,
+
+}
+

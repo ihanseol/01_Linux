@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoHotkey",
+		"ayu",		
+		"Colorsublime",
+		"ConvertToUTF8",
+		"Dracula Color Scheme",
+		"FuzzyFileNav",
+		"INI",
+		"Material Theme",
+		"Package Control",
+		"PowerShell",
+		"Surround",
+		"Terminus",
+		"VBScript",
+		"Vimprov",
+		"Vintage Surround",
+	],
+}
