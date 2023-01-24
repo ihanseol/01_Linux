@@ -1,31 +1,57 @@
 [
-  /* Terminus */
-  { "keys": ["shift+alt+t"], "command": "terminus_open", "args": {"cwd": "${file_path:${folder}}"} },	
-
-
-  // {
-  //   "keys": ["ctrl+enter"],
-  //   "command": "shell_command",
-  //   "args": {
-  //     "command": "ls -al",
-  //     "region": "arg"
-  //   }
-  // },
-
-  {
-    "keys": ["ctrl+enter"],
-    "command": "shell_command",
+  /* Terminus */  
+  { "keys": ["alt+`"], "command": "toggle_terminus_panel" },
+  { 
+    "keys": ["ctrl+alt+t"],
+    "command": "terminus_open", 
     "args": {
-      "command_prefix": "git",
-      "prompt": "Git Command"
+      "cwd": "${file_path:${folder}}"
     }
   },
+
+  { 
+    //"keys": ["ctrl+alt+t"], 
+    "command": "terminus_open", 
+    "args": {
+        "cmd": "ipython",
+        "cwd": "${file_path:${folder}}"
+    }
+  },
+
+  { 
+      "keys": ["ctrl+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}]
+  },
+
+
+  {
+        "keys": ["ctrl+alt+w"], "command": "terminus_close", "context": [
+            { "key": "terminus_view.tag", "operator": "equal", "operand": "YOUR_TAG"}
+        ]
+  },
+
 
    // Start from the parent folder of the current view's file
   { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
   
   // Show bookmarked folders
   { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
+
+
+
+
+  // Shell Command
+  {
+    "keys": ["ctrl+4"],
+    "command": "shell_command",
+    "args": {
+      // "command": "cmd /c \"${file}\"",
+      "command": "${file}",
+      // "region" : "arg",
+    }
+  },
 ]
+
+
+
 
 

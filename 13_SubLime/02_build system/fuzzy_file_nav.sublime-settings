@@ -3,6 +3,7 @@
     
     "bookmarks": [
         {"name": "My Computer", "path": {"#multiconf#": [{"os:windows": ""}]}},
+        {"name": "Desktop", "path": {"#multiconf#": [{"os:windows": "c:\\Users\\minhwasoo\\Desktop"}]}},
         {"name": "dev", "path": {"#multiconf#": [{"os:windows": "d:\\12_dev"}]}},
         {"name": "ini config", "path": {"#multiconf#": [{"os:windows": "c:\\Program Files\\totalcmd\\ini\\config"}]}},
         {"name": "sublime user settings", "path": {"#multiconf#": [{"os:windows": "c:\\Users\\minhwasoo\\AppData\\Roaming\\Sublime Text\\Packages\\User"}]}},

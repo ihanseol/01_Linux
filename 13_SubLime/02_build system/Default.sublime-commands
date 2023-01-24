@@ -1,0 +1,38 @@
+[
+
+  // use commands in palette
+  // run Preferences: Terminus Command Palette. Check the details for the arguments of terminus_open below
+  {
+        "caption": "Terminus: Open Default Shell at Current Location",
+        "command": "terminus_open",
+        "args"   : {
+            "cwd": "${file_path:${folder}}"
+        }
+  },
+
+  //by passing custom cmd, say ipython
+  {
+      "caption": "Terminus: Open iPython",
+      "command": "terminus_open",
+      "args"   : {
+          "cmd": "ipython",
+          "cwd": "${file_path:${folder}}",
+          "title": "iPython"
+      }
+  },
+
+
+  // open terminal in a split tab by using Origami's carry_file_to_pane
+  {
+        "caption": "Terminus: Open Default Shell in Split Tab",
+        "command": "terminus_open",
+        "args": {
+            "post_window_hooks": [
+                ["carry_file_to_pane", {"direction": "down"}]
+            ]
+        }
+  },
+
+
+	
+]

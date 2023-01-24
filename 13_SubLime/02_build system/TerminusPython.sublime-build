@@ -1,0 +1,13 @@
+{
+    "target": "terminus_open",
+    "auto_close": false,
+    "cancel": "terminus_cancel_build",
+    "file_patterns": ["*.py"],
+    "selector": "source.Batch",
+    "cmd": [
+        "python", "${file}"
+    ],
+    "working_dir": "$folder"
+}
+
+
