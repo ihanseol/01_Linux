@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"__BAT_PATH"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"vpf",
+				"View Package File"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"aya",
+				"ayu: Activate theme"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"colorsublime",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colorsc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"activa",
+				"Material Theme: Activate theme"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"surr",
+				"Surround: surround selection"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: de",
+				"Package Control: Discover Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 287.0,
+		"history":
+		[
+			"print(os.getcwd())",
+			"import os",
+			"print(os.getcwd())",
+			"import os",
+			"print(os.getcwd())",
+			"import os",
+			"print(os.getcwd())",
+			"import os",
+			"print(os.getcwd())",
+			"print os.getcwd()",
+			"import os",
+			"import osprint os.getcwd()",
+			"print os.getcwd()",
+			"print os.cwd()",
+			"os.cwd()",
+			"os.chdir('d:/12_dev')",
+			"os.chdir('d:\\12_dev')",
+			"import os",
+			"$file_path",
+			"print ${path}",
+			"$(path}",
+			"2+3",
+			"ll",
+			"clear",
+			"import default_file_type.py",
+			"default_file_type.py",
+			"3+3",
+			"!python3 import sublime\nimport sublime_plugin\n\n\nclass DefaultFileTypeCommand(sublime_plugin.WindowCommand):\n\n    def run(self):\n        w = self.window\n        settings = sublime.load_settings(\"default_file_type.sublime-settings\")\n\n        if settings.get('use_current_file_syntax') and w.active_view():\n            syntax = w.active_view().settings().get('syntax')\n        else:\n            syntax = settings.get('default_new_file_syntax')\n\n        view = w.new_file()\n        # sublime.error_message(\"%s\" % syntax)\n        view.set_syntax_file(syntax)\n",
+			"!run",
+			"import sublime\nimport sublime_plugin\n\n\nclass DefaultFileTypeCommand(sublime_plugin.WindowCommand):\n\n    def run(self):\n        w = self.window\n        settings = sublime.load_settings(\"default_file_type.sublime-settings\")\n\n        if settings.get('use_current_file_syntax') and w.active_view():\n            syntax = w.active_view().settings().get('syntax')\n        else:\n            syntax = settings.get('default_new_file_syntax')\n\n        view = w.new_file()\n        # sublime.error_message(\"%s\" % syntax)\n        view.set_syntax_file(syntax)\n"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/sublime-text-shell-command/Default.sublime-commands",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/ShellCommand.sublime-keymap",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/sublime-text-shell-command/Default.sublime-keymap",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/sublime-text-shell-command/README.md",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/sublime-text-shell-command/ShellCommand.sublime-settings",
+		"/C/Users/minhwasoo/AppData/Roaming/GHISLER/usercmd.ini",
+		"/d/05_Send\"",
+		"/C/Users/minhwasoo/AppData/Roaming/GHISLER/CONFIG/Shortcuts.ini",
+		"/d/09_hardRain/08_ihanseol",
+		"/d/09_hardRain/08_ihanseol - 2023/Z01_소소한작업들/02_관리비 내역/2023/Z01_소소한작업들/02_관리비",
+		"/d/09_hardRain/08_ihanseol - 2023/Z01_소소한작업들/02_관리비 내역/내역/2022년",
+		"/d/09_hardRain/08_ihanseol - 2023/Z01_소소한작업들/02_관리비 내역/09월21일.jpg",
+		"/d/09_hardRain/08_ihanseol - 2023/Z01_소소한작업들/02_관리비 내역/05월23일.jpg",
+		"/D/09_hardRain/08_ihanseol - 2023/Z01_소소한작업들/02_관리비 내역/2022년 05월23일.jpg",
+		"/C/Users/minhwasoo/.vimrc",
+		"/C/Users/minhwasoo/AppData/Roaming/GHISLER/wcx_ftp.ini",
+		"/C/Users/minhwasoo/AppData/Roaming/GHISLER/WINCMD.INI",
+		"/c/Users/minhwasoo/Downloads\"",
+		"/c/Users/MINHWA~1/DOWNLO~1\"",
+		"/C/Users/MINHWA~1/AppData/Roaming/SUBLIM~1/Packages/User\"",
+		"/d/09_hardRain/08_ihanseol - 2023\"",
+		"/C/Users/MINHWA~1/AppData/Roaming/GHISLER/CONFIG\"",
+		"/C/Users/MINHWA~1/AppData/Roaming/GHISLER\"",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/Terminus/Terminus.hidden-color-scheme",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/Package Control.sublime-settings",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/Preferences.sublime-settings",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/TerminusBuildSystem.sublime-build",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/FuzzyFileNav/fuzzy_file_nav.sublime-settings",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/fuzzy_file_nav.sublime-settings",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/Colorsublime.sublime-settings",
+		"/D/12_dev/05_JAVA/config/.gitconfig",
+		"/D/12_dev/01_Linux/02_linux/config/fish/aliases.bak",
+		"/D/12_dev/01_Linux/13_SubLime/01_Theme/ayu-dark.sublime-theme",
+		"/D/12_dev/01_Linux/13_SubLime/02_build system/BatchCmd.sublime-build",
+		"/D/12_dev/01_Linux/13_SubLime/02_build system/Batch_and_Cmd.sublime-build",
+		"/C/Program Files/totalcmd/ini/config/backup/escape/es.cmd",
+		"/C/Users/minhwasoo/Desktop/TerminusBuildSystem.sublime-build",
+		"/C/Users/minhwasoo/Desktop/Batch_and_Cmd.sublime-build",
+		"/C/Program Files/totalcmd/ini/config/backup/escape/es3.cmd",
+		"/C/Program Files/totalcmd/ini/config/backup/escape/call 01.cmd",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/build.bat/build.bat.sublime-build",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/build.bat/build.bat",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/build.bat/build-disect.bat",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/User/BatchCmd.sublime-build",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/build.bat/build",
+		"/D/12_dev/99_Etc/build.bat/build.bat.sublime-build",
+		"/D/12_dev/99_Etc/build.bat/build.bat",
+		"/D/12_dev/99_Etc/build.bat/Default.sublime-keymap",
+		"/C/Program Files/totalcmd/ini/config/backup/alias.cmd",
+		"/C/Program Files/totalcmd/ini/config/backup/path.bat",
+		"/C/Users/minhwasoo/Desktop/BatchCmd.sublime-build",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/AutoHotkey/AutoHotkey.sublime-build",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/C++.sublime-package",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/Batch File.sublime-package",
+		"/C/Program Files/totalcmd/ini/config/user_aliases.cmd",
+		"/C/Program Files/totalcmd/ini/config/user_profile.cmd",
+		"/C/Program Files/totalcmd/ini/config/doskey_unload.cmd",
+		"/C/Users/minhwasoo/Desktop/ayu-mirage.sublime-theme",
+		"/C/Users/minhwasoo/Desktop/ayu-light.sublime-theme",
+		"/C/Users/minhwasoo/Desktop/ayu-dark.sublime-theme",
+		"/C/Program Files/totalcmd/RunAsTool/cmder/vendor/init.bat",
+		"/c/Program Files/totalcmd/ini/config/user_aliases.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder/config/user_aliases.cmd",
+		"/C/Users/minhwasoo/Desktop/call 01.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder/vendor/lib/lib_profile.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder/vendor/lib/lib_base.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder/vendor/lib/lib_console.cmd",
+		"/C/Users/minhwasoo/Desktop/es.cmd",
+		"/C/Users/minhwasoo/Desktop/es3.cmd",
+		"/C/Users/minhwasoo/Desktop/es0.cmd",
+		"/C/Users/minhwasoo/Desktop/es2.cmd",
+		"/C/Users/minhwasoo/Desktop/es1.cmd",
+		"/C/Program Files/totalcmd/ini/config/backup/get_gitversion.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder/vendor/lib/lib_git.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/vendor/lib/lib_profile.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/vendor/lib/lib_base.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/vendor/lib/lib_console.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder/grep",
+		"/C/Program Files/totalcmd/RunAsTool/cmder/null",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/vendor/init.bat",
+		"/D/11_exaData/06_util/099_Game/01_ToatalCommander Plugin/Search for Text/Agent Ransack Pro v2022 Build 3349/crack/Readme.txt",
+		"/E/download/Agent Ransack Pro v2022 Build 3349/crack/Readme.txt",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/vendor/cmder_prompt_config.lua.default",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/vendor/clink.lua",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/config/profile.d/README.md",
+		"/C/Users/minhwasoo/Desktop/user_profile.cmd",
+		"/C/Program Files/totalcmd/ini/config/backup/lib_git.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/vendor/lib/lib_git.cmd",
+		"/C/Program Files/totalcmd/RunAsTool/cmder1/vendor/lib/lib_path.cmd",
+		"/C/Users/minhwasoo/Desktop/get_gitversion.cmd",
+		"/C/Users/minhwasoo/AppData/Local/Temp/git_version.txt",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/vintage-sublime-surround/Default.sublime-keymap",
+		"/C/Users/minhwasoo/.bashrc",
+		"/C/Users/minhwasoo/.vim/plugged/fzf.vim/autoload/fzf/vim.vim",
+		"/C/Program Files/totalcmd/ini/config/doskey_setting.cmd",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/11_exaData/06_util/010_ZZATURI/01_Test Program/01_Hard Disk Sentinel Pro v6.00/App/HardDiskSentinel/HDSData/DISKDATA_WDC_WD20EARS-00MVWB0_WD-WCAZA1134421_51.0AB51.hdd",
+		"/C/Program Files/totalcmd/ini/wcx_ftp.ini",
+		"/C/Program Files/totalcmd/ini/getip.cmd",
+		"/C/Program Files/totalcmd/ini/path.bat",
+		"/C/Program Files/totalcmd/ini/a.bat",
+		"/C/Program Files/totalcmd/ini/alias.cmd",
+		"/C/Program Files/totalcmd/ini/config/.vimrc",
+		"/C/Program Files/totalcmd/ini/config/backup/user_aliases - 복사본.cmd",
+		"/C/Program Files/totalcmd/ini/config/backup/user_aliases.cmd",
+		"/C/Program Files/totalcmd/ini/config/AliasReload.cmd",
+		"/C/Program Files/totalcmd/ini/config/user_aliases.mac",
+		"/C/Program Files/totalcmd/ini/config/Dos Batch File Example/Batch/doskey.cmd",
+		"/C/Users/minhwasoo/Desktop/doskey_unload.cmd",
+		"/D/12_dev/01_Linux/04_vim_code/Sample/essential.vim",
+		"/C/Users/minhwasoo/.zshrc",
+		"/C/Users/minhwasoo/.zcompdump-MSI-DESKTOP-5.9",
+		"/D/12_dev/99_Etc/dotfiles_mode 1/.zshrc",
+		"/D/12_dev/99_Etc/dotfiles/.zshrc",
+		"/C/Users/minhwasoo/.fzf.zsh",
+		"/C/Users/minhwasoo/.fzf - 복사본.zsh",
+		"/C/Users/minhwasoo/.gitconfig",
+		"/C/Users/minhwasoo/.zshrc.pre-oh-my-zsh",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/DefaultFileType/Default.sublime-keymap",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/00-package_control.py",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Installed Packages/0_package_control_loader.sublime-package",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/DefaultFileType/default_file_type.py",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/Default File Type/default_file_type.py",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/sublime-DefaultFileType/default_file_type.py",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/sublime-DefaultFileType/.git/config",
+		"/C/Users/minhwasoo/AppData/Roaming/Sublime Text/Packages/ConvertToUTF8/ConvertToUTF8.py"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".vimrc.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

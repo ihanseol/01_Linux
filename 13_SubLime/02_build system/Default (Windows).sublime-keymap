@@ -1,21 +1,45 @@
 [
-  /* Terminus */  
-  { "keys": ["alt+`"], "command": "toggle_terminus_panel" },
-  { 
-    "keys": ["ctrl+alt+t"],
-    "command": "terminus_open", 
-    "args": {
-      "cwd": "${file_path:${folder}}"
-    }
+
+  // Toggle Terminus panel (at the bottom of the screen) Open/Closed when Alt+' is pressed
+  {
+    // The key press to look out for
+    "keys": ["alt+`"],
+
+    // Toggle the panel
+    "command": "toggle_terminus_panel"
   },
 
-  { 
-    //"keys": ["ctrl+alt+t"], 
-    "command": "terminus_open", 
-    "args": {
-        "cmd": "ipython",
-        "cwd": "${file_path:${folder}}"
-    }
+  // Open cmd.exe Command Prompt when Alt+1 is pressed
+  {
+    // The key press to look out for
+    "keys": ["alt+1"],
+
+    // Tell terminus to open something
+    "command": "terminus_open",
+
+    // Tell terminus what to open
+    "args" : {
+      // Open Command Prompt
+          "cmd": "cmd.exe",
+
+          // Provide Command Prompt with Current Working Directory
+            "cwd": "${file_path:${folder}}",
+
+            // Give the window a title:
+            "title": "Command Prompt"
+        }
+  },
+
+
+  {
+    "keys": ["alt+b"],
+    "command": "terminus_open",
+         "args" : {
+          "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "-i", "-l"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Git Bash",
+            "panel_name": "Terminus"
+         }
   },
 
   { 
@@ -30,13 +54,11 @@
   },
 
 
-   // Start from the parent folder of the current view's file
+  // Start from the parent folder of the current view's file
   { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
   
   // Show bookmarked folders
   { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
-
-
 
 
   // Shell Command
@@ -49,9 +71,6 @@
       // "region" : "arg",
     }
   },
+
+
 ]
-
-
-
-
-
