@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1674467877,,"q"
+|2,0,1674633180,,"q"
 :wq
 |2,0,1674460815,,"wq"
 
@@ -60,14 +60,32 @@
 # Jumplist (newest first):
 -'  194  0  ~/.zshrc
 |4,39,194,0,1674467877,"~/.zshrc"
+-'  194  0  ~/.zshrc
+|4,39,194,0,1674467877,"~/.zshrc"
 -'  145  0  ~/.zshrc
 |4,39,145,0,1674467862,"~/.zshrc"
+-'  145  0  ~/.zshrc
+|4,39,145,0,1674467862,"~/.zshrc"
+-'  145  43  ~/.zshrc
+|4,39,145,43,1674460815,"~/.zshrc"
 -'  145  43  ~/.zshrc
 |4,39,145,43,1674460815,"~/.zshrc"
 -'  144  0  ~/.zshrc
 |4,39,144,0,1674460788,"~/.zshrc"
 -'  144  0  ~/.zshrc
 |4,39,144,0,1674460788,"~/.zshrc"
+-'  144  0  ~/.zshrc
+|4,39,144,0,1674460788,"~/.zshrc"
+-'  144  0  ~/.zshrc
+|4,39,144,0,1674460788,"~/.zshrc"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1674460767,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1674460767,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1674460767,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1674460767,"~/.lesshst"
 -'  1  0  ~/.lesshst
 |4,39,1,0,1674460767,"~/.lesshst"
 -'  1  0  ~/.lesshst
@@ -92,6 +110,38 @@
 |4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
 -'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
 |4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  20  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,20,0,1674460712,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
+-'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
+|4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
 -'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
 |4,39,1,0,1674460708,"~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini"
 -'  1  0  ~/AppData/Local/ProjectWingman/Saved/Config/WindowsNoEditor/Input.ini
@@ -140,90 +190,38 @@
 |4,39,1,0,1674460648,"~/.fzf.zsh"
 -'  1  0  ~/.fzf.zsh
 |4,39,1,0,1674460648,"~/.fzf.zsh"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
--'  144  0  ~/.zshrc
-|4,39,144,0,1674460510,"~/.zshrc"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
+-'  1  0  ~/.fzf.zsh
+|4,39,1,0,1674460648,"~/.fzf.zsh"
 -'  144  0  ~/.zshrc
 |4,39,144,0,1674460510,"~/.zshrc"
 -'  144  0  ~/.zshrc
