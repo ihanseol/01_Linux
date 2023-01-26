@@ -42,8 +42,15 @@
 
 ::@echo off
 
-SET VI="c:\Program Files\Vim\vim90\gvim.exe"
-Set me="c:\Users\minhwasoo\"
+SET _VI_="c:\Program Files\Vim\vim90\gvim.exe"
+SET _ME_=c:\Users\minhwasoo\
+SET _TCOMMANDER_=c:\Program Files\totalcmd\RunAsTool\cmder\config\
+
+:: SET _EDITOR_=vi
+:: SET _EDITOR_=code
+SET _EDITOR_=subl
+
+
 SET PATH=%PATH%;c:\Program Files\Vim\vim90;c:\Program Files\Sublime Text 3\;c:\Users\minhwasoo;
 
 
