@@ -1,0 +1,8 @@
+[user]
+	name = ihanseol
+	email = hanseol33@naver.com
+[push]
+	default = matching
+[core]
+	editor = vi
+[credential]
