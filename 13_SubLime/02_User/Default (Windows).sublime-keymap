@@ -73,4 +73,41 @@
   },
 
 
+  // repl run current file
+  // {
+  //       "keys"     : ["f5"],
+  //       "command"  : "repl_open",
+  //       "caption"  : "Python - RUN current file",
+  //       "id"       : "repl_python_run",
+  //       "mnemonic" : "R",
+  //       "args"     : {
+  //           "type"        : "subprocess",
+  //           "encoding"    : "utf8",
+  //           "cmd"         : ["python3", "-u", "$file_basename"],
+  //           "cwd"         : "$file_path",
+  //           "syntax"      : "Packages/Python/Python.tmLanguage",
+  //           "external_id" : "python",
+  //           "extend_env"  : {"PYTHONIOENCODING" : "utf-8"}
+  //       }
+  //   }
+
+
+  {
+      "keys": ["f5"], "command": "repl_open",
+      "caption": "Python - RUN current file",
+      "id": "repl_python_run",
+      "mnemonic": "d",
+      "args": {
+        "type": "subprocess",
+        "encoding": "utf8",
+        // "cmd": ["/Library/Frameworks/Python.framework/Versions/3.9/bin/python3", "-u", "-i", "$file_basename"],
+        "cmd" : ["python", "-u",  "-i", "$file_basename"],
+        "cwd": "$file_path",
+        "syntax": "Packages/Python/Python.tmLanguage",
+        "external_id": "python",
+        "extend_env": {"PYTHONIOENCODING": "utf-8"}
+        }
+  },
+
+
 ]
