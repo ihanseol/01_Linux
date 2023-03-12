@@ -1,0 +1,108 @@
+#
+# NOTE: This file is renamed to .gitconfig by my install script, and a .postinstall script sets
+# name/email/signingkey.
+# 
+[core]
+	editor = vim
+	pager = less -FRX
+	excludesfile = ~/.gitignore
+[gist]
+	private = yes
+[init]
+	defaultBranch = main
+[log]
+	decorate = short
+[blame]
+	coloring = repeatedLines
+[fetch]
+	prune = true
+	output = compact
+[pull]
+	default = simple
+[push]
+	default = current
+[rerere]
+	enabled = true
+[stash]
+	showStat = true
+[difftool]
+	prompt = false
+[merge]
+	conflictStyle = diff3
+[mergetool]
+	prompt = false
+	keepBackup = false
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[alias]
+	am = commit --amend --no-edit
+	ama = commit --amend --no-edit -a
+	b = branch
+	bnew = checkout -b
+	ci = commit
+	cia = commit --amend
+	cim = commit -m
+	civ = commit -v
+	co = checkout
+	cp = cherry-pick
+	config-to-push-all-branches = config --add remote.origin.push '+refs/heads/*:refs/heads/*'
+	config-to-push-all-tags = config --add remote.origin.push '+refs/tags/*:refs/tags/*'
+	d = diff
+	dc = diff --cached
+	diffc = diff --cached
+	forkup = pull --rebase upstream
+	h = stash
+	hs = stash save
+	last = log -1
+	latest = for-each-ref --sort=committerdate refs/heads/ --format='%(committerdate:short) %(refname:short)'
+	newb = checkout -b
+	quicklog = log --oneline --decorate -10 --pretty=format:'%C(yellow)%h%C(reset)%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an> %C(bold black)[%G?]%Creset'
+	quicklog-long = log --oneline --decorate --pretty=format:'%C(yellow)%h%C(reset)%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an> %C(bold black)[%G?]%Creset'
+	r = remote
+	rb = rebase
+	rl = reflog
+	rewind-one = reset --hard HEAD^
+	st = status
+	sta = stash
+	svnci = svn dcommit
+	svnprep = rebase -i git-svn
+	svnup = svn rebase
+	t = tag
+	today = diff --stat 'HEAD@{midnight}'
+	tree = log --graph --oneline --all
+	undo = reset --mixed HEAD^
+	undoamend = reset --soft HEAD@{1}
+	unstage = reset HEAD
+	up = pull --rebase origin
+	yesterday = diff --stat 'HEAD@{yesterday}' 'HEAD@{midnight}'
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+[color "diff"]
+	meta = blue
+	frag = black
+	old = red
+	new = green
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = cyan
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "blame"]
+	repeatedLines = gray
+[color "interactive"]
+	help = brightmagenta
+[advice]
+	statusHints = false
+	detachedHead = false
+	addEmptyPathspec = false
+	pushUpdateRejected = false

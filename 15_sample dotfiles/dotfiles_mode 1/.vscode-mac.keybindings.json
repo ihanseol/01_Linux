@@ -1,0 +1,228 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.switchWindow"
+  },
+  {
+    "key": "cmd+[",
+    "command": "-editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "cmd+]",
+    "command": "-editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-deleteLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.closeQuickOpen",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "escape",
+    "command": "-workbench.action.closeQuickOpen",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "f8",
+    "command": "-editor.action.marker.nextInFiles",
+    "when": "editorFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+n",
+    "command": "editor.action.marker.next"
+  },
+  {
+    "key": "shift+f8",
+    "command": "-editor.action.marker.prevInFiles",
+    "when": "editorFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+p",
+    "command": "editor.action.marker.prev"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.files.action.focusFilesExplorer"
+  },
+  {
+    "key": "ctrl+shift+space",
+    "command": "editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+space",
+    "command": "-editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "-workbench.action.newWindow"
+  },
+  {
+    "key": "cmd+r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+alt+cmd+n",
+    "command": "workbench.action.newWindow"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "git.checkout"
+  },
+  {
+    "key": "ctrl+cmd+o",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "alt+cmd+t",
+    "command": "-workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "ctrl+cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "search.action.focusNextSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "f4",
+    "command": "-search.action.focusNextSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "search.action.focusPreviousSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "shift+f4",
+    "command": "-search.action.focusPreviousSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "-extension.vim_ctrl+t",
+    "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "-editor.action.transposeLetters",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "extension.goto-previous-buffer",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+cmd+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+cmd+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+cmd+n",
+    "command": "merge-conflict.next"
+  },
+  {
+    "key": "ctrl+shift+cmd+p",
+    "command": "merge-conflict.previous"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "eslint.executeAutofix"
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "editor.action.organizeImports",
+    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "shift+alt+o",
+    "command": "-editor.action.organizeImports",
+    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+n",
+    "command": "explorer.newFolder"
+  }
+]

@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+echo -en "\x1b[H\x1b[2J"
+echo "ANSI Modes -- \\e[<col>;<row>m - \\e is ^[, \\033 in octal, \\x1b in hex"
+echo
+
+cols=( $(seq 0 9) '40;1' )
+rows=( $(seq 30 37) $(seq 40 47) )
+msg=mode
+pad=3
+reset="\x1b[0m"
+
+for col in ${cols[@]} ; do
+    echo -en "\x1b[${col}m${msg}${col}${reset}\t"
+done
+echo
+echo
+
+for row in ${rows[@]} ; do
+    for col in ${cols[@]} ; do
+        echo -en "\x1b[${col};${row}m${msg}${row}${reset}\t"
+    done
+    echo
+done
+
+echo -e "$reset"
+

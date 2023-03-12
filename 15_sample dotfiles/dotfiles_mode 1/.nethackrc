@@ -1,0 +1,125 @@
+# statico's nethackrc for v3.6.3
+
+# Personal defaults
+OPTIONS=number_pad:0
+OPTIONS=role:valkyrie
+OPTIONS=race:dwarf
+OPTIONS=gender:female
+OPTIONS=align:lawful
+OPTIONS=catname:Snowball
+OPTIONS=dogname:Sparky
+OPTIONS=horsename:Seabiscuit
+OPTIONS=pettype:cat
+OPTIONS=fruit:kumquat
+
+OPTIONS=color
+OPTIONS=dark_room
+OPTIONS=eight_bit_tty
+OPTIONS=!sparkle
+OPTIONS=standout
+OPTIONS=use_darkgray
+OPTIONS=use_inverse
+OPTIONS=windowtype:curses
+OPTIONS=cursesgraphics
+OPTIONS=!hilite_pet
+OPTIONS=hilite_pile
+
+OPTIONS=!autoopen
+OPTIONS=align_message:bottom
+OPTIONS=align_status:right
+OPTIONS=altmeta
+OPTIONS=autodig
+OPTIONS=autopickup
+OPTIONS=bones
+OPTIONS=boulder:0
+OPTIONS=checkpoint
+OPTIONS=confirm
+OPTIONS=extmenu
+OPTIONS=fixinv
+OPTIONS=hitpointbar
+OPTIONS=lit_corridor
+OPTIONS=!mail
+OPTIONS=msg_window:reversed
+OPTIONS=msghistory:60
+OPTIONS=!autoquiver
+OPTIONS=!cmdassist
+OPTIONS=!help
+OPTIONS=!ignintr
+OPTIONS=!legacy
+OPTIONS=!lootabc
+OPTIONS=!news
+OPTIONS=!rest_on_space
+OPTIONS=!tombstone
+OPTIONS=null
+OPTIONS=pickup_burden:stressed
+OPTIONS=pickup_types:$
+OPTIONS=prayconfirm
+OPTIONS=pushweapon
+OPTIONS=runmode:teleport
+OPTIONS=safe_pet
+OPTIONS=showexp
+OPTIONS=showrace
+OPTIONS=showscore
+OPTIONS=silent
+OPTIONS=sortpack
+OPTIONS=sortloot:loot
+OPTIONS=time
+OPTIONS=travel
+OPTIONS=verbose
+
+SYMBOLS=S_ghost:X
+SYMBOLS=S_eel:7
+
+#MSGTYPE=hide ".*"
+MSGTYPE=stop "feel hungry"
+MSGTYPE=stop "feel weak"
+MSGTYPE=stop "Blecch.*Rotten"
+MSGTYPE=hide "You swap places with .*"
+#MSGTYPE=norep "You see here a .*"
+#MSGTYPE=norep "You see here an .*"
+#MSGTYPE=stop "You are slowing down."
+#MSGTYPE=stop "You find it hard to breathe."
+#MSGTYPE=stop "You are turning a little .*"
+#MSGTYPE=stop "You are beginning to feel hungry"
+MSGTYPE=hide "turns to flee"
+#MSGTYPE=hide "You harmlessly attack"
+
+OPTIONS=menucolors
+MENUCOLOR=" blessed "=green
+MENUCOLOR=" holy "=green
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" unholy "=red
+MENUCOLOR=" cursed .* (being worn)"=orange&underline
+
+OPTIONS=statushilites:10
+OPTIONS=hilite_status:gold/always/yellow
+OPTIONS=hilite_status:alignment/lawful/lightgreen
+OPTIONS=hilite_status:experience-level/changed/white/cyan
+OPTIONS=hilite_status:characteristics/<5/red
+OPTIONS=hilite_status:characteristics/>6/orange
+OPTIONS=hilite_status:characteristics/>8/brown
+OPTIONS=hilite_status:characteristics/>11/yellow
+OPTIONS=hilite_status:characteristics/>13/green
+OPTIONS=hilite_status:characteristics/>16/cyan
+OPTIONS=hilite_status:characteristics/>18/lightblue
+OPTIONS=hilite_status:hitpoints/100%/grey&normal
+OPTIONS=hilite_status:hitpoints/<100%/green&normal
+OPTIONS=hilite_status:hitpoints/<66%/yellow&normal
+OPTIONS=hilite_status:hitpoints/<50%/orange&normal
+OPTIONS=hilite_status:hitpoints/<33%/red&bold
+OPTIONS=hilite_status:hitpoints/<15%/red&inverse
+OPTIONS=hilite_status:power/100%/grey&normal
+OPTIONS=hilite_status:power/<100%/green&normal
+OPTIONS=hilite_status:power/<66%/yellow&normal
+OPTIONS=hilite_status:power/<50%/orange&normal
+OPTIONS=hilite_status:power/<33%/red&bold
+OPTIONS=hilite_status:cap/burdened/yellow/stressed/orange/strained/red&bold/overtaxed/red&inverse/overloaded/red&inverse&blink
+OPTIONS=hilite_status:hunger/satiated/yellow/hungry/orange/weak/red&bold/fainting/red&inverse/fainted/red&inverse&blink
+OPTIONS=hilite_status:condition/hallu/yellow
+OPTIONS=hilite_status:condition/conf/orange
+OPTIONS=hilite_status:condition/stun/red&bold
+OPTIONS=hilite_status:condition/termill/red&inverse
+OPTIONS=hilite_status:condition/foodpois/red&inverse
+OPTIONS=hilite_status:condition/slime/red&inverse
+OPTIONS=hilite_status:characteristics/up/green/down/red
+OPTIONS=hilite_status: gold/up/yellow/down/brown
