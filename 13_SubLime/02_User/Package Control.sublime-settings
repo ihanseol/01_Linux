@@ -6,7 +6,8 @@
 	"installed_packages":
 	[
 		"AutoHotkey",
-		"ayu",		
+		"AutoItScript",		
+		"ayu",
 		"Colorsublime",
 		"ConvertToUTF8",
 		"Dracula Color Scheme",
