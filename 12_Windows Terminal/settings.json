@@ -4,20 +4,20 @@
     "actions": 
     [
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -33,21 +33,17 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "experimental.rendering.software": false,
-    "firstWindowPreference": "persistedWindowLayout",
-    "initialCols": 171,
-    "initialRows": 49,
-    "launchMode": "default",
+    "initialCols": 143,
+    "initialRows": 43,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
-        "defaults": 
-        {
-            "font": 
-            {
-                "face": "Consolas",
-                "size": 11
-            }
-        },
+        "defaults": {},
         "list": 
         [
             {
@@ -63,12 +59,6 @@
                 "name": "\uba85\ub839 \ud504\ub86c\ud504\ud2b8"
             },
             {
-                "colorScheme": "Campbell",
-                "font": 
-                {
-                    "face": "Consolas",
-                    "size": 11
-                },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
@@ -78,29 +68,6 @@
     },
     "schemes": 
     [
-        {
-            "background": "#1F2430",
-            "black": "#191E2A",
-            "blue": "#6DCBFA",
-            "brightBlack": "#686868",
-            "brightBlue": "#73D0FF",
-            "brightCyan": "#95E6CB",
-            "brightGreen": "#BAE67E",
-            "brightPurple": "#D4BFFF",
-            "brightRed": "#F28779",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFD580",
-            "cursorColor": "#FFCC66",
-            "cyan": "#90E1C6",
-            "foreground": "#CBCCC6",
-            "green": "#A6CC70",
-            "name": "Ayu Mirage",
-            "purple": "#CFBAFA",
-            "red": "#ED8274",
-            "selectionBackground": "#33415E",
-            "white": "#C7C7C7",
-            "yellow": "#FAD07B"
-        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -286,75 +253,6 @@
             "yellow": "#C4A000"
         },
         {
-            "background": "#2E3436",
-            "black": "#2E3436",
-            "blue": "#3465A4",
-            "brightBlack": "#696B67",
-            "brightBlue": "#729FCF",
-            "brightCyan": "#2EC3C3",
-            "brightGreen": "#79C32E",
-            "brightPurple": "#AD7FA8",
-            "brightRed": "#F49797",
-            "brightWhite": "#EEEEEE",
-            "brightYellow": "#C4A000",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#06989A",
-            "foreground": "#B5BBAE",
-            "green": "#4E9A06",
-            "name": "Ubuntu [Dark]",
-            "purple": "#75507B",
-            "red": "#AE5E5E",
-            "selectionBackground": "#FFFFFF",
-            "white": "#B5BBAE",
-            "yellow": "#8A7000"
-        },
-        {
-            "background": "#EEEEEE",
-            "black": "#EEEEEE",
-            "blue": "#729FCF",
-            "brightBlack": "#B5BBAE",
-            "brightBlue": "#3465A4",
-            "brightCyan": "#06989A",
-            "brightGreen": "#3B7505",
-            "brightPurple": "#75507B",
-            "brightRed": "#AE5E5E",
-            "brightWhite": "#2E3436",
-            "brightYellow": "#8A7000",
-            "cursorColor": "#2E3436",
-            "cyan": "#2EC3C3",
-            "foreground": "#696B67",
-            "green": "#79C32E",
-            "name": "Ubuntu [Light]",
-            "purple": "#AD7FA8",
-            "red": "#F49797",
-            "selectionBackground": "#B5BBAE",
-            "white": "#696B67",
-            "yellow": "#C4A000"
-        },
-        {
-            "background": "#300A24",
-            "black": "#171421",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#08458F",
-            "brightCyan": "#2C9FB3",
-            "brightGreen": "#26A269",
-            "brightPurple": "#A347BA",
-            "brightRed": "#C01C28",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#A2734C",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#FFFFFF",
-            "green": "#26A269",
-            "name": "Ubuntu-ColorScheme",
-            "purple": "#881798",
-            "red": "#C21A23",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#A2734C"
-        },
-        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -376,6 +274,51 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        }
+    ],
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
         }
     ]
 }
