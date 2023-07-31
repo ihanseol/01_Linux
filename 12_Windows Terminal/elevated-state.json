@@ -1,1 +1,25 @@
-{}
+{
+	"persistedWindowLayouts" : 
+	[
+		{
+			"initialPosition" : "875,213",
+			"initialSize" : 
+			{
+				"height" : 898.0,
+				"width" : 1401.0
+			},
+			"launchMode" : "default",
+			"tabLayout" : 
+			[
+				{
+					"action" : "newTab",
+					"commandline" : "%SystemRoot%\\System32\\cmd.exe",
+					"profile" : "\uba85\ub839 \ud504\ub86c\ud504\ud2b8",
+					"startingDirectory" : "C:\\Users\\minhwasoo",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "\uba85\ub839 \ud504\ub86c\ud504\ud2b8"
+				}
+			]
+		}
+	]
+}
