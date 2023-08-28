@@ -1,19 +1,8 @@
 {
-	"dismissedMessages" : 
-	[
-		"closeOnExitInfo",
-		"setAsDefault"
-	],
-	"generatedProfiles" : 
-	[
-		"{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-		"{2c4de342-38b7-51cf-b940-2309a097f518}",
-		"{51855cb2-8cce-5362-8f54-464b92b32386}"
-	],
 	"persistedWindowLayouts" : 
 	[
 		{
-			"initialPosition" : "915,404",
+			"initialPosition" : "875,213",
 			"initialSize" : 
 			{
 				"height" : 898.0,
@@ -32,6 +21,5 @@
 				}
 			]
 		}
-	],
-	"settingsHash" : "8bad4a398d43deb3-01d93a9ae88545ba"
+	]
 }
