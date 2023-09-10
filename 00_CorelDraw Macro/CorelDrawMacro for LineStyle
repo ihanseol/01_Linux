@@ -1,0 +1,130 @@
+Function ConvertNowToString() As String
+    Dim currentDate As Date
+    Dim dateString As String
+    
+    currentDate = Now()
+    dateString = Format(currentDate, "YYYY-MM-DD HH:NN:SS")
+    
+    ConvertNowToString = dateString
+End Function
+
+
+Function RandomString(Length As Integer)
+    ' Create a Randomized String of Characters
+    Dim CharacterBank As Variant
+    Dim x As Long
+    Dim str As String
+    
+    ' Test Length Input
+    If Length < 1 Then
+        MsgBox "Length variable must be greater than 0"
+        Exit Function
+    End If
+    
+    CharacterBank = Array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", _
+      "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", _
+      "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "!", "@", _
+      "#", "$", "%", "^", "&", "*", "A", "B", "C", "D", "E", "F", "G", "H", _
+      "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", _
+      "W", "X", "Y", "Z")
+    
+    ' Randomly Select Characters One-by-One
+    For x = 1 To Length
+        Randomize
+        str = str & CharacterBank(Int((UBound(CharacterBank) - LBound(CharacterBank) + 1) * Rnd + LBound(CharacterBank)))
+    Next x
+    
+    ' Output Randomly Generated String
+    RandomString = str
+End Function
+
+
+Sub SetFillRedW1()
+    Dim idx, nIndex As Integer
+        
+        
+    nIndex = ActivePage.Layers("0").Shapes.Count
+    If nIndex = 5 Then
+        idx = 4
+    Else
+        idx = 3
+    End If
+        
+    
+    ActiveLayer.Shapes(idx).Fill.UniformColor.CMYKAssign 0, 100, 100, 0
+End Sub
+
+Sub SetBoundaryLineStyle()
+    Dim idx, nIndex As Integer
+    
+    nIndex = ActivePage.Layers("0").Shapes.Count
+    If nIndex = 5 Then
+        idx = 2
+    Else
+        idx = 1
+    End If
+        
+    
+    ActivePage.Layers("0").Shapes(idx).ObjectData("Name").Value = RandomString(10)
+    ActivePage.Layers("0").Shapes(idx).Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""35278"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+    ActivePage.Layers("0").Shapes(idx).Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""35278"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""4,5,1,1,1"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+End Sub
+
+Sub SetBoundaryLineToDefault()
+    Dim OrigSelection As ShapeRange
+    Dim idx, nIndex As Integer
+        
+        
+    nIndex = ActivePage.Layers("0").Shapes.Count
+    If nIndex = 5 Then
+        idx = 2
+    Else
+        idx = 1
+    End If
+        
+        
+    ActivePage.Layers("0").Activate
+    
+    With ActivePage.Layers("0")
+        If .Shapes(idx).ObjectData("Name").Value <> "Curve" Then
+            .Shapes(idx).ObjectData("Name").Value = "Curve"
+        End If
+    End With
+    
+    ' OrigSelection.Count
+    Set OrigSelection = ActivePage.ActiveLayer.Shapes.All
+    
+    ' 이렇게 하면, 경계선이 선택된다.
+    OrigSelection(idx).ObjectData("Name").Value = "BoundaryLine"
+    
+    OrigSelection(idx).Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""762"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""4,5,1,1,1"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+    OrigSelection(idx).Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""762"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+End Sub
+
+
+Sub SetCircleLineWidth()
+    Dim nIndex As Integer
+       
+    nIndex = ActivePage.Layers("0").Shapes.Count
+    If nIndex = 5 Then
+        ActiveLayer.Shapes(1).Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""3528"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+        ActiveLayer.Shapes(3).Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""5292"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+    Else
+        ActiveLayer.Shapes(2).Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""5292"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+    End If
+End Sub
+
+
+Sub SetPropertyWork()
+
+    Call SetFillRedW1
+    Call SetBoundaryLineStyle
+    Call SetCircleLineWidth
+
+End Sub
+
+
+
+
+
+
