@@ -163,6 +163,13 @@ Sub ZDoAllLineWork()
 End Sub
 
 
+Sub ZFinalWork()
+
+    Call LayerMove
+    Call ZDoAllLineWork
+
+End Sub
+
 
 Sub DoBoundary(shpCheck As Shape)
     shpCheck.ObjectData("Name").Value = "BoundaryLine"
@@ -283,6 +290,8 @@ Sub SetPropertyWork()
     Call SetBoundaryLineStyle
     
 End Sub
+
+
 
 
 
