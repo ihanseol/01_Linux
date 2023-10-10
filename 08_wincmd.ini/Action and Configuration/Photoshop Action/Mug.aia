@@ -1,0 +1,81 @@
+/version 3
+/name [ 3
+	4d7567
+]
+/isOpen 0
+/actionCount 1
+/action-1 {
+	/name [ 9
+		526573697a65203835
+	]
+	/keyIndex 18
+	/colorIndex 0
+	/isOpen 1
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 16
+				5363616c652068656967687420746f3a
+			]
+			/value 3
+		}
+		/parameter-2 {
+			/key 1986096245
+			/showInPalette -1
+			/type (unit real)
+			/value 240.9448852539
+			/unit 592476268
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_reflect)
+		/localizedName [ 7
+			5265666c656374
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 90.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1684370520
+			/showInPalette -1
+			/type (unit real)
+			/value 0.0
+			/unit 592476268
+		}
+		/parameter-4 {
+			/key 1684370521
+			/showInPalette -1
+			/type (unit real)
+			/value -125.2880590561
+			/unit 592476268
+		}
+	}
+}
