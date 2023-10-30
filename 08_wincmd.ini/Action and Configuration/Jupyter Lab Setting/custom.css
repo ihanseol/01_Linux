@@ -1,9 +1,9 @@
 
 div.CodeMirror,
 div.CodeMirror pre { /*코드 블록*/
-    font-family: D2Coding, Consolas;
+    font-family: Consolas;
     font-size: 11pt;
-    line-height: 150%;
+    line-height: 120%;
 }
 
 .text_cell_render { /*마크다운*/
@@ -13,7 +13,7 @@ div.CodeMirror pre { /*코드 블록*/
 .input_prompt pre { /*줄번호*/
     font-family: Consolas; 
     font-size: 11pt;
-    line-height: 150%;
+    line-height: 120%;
 }
 
 .prompt {
