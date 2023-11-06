@@ -29,11 +29,18 @@
             "keys": "alt+shift+d"
         }
     ],
+    "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "initialCols": 130,
-    "initialRows": 47,
+    "initialRows": 45,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": {},
@@ -267,6 +274,51 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        }
+    ],
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
         }
     ]
 }
