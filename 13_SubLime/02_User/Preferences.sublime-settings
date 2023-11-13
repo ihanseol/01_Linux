@@ -5,7 +5,7 @@
 	"vintage_ctrl_keys": true,
 	"font_size": 11,
 	"theme": "Default.sublime-theme",
-	"color_scheme": "Mariana.sublime-color-scheme",
+	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Visual_Studio_Dark_Plus.tmTheme",
 	"dark_theme": "ayu-light.sublime-theme",
 	"light_theme": "Default Dark.sublime-theme",	
 }
