@@ -216,10 +216,26 @@ Sub DoCircleWell(shpCheck As Shape)
 End Sub
 
 
-
-
-
-
+Sub ReGroupOneGong()
+    ' Recorded 2024-02-23
+    Dim OrigSelection As ShapeRange
+    Set OrigSelection = ActiveSelectionRange
+    Dim grp1 As ShapeRange
+    Set grp1 = OrigSelection.UngroupEx
+    
+    ActiveDocument.RemoveFromSelection grp1(40), grp1(41), grp1(42), grp1(43), grp1(44), grp1(45), grp1(46), grp1(47), grp1(48), grp1(49), grp1(50)
+    ActiveDocument.RemoveFromSelection grp1(51), grp1(52), grp1(53), grp1(54), grp1(55), grp1(56), grp1(57), grp1(58), grp1(59), grp1(60), grp1(61)
+    ActiveDocument.RemoveFromSelection grp1(62), grp1(63), grp1(64)
+    Dim s1 As Shape
+    Set s1 = ActiveSelection.Group
+    ActiveDocument.CreateSelection grp1(64), grp1(63), grp1(62), grp1(61), grp1(60), grp1(59), grp1(58), grp1(57), grp1(56), grp1(55), grp1(54)
+    ActiveDocument.AddToSelection grp1(53), grp1(52), grp1(51), grp1(50), grp1(49), grp1(48), grp1(47), grp1(46), grp1(45), grp1(44), grp1(43)
+    ActiveDocument.AddToSelection grp1(42), grp1(41), grp1(40)
+    Dim s2 As Shape
+    Set s2 = ActiveSelection.Group
+    Dim s3 As Shape
+    Set s3 = ActiveDocument.CreateShapeRangeFromArray(s1, s2).Group
+End Sub
 
 
 
