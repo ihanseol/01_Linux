@@ -216,6 +216,7 @@ Sub DoCircleWell(shpCheck As Shape)
 End Sub
 
 
+
 Sub ReGroupOneGong()
     ' Recorded 2024-02-23
     Dim OrigSelection As ShapeRange
@@ -236,6 +237,102 @@ Sub ReGroupOneGong()
     Dim s3 As Shape
     Set s3 = ActiveDocument.CreateShapeRangeFromArray(s1, s2).Group
 End Sub
+
+
+Sub ResizeFontAndReGroup()
+    ' Recorded 2024-02-23
+    Dim i, SHAPE_COUNT, gStart As Integer
+    Dim IS_CREATE As Boolean
+    
+    Dim OrigSelection As ShapeRange
+    Set OrigSelection = ActiveSelectionRange
+    Dim grp1 As ShapeRange
+    Set grp1 = OrigSelection.UngroupEx
+    
+    IS_CREATE = True
+    SHAPE_COUNT = grp1.Count
+    gStart = SHAPE_COUNT - 38
+    
+    For i = 1 To SHAPE_COUNT
+        If grp1(i).Type <> 3 Then
+            Debug.Print "this is text:", i, grp1(i).Type
+            grp1(i).Text.FontProperties.Size = 14
+        End If
+    Next i
+    
+    
+    
+    For i = 1 To gStart - 1
+        
+        If IS_CREATE Then
+            IS_CREATE = False
+            ActiveDocument.CreateSelection ActiveLayer.Shapes(i)
+        Else
+            ActiveDocument.AddToSelection ActiveLayer.Shapes(i)
+        End If
+        
+    Next i
+    
+    Dim s1 As Shape
+    Set s1 = ActiveSelection.Group
+    
+    
+    gStart = SHAPE_COUNT - 24
+    
+    IS_CREATE = True
+    For i = 2 To gStart
+        
+        If IS_CREATE Then
+            IS_CREATE = False
+            ActiveDocument.CreateSelection ActiveLayer.Shapes(i)
+        Else
+            On Error Resume Next
+            ActiveDocument.AddToSelection ActiveLayer.Shapes(i)
+        End If
+        
+    Next i
+    
+    Dim s2 As Shape
+    Set s2 = ActiveSelection.Group
+    
+    Dim s3 As Shape
+    Set s3 = ActiveDocument.CreateShapeRangeFromArray(s1, s2).Group
+    
+End Sub
+
+Function HexToDecimal(hexValue As String) As Long
+    HexToDecimal = Val("&H" & hexValue)
+End Function
+
+Sub ChangeFontSize()
+    ' Select the shape or text object containing the character you want to change
+    ' ActiveDocument.SelectShapeRange(Array(<index_of_shape_or_text_object>))
+    
+    ' Check if a shape or text object is selected
+    If ActiveSelection.Shapes.Count > 0 Then
+        ' Check if the selection is a text object
+        If ActiveSelection.Shapes(1).Type = cdrTextShape Then
+            ' Access the text range of the selected text object
+            Dim textRange As textRange
+            Set textRange = ActiveSelection.Shapes(1).Text
+    
+            ' Check if there is a character selected within the text object
+            If textRange.Characters.Count > 0 Then
+                ' Select the character you want to change (e.g., the first character)
+                textRange.Characters(1).Select
+                ' Change the font size of the selected character (e.g., set font size to 20)
+                textRange.FontProperties.Size = 20
+            End If
+        Else
+            MsgBox "The selected object is not a text object."
+        End If
+    Else
+        MsgBox "No object selected."
+    End If
+End Sub
+
+
+
 
 
 
