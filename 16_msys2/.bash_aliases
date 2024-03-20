@@ -60,3 +60,22 @@ alias cdsend2='cd /d/06_Send2/'
 
 alias vi='vim'
 
+
+# git command ..
+
+alias gl='git log --oneline --all --graph --decorate' 
+
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+
+alias gpush='git push'
+alias gpull='git pull'
+
+
+alias cls='clear'
+alias refresh='source .bashrc'
+alias qal='vi .bash_aliases'
+
+
+

@@ -221,3 +221,67 @@ fzf
 :
 clear
 ll
+which git
+cd
+ll
+cddev
+ll
+cd 01_Linux/
+l
+ll
+git status
+pwd
+ll
+clear
+ll
+source .bashrc
+gs
+g
+gl
+cddev
+cd 01
+cd 01_Linux/
+gs
+pacman -Syu
+cd
+clear
+ll
+cls
+source .bashrc
+cls
+ll
+clear
+ll
+mc
+pacman -S mc
+l
+mc
+clear
+ll
+celar
+ll
+python
+clear
+ll
+code
+code .
+ll
+cd
+ll
+vi .bash_aliases 
+vi .bashr
+vi .bashrc
+ll
+source .bashrc
+vi .bash_aliases 
+qal
+source .bashrc
+qal
+cd
+ll
+vi .bash_aliases
+refresh
+qal
+refresh
+ll
+qal

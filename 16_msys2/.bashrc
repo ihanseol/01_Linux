@@ -161,6 +161,7 @@ cd_func ()
 
 alias cd=cd_func
 export PATH="/clang64/bin/:$PATH"
+export PATH="/C/Users/minhwasoo/AppData/Local/Programs/Microsoft VS Code/bin/:$PATH"
 
 
 
