@@ -1,0 +1,207 @@
+" An example for a vimrc file.
+"
+" Maintainer:	The Vim Project <https://github.com/vim/vim>
+" Last Change:	2023 Aug 10
+" Former Maintainer:	Bram Moolenaar <Bram@vim.org>
+"
+" To use it, copy it to
+"	       for Unix:  ~/.vimrc
+"	      for Amiga:  s:.vimrc
+"	 for MS-Windows:  $VIM\_vimrc
+"	      for Haiku:  ~/config/settings/vim/vimrc
+"	    for OpenVMS:  sys$login:.vimrc
+
+" When started as "evim", evim.vim will already have done these settings, bail
+" out.
+
+
+
+" Variables {{{
+let mapleader = "\<Space>"
+let s:is_windows = has('win32') || has('win64')
+let s:is_nvim = has('nvim')
+"}}}
+
+" Setting up vim-plug as the package manager {{{
+if !filereadable(expand("~/.vim/autoload/plug.vim"))
+    echo "Installing vim-plug and plugins. Restart vim after finishing the process."
+    silent call mkdir(expand("~/.vim/autoload", 1), 'p')
+    execute "!curl -fLo ".expand("~/.vim/autoload/plug.vim", 1)." https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+    autocmd VimEnter * PlugInstall
+endif
+
+if s:is_windows
+  set rtp+=~/.vim
+endif
+
+call plug#begin('~/.vim/plugged')
+let g:plug_url_format = 'https://github.com/%s.git'
+"}}}
+
+set path+=**
+set wildmenu
+set laststatus=2
+
+set langmenu=en_US.UTF-8
+language messages en_US.UTF-8
+
+
+call plug#begin()
+    
+    Plug 'scrooloose/nerdcommenter'
+    Plug 'scrooloose/nerdtree'
+	Plug 'tpope/vim-surround'
+	Plug 'itchyny/lightline.vim'
+	Plug 'vim-scripts/peaksea'
+	Plug 'raimondi/delimitmate'
+	Plug 'flazz/vim-colorschemes'
+    "" Plug 'python-mode/python-mode', { 'branch': 'develop' }
+    Plug 'johngrib/vim-game-code-break'
+
+    Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+    Plug 'junegunn/fzf.vim'
+call plug#end()
+
+
+"---------------------------------------------------------------------------------------------------
+
+let g:lightline = {
+      \ 'component_function': {
+      \   'filename': 'LightlineFilename',
+      \ },
+      \ }
+
+function! LightlineFilename()
+	  return &filetype ==# 'vimfiler' ? vimfiler#get_status_string() :
+	          \ &filetype ==# 'unite' ? unite#get_status_string() :
+	          \ &filetype ==# 'vimshell' ? vimshell#get_status_string() :
+	          \ expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
+  endfunction
+
+  let g:unite_force_overwrite_statusline = 0
+  let g:vimfiler_force_overwrite_statusline = 0
+  let g:vimshell_force_overwrite_statusline = 0
+
+
+ let mapleader = ","
+ 
+ noremap <C-n> :nohl<CR>
+ vnoremap <C-n> :nohl<CR>
+ inoremap <C-n> :nohl<CR>
+ 
+  noremap <C-Z> :update<CR>
+ vnoremap <C-Z> <C-C>:update<CR>
+ inoremap <C-Z> <C-O>:update<CR>
+ 
+ 
+ noremap <Leader>e :quit<CR>  " Quit current window
+noremap <Leader>E :qa!<CR>   " Quit all windows
+
+map <F3> :NERDTreeToggle<cr>
+let NERDTreeQuitOnOpen=1
+let NERDTreeShowHidden=1
+
+ map <c-j> <c-w>j
+ map <c-k> <c-w>k
+ map <c-l> <c-w>l
+ map <c-h> <c-w>h
+
+ map <Leader>sr <esc>:set relativenumber<CR>
+ map <Leader>sr! <esc>:set relativenumber!<CR>
+ 
+ vnoremap <Leader>s :sort<CR>
+
+ vnoremap < <gv  " better indentation
+ vnoremap > >gv  " better indentation
+ 
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+au InsertLeave * match ExtraWhitespace /\s\+$/
+
+ filetype plugin on
+ syntax on
+ 
+ set number  " show line numbers
+ set tw=79   " width of document (used by gd)  
+ set nowrap  " don't automatically wrap on load
+ set fo-=t   " don't automatically wrap text when typing
+ set colorcolumn=100
+ highlight ColorColumn ctermbg=233
+
+
+ set nocompatible
+ set backspace=indent,eol,start  
+
+
+colorscheme seoul256
+
+
+vmap Q gq
+nmap Q gqap
+
+set history=700
+set undolevels=700
+
+
+ set tabstop=4
+ set softtabstop=4
+ set shiftwidth=4
+ set shiftround
+ set expandtab
+ 
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+set nobackup
+set nowritebackup
+set noswapfile
+
+set nofoldenable
+
+
+  set t_ut= " setting for looking properly in tmux
+  set t_BE= " disable bracketed-paste mode
+  let &t_Co = 256
+  
+
+
+
+if v:progname =~? "evim"
+  finish
+endif
+
+" Get the defaults that most users want.
+source $VIMRUNTIME/defaults.vim
+
+if has("vms")
+  set nobackup		" do not keep a backup file, use versions instead
+else
+  set backup		" keep a backup file (restore to previous version)
+  if has('persistent_undo')
+    set undofile	" keep an undo file (undo changes after closing)
+  endif
+endif
+
+if &t_Co > 2 || has("gui_running")
+  " Switch on highlighting the last used search pattern.
+  set hlsearch
+endif
+
+" Put these in an autocmd group, so that we can delete them easily.
+augroup vimrcEx
+  au!
+
+  " For all text files set 'textwidth' to 78 characters.
+  autocmd FileType text setlocal textwidth=78
+augroup END
+
+" Add optional packages.
+"
+" The matchit plugin makes the % command work better, but it is not backwards
+" compatible.
+" The ! means the package won't be loaded right away but when plugins are
+" loaded during initialization.
+if has('syntax') && has('eval')
+  packadd! matchit
+endif

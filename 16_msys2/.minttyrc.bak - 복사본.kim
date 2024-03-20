@@ -3,4 +3,4 @@ FontHeight=12
 AllowBlinking=yes
 Columns=139
 Rows=47
-Term=xterm
+Term=xterm-256color
