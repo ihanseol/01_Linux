@@ -1,0 +1,17 @@
+[user]
+	name = ihanseol
+	email = hanseol33@naver.com
+[push]
+	default = matching
+[core]
+	editor = vi
+[credential]
+	helper = cache
+
+[safe]
+	directory = D:/12_dev/01_Linux
+	directory = D:/12_dev/02_Excel
+	directory = D:/12_dev/02_Excel2
+	directory = D:/12_dev/03_visual_lisp
+	directory = D:/12_dev/04_PyhtonDemoDojang
+	directory = D:/12_dev/05_JAVA
