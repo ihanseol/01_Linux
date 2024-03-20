@@ -170,6 +170,13 @@ export MSYS=enable_pcon
 export PATH="/clang64/bin/:$PATH"
 export PATH="/C/Users/minhwasoo/AppData/Local/Programs/Microsoft VS Code/bin/:$PATH"
 export PATH="/c/Program Files/Vim/vim91/:$PATH"
+export PATH="/c/Program Files/Sublime Text/:$PATH"
+
+
+
+
+
+
 
 
 
