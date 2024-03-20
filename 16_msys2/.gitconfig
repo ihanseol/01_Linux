@@ -6,7 +6,7 @@
 [core]
 	editor = vi
 [credential]
-	helper = cache
+	helper = store
 
 [safe]
 	directory = D:/12_dev/01_Linux

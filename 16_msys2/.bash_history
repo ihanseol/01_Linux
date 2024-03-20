@@ -1,74 +1,3 @@
-which .vimrc
-vim --version | grep vimrc
-pwd
-vim .vimrc
-vim .vimrc
-wpd
-pwd
-ls -al
-source .bashrc
-source .bashrc
-ll
-ll
-ls
-li
-ls
-ll
-ll
-ll
-ls -al
-ll
-la
-lw
-source .bashrc
-ll
-la
-l
-l
-l
-l
-l
-source .bashrc
-l
-l
-ll
-la
-lw
-dir
-ls
-dir
-source .bashrc
-dir
-ll
-l
-ll
-vdir
-vdir
-dir
-vdir
-ls
-ll
-ll
-la
-l
-ll
-ls
-la
-source .bashrc
-cd
-ll
-cd
-cd ~
-pwd
-cd ~
-ll
-cd ..
-ll
-cd ..
-ll
-cd ..
-ll
-pwd
 cd ..
 pwd
 cd c:/users
@@ -528,6 +457,50 @@ reload
 ..
 cd
 lll
+ll
+clear
+ll
+vi .gitconfig
+l
+ll
+git config --global credential.helper store
+vi .gitconfg
+ll
+vi .gitconfig 
+cd Git/
+cd 01_Linux/
+ll
+gpush
+git pull
+gs
+gpull
+gpull pull.rebase false
+git config pull.rebase false
+cd
+vi .gitconfig
+cd Git/
+cd 01_Linux/
+ll
+gs
+gpull
+gs
+ga .
+gc -m "merge"
+gpush
+clear
+ll
+cd
+ll
+mc
+ll
+clear
+ll
+qpr
+reload
+mc
+vi 
+ll
+celar
 ll
 clear
 ll

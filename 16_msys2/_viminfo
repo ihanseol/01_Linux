@@ -14,12 +14,12 @@
 ~MSle0~/term
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1710974181,,"wq"
 :q!
-|2,0,1710957689,,"q!"
+|2,0,1710975482,,"q!"
+:wq
+|2,0,1710975440,,"wq"
 :q
-|2,0,1710957688,,"q"
+|2,0,1710974992,,"q"
 :Q!ÎxÎx
 |2,0,1710956475,,"Q!ÎxÎx"
 :ÎxÎx
@@ -101,230 +101,246 @@
 |3,0,36,0,1,0,1710957679,"Î"
 
 # File marks:
-'0  41  11  ~\.bash_aliases
-|4,48,41,11,1710974181,"~\\.bash_aliases"
-'1  1  0  ~\.mintyrc
-|4,49,1,0,1710956476,"~\\.mintyrc"
-'2  5  32  ~\asdf
-|4,50,5,32,1710952000,"~\\asdf"
-'3  1  0  C:\msys64\etc\myconfig.conf
-|4,51,1,0,1710949227,"C:\\msys64\\etc\\myconfig.conf"
-'4  316  8  ~\.vimrc
-|4,52,316,8,1710947883,"~\\.vimrc"
-'5  1  0  ~\.vimrc
-|4,53,1,0,1710947824,"~\\.vimrc"
-'6  1  0  ~\.vimrc
-|4,54,1,0,1710947824,"~\\.vimrc"
-'7  46  0  ~\.vimrc
-|4,55,46,0,1710947788,"~\\.vimrc"
-'8  30  0  ~\.vimrc
-|4,56,30,0,1710947788,"~\\.vimrc"
-'9  47  0  ~\.vimrc
-|4,57,47,0,1710947788,"~\\.vimrc"
+'0  164  1  ~\.bashrc
+|4,48,164,1,1710975440,"~\\.bashrc"
+'1  9  0  ~\.gitconfig
+|4,49,9,0,1710974992,"~\\.gitconfig"
+'2  1  0  ~\.gitconfig
+|4,50,1,0,1710974848,"~\\.gitconfig"
+'3  1  0  ~\.gitconfig
+|4,51,1,0,1710974848,"~\\.gitconfig"
+'4  1  0  ~\.gitconfg
+|4,52,1,0,1710974835,"~\\.gitconfg"
+'5  1  0  ~\.gitconfig
+|4,53,1,0,1710974818,"~\\.gitconfig"
+'6  1  0  ~\.gitconfig
+|4,54,1,0,1710974818,"~\\.gitconfig"
+'7  41  11  ~\.bash_aliases
+|4,55,41,11,1710974181,"~\\.bash_aliases"
+'8  1  0  ~\.mintyrc
+|4,56,1,0,1710956476,"~\\.mintyrc"
+'9  5  32  ~\asdf
+|4,57,5,32,1710952000,"~\\asdf"
 
 # Jumplist (newest first):
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  16  0  ~\.bashrc
+|4,39,16,0,1710975431,"~\\.bashrc"
+-'  16  0  ~\.bashrc
+|4,39,16,0,1710975431,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1710975429,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1710975429,"~\\.bashrc"
+-'  9  0  ~\.gitconfig
+|4,39,9,0,1710974992,"~\\.gitconfig"
+-'  9  0  ~\.gitconfig
+|4,39,9,0,1710974992,"~\\.gitconfig"
+-'  9  0  ~\.gitconfig
+|4,39,9,0,1710974992,"~\\.gitconfig"
+-'  9  0  ~\.gitconfig
+|4,39,9,0,1710974992,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974980,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974980,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974980,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974980,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974848,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974848,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974848,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974848,"~\\.gitconfig"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfg
+|4,39,1,0,1710974835,"~\\.gitconfg"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974818,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974818,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974818,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974818,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974818,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974818,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974818,"~\\.gitconfig"
+-'  1  0  ~\.gitconfig
+|4,39,1,0,1710974818,"~\\.gitconfig"
 -'  41  11  ~\.bash_aliases
 |4,39,41,11,1710974181,"~\\.bash_aliases"
--'  38  0  ~\.bash_aliases
-|4,39,38,0,1710974134,"~\\.bash_aliases"
--'  1  0  ~\.bash_aliases
-|4,39,1,0,1710974105,"~\\.bash_aliases"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
--'  1  0  ~\.mintyrc
-|4,39,1,0,1710956476,"~\\.mintyrc"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  41  11  ~\.bash_aliases
+|4,39,41,11,1710974181,"~\\.bash_aliases"
 
 # History of marks within files (newest to oldest):
+
+> ~\.bashrc
+	*	1710975438	0
+	"	164	1
+	^	164	2
+	.	164	1
+	+	153	4
+	+	134	2
+	+	165	25
+	+	1	18
+	+	165	1
+	+	164	1
+
+> ~\.gitconfig
+	*	1710974990	0
+	"	9	0
+
+> ~\.gitconfg
+	*	1710974832	0
+	"	1	0
 
 > ~\.bash_aliases
 	*	1710974178	0
@@ -417,18 +433,6 @@
 	+	2	0
 	+	1	0
 	+	30	0
-
-> ~\.bashrc
-	*	1710947455	0
-	"	164	0
-	^	165	2
-	.	164	0
-	+	153	4
-	+	134	2
-	+	165	25
-	+	1	18
-	+	165	1
-	+	164	0
 
 > ~\min
 	*	1710945780	0

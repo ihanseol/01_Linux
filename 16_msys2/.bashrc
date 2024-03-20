@@ -161,7 +161,7 @@ cd_func ()
 
 alias cd=cd_func
 
-export TERM=cygwin
+# export TERM=cygwin
 # export TERM=xterm-256color
 #
 
