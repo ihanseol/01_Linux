@@ -1,5 +1,3 @@
-clear
-which vim
 which .vimrc
 vim --version | grep vimrc
 pwd
@@ -498,5 +496,38 @@ clear
 vi
 ll
 vi
+clear
+ll
+clear
+ll
+git
+clear
+ll
+cd Git/
+ll
+cd 01_Linux/
+ll
+gs
+ga .
+gc -a
+gc -m "test"
+;;
+ll
+clear
+ll
+..
+.
+..
+.
+..
+cd
+ll
+qal
+reload
+.
+..
+cd
+lll
+ll
 clear
 ll

@@ -33,6 +33,9 @@ alias la='ls -A'                              # all but . and ..
 alias l='ls -ACF'                              #
 
 
+alias ..='cd ..'
+alias .='pwd'
+
 alias cdwin='cd /c/windows'
 alias cd32='cd /c/windows/system32'
 alias cd64='cd /c/Windows/SysWOW64'
