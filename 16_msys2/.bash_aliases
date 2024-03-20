@@ -1,7 +1,6 @@
 
 # Aliases
 
-
 # Some example alias instructions
 # If these are enabled they will be used instead of any instructions
 # they may mask.  For example, alias rm='rm -i' will mask the rm
@@ -33,6 +32,9 @@ alias ll='ls -al'                              # long list
 alias la='ls -A'                              # all but . and ..
 alias l='ls -ACF'                              #
 
+
+alias ..='cd ..'
+alias .='pwd'
 
 alias cdwin='cd /c/windows'
 alias cd32='cd /c/windows/system32'
@@ -74,8 +76,8 @@ alias gpull='git pull'
 
 
 alias cls='clear'
-alias refresh='source .bashrc'
-alias qal='vi .bash_aliases'
-
+alias reload='source .bashrc'
+alias qal='cd; vi .bash_aliases'
+alias qpr='cd; vi .bashrc'
 
 

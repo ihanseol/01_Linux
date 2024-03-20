@@ -14,10 +14,10 @@
 ~MSle0~/path
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1710943869,,"q"
 :wq
-|2,0,1710943818,,"wq"
+|2,0,1710944240,,"wq"
+:q
+|2,0,1710944103,,"q"
 :noh
 |2,0,1710941941,,"noh"
 :nof
@@ -29,7 +29,7 @@
 
 # Search String History (newest to oldest):
 ?/path
-|2,1,1710941582,47,"path"
+|2,1,1710944167,47,"path"
 
 # Expression History (newest to oldest):
 
@@ -39,44 +39,92 @@
 
 # Registers:
 "0	LINE	0
-	export PATH="/clang64/bin/:$PATH"
-	
-|3,0,0,1,2,0,1710943601,"export PATH=\"/clang64/bin/:$PATH\"",""
+	export PATH="/C/Users/minhwasoo/AppData/Local/Programs/Microsoft VS Code/bin/:$PATH"
+|3,0,0,1,1,0,1710944142,"export PATH=\"/C/Users/minhwasoo/AppData/Local/Programs/Microsoft VS Code/bin/:$PATH\""
 "1	LINE	0
+	
+|3,0,1,1,1,0,1710944145,""
+"2	LINE	0
 	export PATH="/clang64/bin/:$PATH"
 	
-|3,0,1,1,2,0,1710943564,"export PATH=\"/clang64/bin/:$PATH\"",""
+|3,0,2,1,2,0,1710943564,"export PATH=\"/clang64/bin/:$PATH\"",""
 ""-	CHAR	0
-	c
-|3,1,36,0,1,0,1710943815,"c"
+	/
+|3,1,36,0,1,0,1710944152,"/"
 
 # File marks:
-'0  2  0  ~/.bash_aliases
-|4,48,2,0,1710943869,"~/.bash_aliases"
-'1  1  0  ~/.bash_aliases
-|4,49,1,0,1710943826,"~/.bash_aliases"
-'2  1  0  ~/.bash_aliases
-|4,50,1,0,1710943826,"~/.bash_aliases"
-'3  78  22  ~/.bash_aliases
-|4,51,78,22,1710943818,"~/.bash_aliases"
-'4  78  22  ~/.bash_aliases
-|4,52,78,22,1710943818,"~/.bash_aliases"
-'5  78  22  ~/.bash_aliases
-|4,53,78,22,1710943818,"~/.bash_aliases"
-'6  78  22  ~/.bash_aliases
-|4,54,78,22,1710943818,"~/.bash_aliases"
-'7  1  0  ~/.bashrc_aliases
-|4,55,1,0,1710943778,"~/.bashrc_aliases"
-'8  78  28  ~/.bash_aliases
-|4,56,78,28,1710943763,"~/.bash_aliases"
-'9  78  28  ~/.bash_aliases
-|4,57,78,28,1710943763,"~/.bash_aliases"
+'0  77  11  ~/.bash_aliases
+|4,48,77,11,1710944240,"~/.bash_aliases"
+'1  165  40  ~/.bashrc
+|4,49,165,40,1710944196,"~/.bashrc"
+'2  79  20  ~/.bash_aliases
+|4,50,79,20,1710944128,"~/.bash_aliases"
+'3  79  20  ~/.bash_aliases
+|4,51,79,20,1710944128,"~/.bash_aliases"
+'4  79  0  ~/.bash_aliases
+|4,52,79,0,1710944103,"~/.bash_aliases"
+'5  79  0  ~/.bash_aliases
+|4,53,79,0,1710944103,"~/.bash_aliases"
+'6  2  0  ~/.bash_aliases
+|4,54,2,0,1710943869,"~/.bash_aliases"
+'7  2  0  ~/.bash_aliases
+|4,55,2,0,1710943869,"~/.bash_aliases"
+'8  2  0  ~/.bash_aliases
+|4,56,2,0,1710943869,"~/.bash_aliases"
+'9  2  0  ~/.bash_aliases
+|4,57,2,0,1710943869,"~/.bash_aliases"
 
 # Jumplist (newest first):
+-'  77  11  ~/.bash_aliases
+|4,39,77,11,1710944240,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1710944224,"~/.bash_aliases"
+-'  165  40  ~/.bashrc
+|4,39,165,40,1710944196,"~/.bashrc"
+-'  165  40  ~/.bashrc
+|4,39,165,40,1710944196,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1710944138,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1710944138,"~/.bashrc"
+-'  79  20  ~/.bash_aliases
+|4,39,79,20,1710944128,"~/.bash_aliases"
+-'  79  20  ~/.bash_aliases
+|4,39,79,20,1710944128,"~/.bash_aliases"
+-'  79  20  ~/.bash_aliases
+|4,39,79,20,1710944128,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1710944113,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1710944113,"~/.bash_aliases"
+-'  79  0  ~/.bash_aliases
+|4,39,79,0,1710944103,"~/.bash_aliases"
+-'  79  0  ~/.bash_aliases
+|4,39,79,0,1710944103,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1710944097,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1710944097,"~/.bash_aliases"
+-'  2  0  ~/.bash_aliases
+|4,39,2,0,1710943869,"~/.bash_aliases"
+-'  2  0  ~/.bash_aliases
+|4,39,2,0,1710943869,"~/.bash_aliases"
+-'  2  0  ~/.bash_aliases
+|4,39,2,0,1710943869,"~/.bash_aliases"
+-'  2  0  ~/.bash_aliases
+|4,39,2,0,1710943869,"~/.bash_aliases"
+-'  2  0  ~/.bash_aliases
+|4,39,2,0,1710943869,"~/.bash_aliases"
+-'  2  0  ~/.bash_aliases
+|4,39,2,0,1710943869,"~/.bash_aliases"
 -'  2  0  ~/.bash_aliases
 |4,39,2,0,1710943869,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
 |4,39,1,0,1710943853,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1710943853,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1710943826,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
 |4,39,1,0,1710943826,"~/.bash_aliases"
 -'  78  22  ~/.bash_aliases
@@ -85,6 +133,24 @@
 |4,39,78,22,1710943818,"~/.bash_aliases"
 -'  78  22  ~/.bash_aliases
 |4,39,78,22,1710943818,"~/.bash_aliases"
+-'  78  22  ~/.bash_aliases
+|4,39,78,22,1710943818,"~/.bash_aliases"
+-'  78  22  ~/.bash_aliases
+|4,39,78,22,1710943818,"~/.bash_aliases"
+-'  78  22  ~/.bash_aliases
+|4,39,78,22,1710943818,"~/.bash_aliases"
+-'  78  22  ~/.bash_aliases
+|4,39,78,22,1710943818,"~/.bash_aliases"
+-'  78  22  ~/.bash_aliases
+|4,39,78,22,1710943818,"~/.bash_aliases"
+-'  78  22  ~/.bash_aliases
+|4,39,78,22,1710943818,"~/.bash_aliases"
+-'  78  22  ~/.bash_aliases
+|4,39,78,22,1710943818,"~/.bash_aliases"
+-'  78  22  ~/.bash_aliases
+|4,39,78,22,1710943818,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1710943799,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
 |4,39,1,0,1710943799,"~/.bash_aliases"
 -'  1  0  ~/.bashrc_aliases
@@ -103,197 +169,131 @@
 |4,39,1,0,1710943778,"~/.bashrc_aliases"
 -'  1  0  ~/.bashrc_aliases
 |4,39,1,0,1710943778,"~/.bashrc_aliases"
--'  78  28  ~/.bash_aliases
-|4,39,78,28,1710943763,"~/.bash_aliases"
--'  78  28  ~/.bash_aliases
-|4,39,78,28,1710943763,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1710943706,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1710943706,"~/.bash_aliases"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  163  32  ~/.bashrc
-|4,39,163,32,1710943689,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1710943541,"~/.bashrc"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
--'  1  0  ~/.bashr
-|4,39,1,0,1710943537,"~/.bashr"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
+-'  1  0  ~/.bashrc_aliases
+|4,39,1,0,1710943778,"~/.bashrc_aliases"
 
 # History of marks within files (newest to oldest):
 
 > ~/.bash_aliases
-	*	1710943867	0
-	"	2	0
-	^	78	29
-	.	78	19
+	*	1710944238	0
+	"	77	11
+	^	77	12
+	.	77	12
 	+	61	12
 	+	77	30
 	+	78	19
-
-> ~/.bashrc_aliases
-	*	1710943775	0
-	"	1	0
+	+	79	20
+	+	77	12
 
 > ~/.bashrc
-	*	1710943686	0
-	"	163	32
-	^	163	33
-	.	164	0
+	*	1710944194	0
+	"	165	40
+	^	165	41
+	.	165	40
 	+	163	0
 	+	169	0
 	+	163	49
@@ -308,6 +308,11 @@
 	+	163	33
 	+	164	15
 	+	164	0
+	+	165	40
+
+> ~/.bashrc_aliases
+	*	1710943775	0
+	"	1	0
 
 > ~/.bashr
 	*	1710943535	0
