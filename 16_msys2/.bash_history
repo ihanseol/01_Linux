@@ -1,109 +1,3 @@
-cd ..
-pwd
-cd c:/users
-ll
-cd minhwasoo/
-ll
-clear
-ll
-cd
-ll
-pwd
-cd d:/12_dev
-ll
-cd
-ll
-pwd
-cd /d d:/12_dev
-cd  d:/12_dev
-cd  d/12_dev
-cd  /d/12_dev
-cd /c/Program Files/totalcmd
-cd "/c/Program Files/totalcmd"
-cd
-cd  c/Users/minhwasoo/Downloads
-cd /c/Users/minhwasoo/Downloads/
-cd
-source .bashrc
-cddev
-cdgame
-cdsend2
-cddown
-cdhome
-cd21
-cd3w2
-cde2
-cd32
-cd 64
-source .bashrc
-cd
-source .bashrc
-cd64
-source .bashrc
-cd
-source .bashrc
-ll
-cdtc
-cd
-cdcmder
-cd
-cdtc
-cddown
-cddev
-cdhome
-cdgame
-cd
-cdprog
-cdappdata
-cdlocal
-cdprog
-ll
-vim
-clear
-ll
-vim .vimrc
-clear
-ll
-vi .viminfo
-ll
-vi .bash_aliases 
-vim .bash_aliases 
-cd
-source .bashrc
-vi .vimrc
-clear
-lll
-ll
-vdir
-dir
-ll
-fzf
-which fzf
-pacman -S mingw-w64-clang-x86_64-fzf
-fzf
-which fzf
-fzf
-cd
-vi .bashrc
-source .bashrc
-vi .bashrc
-source .bashrc
-fzf
-:
-clear
-ll
-which git
-cd
-ll
-cddev
-ll
-cd 01_Linux/
-l
-ll
-git status
-pwd
-ll
-clear
 ll
 source .bashrc
 gs
@@ -504,3 +398,104 @@ celar
 ll
 clear
 ll
+pacman -Syu
+pacman -S python3-pip
+pacman -S mingw-w64-x86_64-python-pandas
+pacman -Qi mingw-w64-x86_64-python-pandas
+pip show pandas
+python -m pip install --upgrade pip
+pip install --upgrade pip
+pacman -S vim
+pacman -S mingw-w64-clang-x86_64-neovim
+pacman -S mingw-w64-clang-x86_64-neovim-qt
+nvim
+nvim-qt
+bim
+vm
+vim
+ll
+vi .vimrc
+vim
+ll
+vi .bashrc
+.reload
+reload
+vim
+ll
+vi
+clear
+ll
+vim
+clear
+ll
+set
+unam -m
+uname -m
+gvim
+code .
+c:\Program Files\totalcmd\ini\config\mygitpull.cmd
+cmd.exe /c c:\Program Files\totalcmd\ini\config\mygitpull.cmd
+cmd.exe /c /c/Program Files/totalcmd/ini/config/mygitpull.cmd
+cmd.exe /c "/c/Program Files/totalcmd/ini/config/mygitpull.cmd"
+cmd /c ~/mygitpull.cmd
+ll
+touch #!.bat
+touch #!.cmd
+ll
+~/mygitpull_msys2.cmd 
+vim mygitpull_msys2.cmd 
+ll
+touch #!.bat
+l
+ll
+vi mygitpull_msys2.cmd 
+ll
+vi mygitpull_msys2.cmd 
+ll
+touch #!.bat
+ll
+touch #!.cmd
+ll
+#!/bin/cmd
+ll
+chmod +x mygitpull_msys2.cmd 
+ll
+chmod +x mygitpull_msys2.cmd 
+ll
+who am i
+su
+sudo
+sudo -l
+who am i
+whoami
+chmod 777 mygitpull_msys2.cmd 
+ll
+icacls mygitpull_msys2.cmd /grant Users:(RX)
+cd /bin/cmd
+pwd
+..
+ll
+cd bin/
+ll
+ls cm*
+c
+d
+ll
+cd
+ll
+vi mygitpull_msys2.cmd 
+ll
+chmod +x mygitpull_msys2.cmd 
+ll
+cmd mygitpull_msys2.cmd 
+ll
+pacman -Syy
+pacman - S mc
+pacman -S mc
+mc
+ll
+mc
+ll
+clear
+ll
+pacman -Syy

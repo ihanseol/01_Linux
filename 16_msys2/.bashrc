@@ -162,9 +162,8 @@ cd_func ()
 alias cd=cd_func
 
 # export TERM=cygwin
-# export TERM=xterm-256color
-#
 
+export TERM=xterm-256color
 export MSYS=enable_pcon
 
 export PATH="/clang64/bin/:$PATH"

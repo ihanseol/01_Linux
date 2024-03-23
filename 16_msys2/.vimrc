@@ -6,6 +6,7 @@ let s:is_nvim = has('nvim')
 "}}}
 
 " Setting up vim-plug as the package manager {{{
+
 if !filereadable(expand("~/.vim/autoload/plug.vim"))
     echo "Installing vim-plug and plugins. Restart vim after finishing the process."
     silent call mkdir(expand("~/.vim/autoload", 1), 'p')
@@ -19,6 +20,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 let g:plug_url_format = 'https://github.com/%s.git'
+
 "}}}
 
 set path+=**
@@ -30,7 +32,6 @@ language messages en_US.UTF-8
 
 
 call plug#begin()
-    
     Plug 'scrooloose/nerdcommenter'
     Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-surround'

@@ -14,12 +14,12 @@
 ~MSle0~/term
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1711161741,,"wq"
+:q
+|2,0,1711159508,,"q"
 :q!
 |2,0,1710975482,,"q!"
-:wq
-|2,0,1710975440,,"wq"
-:q
-|2,0,1710974992,,"q"
 :Q!ÎxÎx
 |2,0,1710956475,,"Q!ÎxÎx"
 :ÎxÎx
@@ -66,273 +66,294 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	alias cdwin='cd /c/windows'
-|3,1,0,1,1,0,1710974120,"alias cdwin='cd /c/windows'"
-"1	LINE	0
-	set term=cygwin
-|3,0,1,1,1,0,1710947840,"set term=cygwin"
+|3,0,0,1,1,0,1710974120,"alias cdwin='cd /c/windows'"
+""1	LINE	0
+	#! /bin/cmd
+|3,1,1,1,1,0,1711161167,"#! /bin/cmd"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1710947785,""
+|3,0,2,1,1,0,1711161067,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1710947418,""
+	#! /bin/cmd
+|3,0,3,1,1,0,1711161067,"#! /bin/cmd"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1710947418,""
+	set term=cygwin
+|3,0,4,1,1,0,1710947840,"set term=cygwin"
 "5	LINE	0
-	set t_kl=^[D
-|3,0,5,1,1,0,1710947417,"set t_kl=^[D"
-"6	LINE	0
-	set t_kr=^[C
-|3,0,6,1,1,0,1710947417,"set t_kr=^[C"
-"7	LINE	0
-	set t_kd=^[B
-|3,0,7,1,1,0,1710947416,"set t_kd=^[B"
-"8	LINE	0
-	set t_ku=^[A
-|3,0,8,1,1,0,1710947416,"set t_ku=^[A"
-"9	LINE	0
 	
-|3,0,9,1,1,0,1710947010,""
+|3,0,5,1,1,0,1710947785,""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1710947418,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1710947418,""
+"8	LINE	0
+	set t_kl=^[D
+|3,0,8,1,1,0,1710947417,"set t_kl=^[D"
+"9	LINE	0
+	set t_kr=^[C
+|3,0,9,1,1,0,1710947417,"set t_kr=^[C"
 "-	CHAR	0
-	Î
-|3,0,36,0,1,0,1710957679,"Î"
+	#
+|3,0,36,0,1,0,1711159567,"#"
 
 # File marks:
-'0  164  1  ~\.bashrc
-|4,48,164,1,1710975440,"~\\.bashrc"
-'1  9  0  ~\.gitconfig
-|4,49,9,0,1710974992,"~\\.gitconfig"
-'2  1  0  ~\.gitconfig
-|4,50,1,0,1710974848,"~\\.gitconfig"
-'3  1  0  ~\.gitconfig
-|4,51,1,0,1710974848,"~\\.gitconfig"
-'4  1  0  ~\.gitconfg
-|4,52,1,0,1710974835,"~\\.gitconfg"
-'5  1  0  ~\.gitconfig
-|4,53,1,0,1710974818,"~\\.gitconfig"
-'6  1  0  ~\.gitconfig
-|4,54,1,0,1710974818,"~\\.gitconfig"
-'7  41  11  ~\.bash_aliases
-|4,55,41,11,1710974181,"~\\.bash_aliases"
-'8  1  0  ~\.mintyrc
-|4,56,1,0,1710956476,"~\\.mintyrc"
-'9  5  32  ~\asdf
-|4,57,5,32,1710952000,"~\\asdf"
+'0  20  0  ~\mygitpull_msys2.cmd
+|4,48,20,0,1711161741,"~\\mygitpull_msys2.cmd"
+'1  5  0  ~\mygitpull_msys2.cmd
+|4,49,5,0,1711161182,"~\\mygitpull_msys2.cmd"
+'2  5  0  ~\mygitpull_msys2.cmd
+|4,50,5,0,1711161182,"~\\mygitpull_msys2.cmd"
+'3  6  10  ~\mygitpull_msys2.cmd
+|4,51,6,10,1711161156,"~\\mygitpull_msys2.cmd"
+'4  2  10  ~\mygitpull_msys2.cmd
+|4,52,2,10,1711161156,"~\\mygitpull_msys2.cmd"
+'5  6  10  ~\mygitpull_msys2.cmd
+|4,53,6,10,1711161156,"~\\mygitpull_msys2.cmd"
+'6  2  10  ~\mygitpull_msys2.cmd
+|4,54,2,10,1711161156,"~\\mygitpull_msys2.cmd"
+'7  1  0  ~\mygitpull_msys2.cmd
+|4,55,1,0,1711161070,"~\\mygitpull_msys2.cmd"
+'8  1  0  ~\mygitpull_msys2.cmd
+|4,56,1,0,1711161070,"~\\mygitpull_msys2.cmd"
+'9  1  0  ~\mygitpull_msys2.cmd
+|4,57,1,0,1711161070,"~\\mygitpull_msys2.cmd"
 
 # Jumplist (newest first):
+-'  20  0  ~\mygitpull_msys2.cmd
+|4,39,20,0,1711161741,"~\\mygitpull_msys2.cmd"
+-'  1  0  ~\mygitpull_msys2.cmd
+|4,39,1,0,1711161567,"~\\mygitpull_msys2.cmd"
+-'  5  0  ~\mygitpull_msys2.cmd
+|4,39,5,0,1711161182,"~\\mygitpull_msys2.cmd"
+-'  5  0  ~\mygitpull_msys2.cmd
+|4,39,5,0,1711161182,"~\\mygitpull_msys2.cmd"
+-'  1  0  ~\mygitpull_msys2.cmd
+|4,39,1,0,1711161161,"~\\mygitpull_msys2.cmd"
+-'  6  10  ~\mygitpull_msys2.cmd
+|4,39,6,10,1711161156,"~\\mygitpull_msys2.cmd"
+-'  2  10  ~\mygitpull_msys2.cmd
+|4,39,2,10,1711161156,"~\\mygitpull_msys2.cmd"
+-'  6  10  ~\mygitpull_msys2.cmd
+|4,39,6,10,1711161156,"~\\mygitpull_msys2.cmd"
+-'  2  10  ~\mygitpull_msys2.cmd
+|4,39,2,10,1711161156,"~\\mygitpull_msys2.cmd"
+-'  1  0  ~\mygitpull_msys2.cmd
+|4,39,1,0,1711161140,"~\\mygitpull_msys2.cmd"
+-'  1  0  ~\mygitpull_msys2.cmd
+|4,39,1,0,1711161070,"~\\mygitpull_msys2.cmd"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  173  1  ~\.bashrc
+|4,39,173,1,1711159626,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
+-'  1  0  ~\.bashrc
+|4,39,1,0,1711159517,"~\\.bashrc"
 -'  164  1  ~\.bashrc
 |4,39,164,1,1710975440,"~\\.bashrc"
 -'  164  1  ~\.bashrc
 |4,39,164,1,1710975440,"~\\.bashrc"
--'  16  0  ~\.bashrc
-|4,39,16,0,1710975431,"~\\.bashrc"
--'  16  0  ~\.bashrc
-|4,39,16,0,1710975431,"~\\.bashrc"
--'  1  0  ~\.bashrc
-|4,39,1,0,1710975429,"~\\.bashrc"
--'  1  0  ~\.bashrc
-|4,39,1,0,1710975429,"~\\.bashrc"
--'  9  0  ~\.gitconfig
-|4,39,9,0,1710974992,"~\\.gitconfig"
--'  9  0  ~\.gitconfig
-|4,39,9,0,1710974992,"~\\.gitconfig"
--'  9  0  ~\.gitconfig
-|4,39,9,0,1710974992,"~\\.gitconfig"
--'  9  0  ~\.gitconfig
-|4,39,9,0,1710974992,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974980,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974980,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974980,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974980,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974848,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974848,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974848,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974848,"~\\.gitconfig"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfg
-|4,39,1,0,1710974835,"~\\.gitconfg"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974818,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974818,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974818,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974818,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974818,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974818,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974818,"~\\.gitconfig"
--'  1  0  ~\.gitconfig
-|4,39,1,0,1710974818,"~\\.gitconfig"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
--'  41  11  ~\.bash_aliases
-|4,39,41,11,1710974181,"~\\.bash_aliases"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
+-'  164  1  ~\.bashrc
+|4,39,164,1,1710975440,"~\\.bashrc"
 
 # History of marks within files (newest to oldest):
 
+> ~\mygitpull_msys2.cmd
+	*	1711161739	0
+	"	20	0
+	^	5	0
+	.	4	0
+	+	1	9
+	+	6	0
+	+	1	0
+	+	2	0
+	+	3	1
+	+	6	0
+	+	4	0
+
 > ~\.bashrc
-	*	1710975438	0
-	"	164	1
-	^	164	2
-	.	164	1
+	*	1711159624	0
+	"	173	1
+	^	173	2
+	.	173	0
 	+	153	4
 	+	134	2
 	+	165	25
 	+	1	18
 	+	165	1
 	+	164	1
+	+	165	0
+	+	167	0
+	+	165	0
+	+	173	0
 
 > ~\.gitconfig
 	*	1710974990	0
