@@ -8,13 +8,13 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
- 
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="awesomepanda"
-ZSH_THEME="eastwood"
+
+ZSH_THEME="robbyrussell"
+
+#ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
-# Setting this variale when ZSH_THEME=random will cause zsh to load
+# Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
@@ -73,6 +73,7 @@ ZSH_THEME="eastwood"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
@@ -100,25 +101,27 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias gs='git status'
-alias cls='clear'
-
-alias gl='git log --oneline --all --graph --decorate'
-alias gs='git status'
-alias ga='git add $@'
-alias gc='git commit $@'
-alias gpush='git push origin master'
-alias gpull='git pull origin master'
+alias zconfig="vi ~/.zshrc"
+alias ohmyzsh="vi ~/.oh-my-zsh"
 
 
+# if [ -e ~/.zsh_aliases ]; then
+#     . ~/.zsh_aliases
+# fi
 
-path+=('/home/minhwasoo/.local/bin')
+if [ -f ~/.zsh_aliases ]; then
+    source ~/.zsh_aliases
+else
+    print "404: ~/.zsh_alias not found."
+fi
+
+
+#path+=('/home/minhwasoo/.local/bin')
+
+export PATH="/home/minhwasoo/.local/bin:$PATH"
 export PATH
+
+
+
+

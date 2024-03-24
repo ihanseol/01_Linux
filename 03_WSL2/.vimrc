@@ -1,11 +1,14 @@
 
 " Variables {{{
+
 let mapleader = "\<Space>"
 let s:is_windows = has('win32') || has('win64')
 let s:is_nvim = has('nvim')
+
 "}}}
 
 " Setting up vim-plug as the package manager {{{
+
 if !filereadable(expand("~/.vim/autoload/plug.vim"))
     echo "Installing vim-plug and plugins. Restart vim after finishing the process."
     silent call mkdir(expand("~/.vim/autoload", 1), 'p')
@@ -19,6 +22,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 let g:plug_url_format = 'https://github.com/%s.git'
+
 "}}}
 
 set path+=**
@@ -30,7 +34,6 @@ language messages en_US.UTF-8
 
 
 call plug#begin()
-    
     Plug 'scrooloose/nerdcommenter'
     Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-surround'
@@ -59,7 +62,7 @@ function! LightlineFilename()
 	          \ &filetype ==# 'unite' ? unite#get_status_string() :
 	          \ &filetype ==# 'vimshell' ? vimshell#get_status_string() :
 	          \ expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
-  endfunction
+endfunction
 
   let g:unite_force_overwrite_statusline = 0
   let g:vimfiler_force_overwrite_statusline = 0
@@ -218,8 +221,7 @@ colorscheme seoul256
 
 "
 " " easier formatting of paragraphs
-vmap Q gq
-nmap Q gqap
+vmap Q gq nmap Q gqap
 
 
 " " Useful settings
