@@ -90,6 +90,8 @@ function l { Get-ChildItem | Format-Table -AutoSize }
 # Equivalent of 'vdir'
 function vdir { Get-ChildItem | Format-List }
 
+
+
 # Creating aliases for these functions
 New-Alias -Name l -Value ls
 New-Alias -Name lw -Value la
