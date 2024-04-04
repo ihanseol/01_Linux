@@ -1,0 +1,55 @@
+/version 3
+/name [ 27
+	4d792041646f6265496c6c757273747261746f7220416374696f6e
+]
+/isOpen 0
+/actionCount 1
+/action-1 {
+	/name [ 6
+		43656e746572
+	]
+	/keyIndex 2
+	/colorIndex 0
+	/isOpen 1
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 23
+				486f72697a6f6e74616c20416c69676e2043656e746572
+			]
+			/value 2
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 21
+				566572746963616c20416c69676e2043656e746572
+			]
+			/value 5
+		}
+	}
+}
