@@ -37,6 +37,52 @@ function la {
 }
 
 
+function Run-ExternalScript {
+    param(
+        [string]$ScriptPath
+    )
+
+    # Check if the script file exists
+    if (-not (Test-Path $ScriptPath)) {
+        Write-Host "Script file '$ScriptPath' not found."
+        return
+    }
+
+    # Execute the script
+    & $ScriptPath
+}
+
+function chris {
+    param(
+        [string]$ScriptPath
+    )
+
+    New-Variable -Name MyString -Value "c:\Users\minhwasoo\Documents\WindowsPowerShell\windows_optimizer_by_chris.ps1" -Option Constant
+
+    # Check if the script file exists
+    if (-not (Test-Path $ScriptPath)) {
+        Write-Host "Script file '$ScriptPath' not found. So set to default path ..."
+        $ScriptPath = $MyString
+    }
+
+    # Execute the script
+    & $ScriptPath
+}
+
+
+function Set-StringConstant {
+    param (
+        [string]$ConstantValue
+    )
+
+    # Define the constant variable within the function
+    New-Variable -Name MyConstant -Value $ConstantValue -Option Constant
+
+    # Optionally, you can output the constant value
+    Write-Output "Constant value set to: $MyConstant"
+}
+
+
 
 # Equivalent of 'l'
 function l { Get-ChildItem | Format-Table -AutoSize }
