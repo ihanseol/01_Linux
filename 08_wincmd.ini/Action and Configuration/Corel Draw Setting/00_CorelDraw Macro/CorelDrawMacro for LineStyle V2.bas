@@ -28,7 +28,7 @@ End Sub
 
 
 
-Sub LayerMove()
+Private Sub LayerMove()
     ' Recorded 2021-02-17
     Dim OrigSelection As ShapeRange
     Set OrigSelection = ActiveSelectionRange
@@ -148,7 +148,7 @@ Function CheckShapeType(ByVal shpCheck As Shape, ByVal sx500 As Double) As MyTyp
 
 End Function
 
-Sub ZDoAllLineWork()
+Private Sub ZDoAllLineWork()
     Dim AllShapes As Shapes
     Dim shpCheck As Shape
     Dim sx500 As Double
@@ -190,14 +190,14 @@ Sub ZFinalWork()
 End Sub
 
 
-Sub DoBoundary(shpCheck As Shape)
+Private Sub DoBoundary(shpCheck As Shape)
     shpCheck.ObjectData("Name").Value = "BoundaryLine"
     shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""35278"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
     shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""35278"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""4,5,1,1,1"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
 End Sub
 
 
-Sub DoCircleER(shpCheck As Shape)
+Private Sub DoCircleER(shpCheck As Shape)
     ' 1.0 pt
     shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""3528"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
     
@@ -206,18 +206,18 @@ Sub DoCircleER(shpCheck As Shape)
 End Sub
 
 
-Sub DoCircle500(shpCheck As Shape)
+Private Sub DoCircle500(shpCheck As Shape)
     shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""5292"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
 End Sub
 
 
-Sub DoCircleWell(shpCheck As Shape)
+Private Sub DoCircleWell(shpCheck As Shape)
     shpCheck.Fill.UniformColor.CMYKAssign 0, 100, 100, 0
 End Sub
 
 
 
-Sub ReGroupOneGong()
+Private Sub ReGroupOneGong()
     ' Recorded 2024-02-23
     Dim OrigSelection As ShapeRange
     Set OrigSelection = ActiveSelectionRange
@@ -304,7 +304,7 @@ Function HexToDecimal(hexValue As String) As Long
     HexToDecimal = Val("&H" & hexValue)
 End Function
 
-Sub ChangeFontSize()
+Private Sub ChangeFontSize()
     ' Select the shape or text object containing the character you want to change
     ' ActiveDocument.SelectShapeRange(Array(<index_of_shape_or_text_object>))
     
@@ -330,6 +330,8 @@ Sub ChangeFontSize()
         MsgBox "No object selected."
     End If
 End Sub
+
+
 
 
 
