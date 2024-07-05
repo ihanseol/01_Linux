@@ -1,0 +1,52 @@
+snippet sh "Shell script template"
+#!/bin/bash
+# ${1:Description}
+
+${2:command}
+endsnippet
+
+snippet echo "Echo text"
+echo "${1:Text to echo}"
+endsnippet
+
+snippet for "For loop"
+for ${1:var} in ${2:items}; do
+	${3:# your code here}
+done
+endsnippet
+
+snippet if "If statement"
+if [ ${1:condition} ]; then
+	${2:# your code here}
+fi
+endsnippet
+
+snippet while "While loop"
+while [ ${1:condition} ]; do
+	${2:# your code here}
+done
+endsnippet
+
+snippet func "Function definition"
+${1:function_name}() {
+    ${2:# your code here}
+}
+endsnippet
+
+snippet args "Handle command line arguments"
+while getopts ${1:option_string} opt; do
+    case $opt in
+        ${2:a})
+            ${3:# handle option a}
+            ;;
+        ${4:b})
+            ${5:# handle option b}
+            ;;
+        *)
+            echo "Invalid option: -$OPTARG" >&2
+            ;;
+    esac
+done
+shift $((OPTIND-1))
+endsnippet
+
