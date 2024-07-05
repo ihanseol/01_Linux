@@ -1,13 +1,15 @@
 
 --file location : c:\Users\minhwasoo\
-local wezterm = require("wezterm")
+--https://wezfurlong.org/wezterm/colorschemes/d/index.html#darcula-base16
 
+local wezterm = require("wezterm")
 
 local config = {
     audible_bell = "Disabled",
     check_for_updates = false,
     -- color_scheme = "Builtin Solarized Dark",
     -- color_scheme = "Batman",
+    color_scheme = "Darcula (base16)",
     inactive_pane_hsb = {
         hue = 1.0,
         saturation = 1.0,
@@ -53,6 +55,8 @@ local config = {
     },
     set_environment_variables = {},
     enable_scroll_bar=true,
+   
+
 
 }
 
