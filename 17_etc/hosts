@@ -1,0 +1,58 @@
+# Copyright (c) Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+#
+# For example:
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+# Hosts file repaired by Malware Zero.
+
+0.0.0.0 lm.licenses.adobe.com
+0.0.0.0 lmlicenses.wip4.adobe.com
+0.0.0.0 lm-prd-da1.licenses.adobe.com
+0.0.0.0 activate.adobe.com
+0.0.0.0 activate.wip4.adobe.com
+0.0.0.0 practivate.adobe.com
+0.0.0.0 practivate-da1.adobe.com
+0.0.0.0 na1r.services.adobe.com
+0.0.0.0 hlrcv.stage.adobe.com
+0.0.0.0 uds.licenses.adobe.com
+0.0.0.0 licenses.adobe.com
+0.0.0.0 license.adobe.com
+0.0.0.0 helpexamples.com
+0.0.0.0 activate-sea.adobe.com
+0.0.0.0 activate-sjc0.adobe.com
+0.0.0.0 ereg.adobe.com
+0.0.0.0 activate.wip3.adobe.com
+0.0.0.0 wip3.adobe.com
+0.0.0.0 ereg.wip3.adobe.com
+0.0.0.0 wwis-dubc1-vip60.adobe.com
+0.0.0.0 apps.corel.com
+0.0.0.0 mc.corel.com
+0.0.0.0 origin-mc.corel.com
+0.0.0.0 iws.corel.com
+0.0.0.0 get.daum.net
+0.0.0.0 play.kakao.com
+0.0.0.0 potplayertv.daum.net
+0.0.0.0 track.tiara.daum.net
+0.0.0.0 p1-play.edge4k.com
+0.0.0.0 p2-play.edge4k.com
+0.0.0.0 p1-play.kgslb.com
+0.0.0.0 kyson.ad.daum.net
+0.0.0.0 display.ad.daum.net
+0.0.0.0 analytics.ad.daum.net
