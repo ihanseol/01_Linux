@@ -21,7 +21,7 @@ Sub Save2019()
         .Version = cdrVersion21
         .KeepAppearance = True
     End With
-    ActiveDocument.SaveAs "D:\09_hardRain\09_ihanseol - 2024\01_지열공 - 서울사이버대학교, 13공 - 한일지하수\02_map & whpa\filesave.cdr", SaveOptions
+    ActiveDocument.SaveAs "d:\05_Send\filesave.cdr", SaveOptions
 End Sub
 
 

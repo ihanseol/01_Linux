@@ -1,5 +1,31 @@
 
-Sub Save2019()
+Sub SaveFor_cdrVersion11()
+    ' Recorded 2024-12-27
+    Dim SaveOptions As StructSaveAsOptions
+    Dim strFileName As String
+
+
+    Set SaveOptions = CreateStructSaveAsOptions
+    With SaveOptions
+        .EmbedVBAProject = False
+        .Filter = cdrCDR
+        .IncludeCMXData = False
+        .Range = cdrAllPages
+        .EmbedICCProfile = True
+        .Version = cdrVersion11
+        .KeepAppearance = True
+    End With
+    
+    strFileName = GetCurrentFileDirectory() & GetCurrentDocumentName()
+
+    ' ActiveDocument.SaveAs "C:\Users\minhwasoo\Downloads\Untitled-1.cdr", SaveOptions
+    ActiveDocument.SaveAs strFileName, SaveOptions
+
+End Sub
+
+
+
+Sub SaveFor_cdrVersion2019()
     ' Recorded 2024-01-04
     Dim SaveOptions As StructSaveAsOptions
     Dim strFileName As String
@@ -21,7 +47,7 @@ Sub Save2019()
     ' MsgBox strFileName
     
     
-    ' ActiveDocument.SaveAs "D:\09_hardRain\09_ihanseol - 2024\01_지열공 - 서울사이버대학교, 13공 - 한일지하수\02_map & whpa\filesave.cdr", SaveOptions
+    ' ActiveDocument.SaveAs "d:\05_Send\filesave.cdr", SaveOptions
     ActiveDocument.SaveAs strFileName, SaveOptions
 End Sub
 
