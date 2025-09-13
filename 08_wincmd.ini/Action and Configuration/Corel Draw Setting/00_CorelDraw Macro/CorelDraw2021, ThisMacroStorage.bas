@@ -1,0 +1,491 @@
+
+Public Enum MyType
+    mtBoundary = 10
+    mtCircleWell = 20
+    mtCircle500 = 30
+    mtCircleER = 40
+    mtText = 50
+End Enum
+
+
+Sub Save2019()
+    ' Recorded 2024-01-04
+    Dim SaveOptions As StructSaveAsOptions
+    Dim strFileName As String
+    
+    Set SaveOptions = CreateStructSaveAsOptions
+    With SaveOptions
+        .EmbedVBAProject = False
+        .Filter = cdrCDR
+        .IncludeCMXData = False
+        .Range = cdrAllPages
+        .EmbedICCProfile = False
+        .Version = cdrVersion21
+        .KeepAppearance = True
+    End With
+    
+    strFileName = GetCurrentFileDirectory() & GetCurrentDocumentName()
+    
+    ActiveDocument.SaveAs strFileName, SaveOptions
+End Sub
+
+
+
+Sub SaveFor_cdrVersion2019()
+    ' Recorded 2024-01-04
+    Dim SaveOptions As StructSaveAsOptions
+    Dim strFileName As String
+    
+    
+    Set SaveOptions = CreateStructSaveAsOptions
+    With SaveOptions
+        .EmbedVBAProject = False
+        .Filter = cdrCDR
+        .IncludeCMXData = False
+        .Range = cdrAllPages
+        .EmbedICCProfile = False
+        .Version = cdrVersion21
+        .KeepAppearance = True
+    End With
+    
+    
+    strFileName = GetCurrentFileDirectory() & GetCurrentDocumentName()
+    ' MsgBox strFileName
+    
+    
+    ' ActiveDocument.SaveAs "d:\05_Send\filesave.cdr", SaveOptions
+    ActiveDocument.SaveAs strFileName, SaveOptions
+End Sub
+
+
+Function GetCurrentDocumentName() As String
+    ' Check if there is an active document
+    If Documents.Count > 0 Then
+        ' Get the current document
+        Dim currentDocument As Document
+        Set currentDocument = ActiveDocument
+
+        ' Get and display the document name
+        Dim documentName As String
+        documentName = currentDocument.Name
+        ' MsgBox "Current Document Name: " & documentName
+    Else
+        MsgBox "No active document."
+    End If
+    
+    GetCurrentDocumentName = documentName
+End Function
+
+
+Function GetCurrentFileDirectory() As String
+    ' Check if there is an active document
+    If Documents.Count > 0 Then
+        ' Get the current document
+        Dim currentDocument As Document
+        Set currentDocument = ActiveDocument
+
+        ' Get the full path of the current document
+        Dim fullPath As String
+        fullPath = currentDocument.FullFileName
+
+        ' Extract the directory from the full path
+        Dim currentDirectory As String
+        currentDirectory = Left(fullPath, InStrRev(fullPath, "\"))
+
+        ' Display the current directory
+        ' MsgBox "Current File Directory: " & currentDirectory
+        
+        GetCurrentFileDirectory = currentDirectory
+        
+    Else
+        MsgBox "No active document."
+    End If
+End Function
+
+Sub GetCurrentDirectory()
+
+    Dim currentDirectory As String
+    currentDirectory = CurDir
+    MsgBox "Current Directory: " & currentDirectory
+End Sub
+
+
+
+Sub ConvertToCDR19_inSend()
+
+    Dim fso As Object ' FileSystemObject
+    Dim fldr As Object ' Folder object
+    Dim f As Object ' File object
+    Dim doc As Document ' CorelDRAW Document object
+    Dim sourcePath As String
+    
+    sourcePath = "D:\05_Send"
+
+    On Error GoTo ErrorHandler
+
+    Set fso = CreateObject("Scripting.FileSystemObject")
+
+    If Not fso.FolderExists(sourcePath) Then
+        MsgBox "The specified folder does not exist: " & sourcePath, vbCritical, "Folder Not Found"
+        Exit Sub
+    End If
+
+    Set fldr = fso.GetFolder(sourcePath)
+
+    For Each f In fldr.Files
+        If LCase(fso.GetExtensionName(f.Name)) = "cdr" Then
+            
+            Set doc = Application.OpenDocument(f.Path)
+
+            ' If the document was successfully opened...
+            If Not doc Is Nothing Then
+                Call SaveFor_cdrVersion2019
+                ActiveDocument.Close
+
+                Debug.Print "Successfully converted and saved: " & f.Name
+            End If
+        End If
+    Next f
+
+    MsgBox "Batch conversion completed.", vbInformation, "Conversion Status"
+
+    ' Clean up objects.
+    Set doc = Nothing
+    Set fldr = Nothing
+    Set fso = Nothing
+
+    Exit Sub
+
+' --- ERROR HANDLING ---
+ErrorHandler:
+    Dim errorMessage As String
+    errorMessage = "An error occurred while processing " & f.Name & ":" & vbCrLf & _
+                   "Error Number: " & Err.number & vbCrLf & _
+                   "Description: " & Err.Description
+
+    ' Display an error message to the user.
+    MsgBox errorMessage, vbExclamation, "Processing Error"
+
+    ' Resume to the next line of code, effectively skipping the problematic file.
+    Resume Next
+End Sub
+
+
+
+
+
+
+
+
+Private Sub LayerMove()
+    ' Recorded 2021-02-17
+    Dim OrigSelection As ShapeRange
+    Set OrigSelection = ActiveSelectionRange
+    
+    ActivePage.Layers("라벨2").Activate
+    ActiveLayer.MoveAbove ActivePage.Layers("00aa")
+    
+    ActivePage.Layers("라벨1").Activate
+    ActiveLayer.MoveBelow ActivePage.Layers("라벨2")
+    
+    ActivePage.Layers("0").Activate
+    ActiveLayer.MoveBelow ActivePage.Layers("라벨1")
+End Sub
+
+
+Function ConvertNowToString() As String
+    Dim currentDate As Date
+    Dim dateString As String
+    
+    currentDate = Now()
+    dateString = Format(currentDate, "YYYY-MM-DD HH:NN:SS")
+    
+    ConvertNowToString = dateString
+End Function
+
+
+Function RandomString(Length As Integer)
+    ' Create a Randomized String of Characters
+    Dim CharacterBank As Variant
+    Dim x As Long
+    Dim str As String
+    
+    ' Test Length Input
+    If Length < 1 Then
+        MsgBox "Length variable must be greater than 0"
+        Exit Function
+    End If
+    
+    CharacterBank = Array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", _
+      "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", _
+      "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "!", "@", _
+      "#", "$", "%", "^", "&", "*", "A", "B", "C", "D", "E", "F", "G", "H", _
+      "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", _
+      "W", "X", "Y", "Z")
+    
+    ' Randomly Select Characters One-by-One
+    For x = 1 To Length
+        Randomize
+        str = str & CharacterBank(Int((UBound(CharacterBank) - LBound(CharacterBank) + 1) * Rnd + LBound(CharacterBank)))
+    Next x
+    
+    ' Output Randomly Generated String
+    RandomString = str
+End Function
+
+Function TruncateDecimal(number As Double) As Double
+    Dim truncatedNumber As Double
+        
+    truncatedNumber = Int(number * 100) / 100
+    TruncateDecimal = truncatedNumber
+End Function
+
+
+
+Function FindCircle500() As Double
+    Dim AllShapes As Shapes
+    Dim shpCheck As Shape
+    Dim sx, sy, max As Double
+    
+    max = 0
+    ActivePage.Layers("0").Activate
+    Set AllShapes = ActivePage.ActiveLayer.Shapes
+         
+    For Each shpCheck In AllShapes
+        sx = TruncateDecimal(shpCheck.SizeWidth)
+        sy = TruncateDecimal(shpCheck.SizeHeight)
+        
+        
+        If sx = sy Then ' if circle
+            If max < sx Then max = sx
+        End If
+    Next
+
+    FindCircle500 = max
+End Function
+
+
+Function CheckShapeType(ByVal shpCheck As Shape, ByVal sx500 As Double) As MyType
+    Dim sx, sy As Double
+    
+    sx = TruncateDecimal(shpCheck.SizeWidth)
+    sy = TruncateDecimal(shpCheck.SizeHeight)
+       
+    If shpCheck.Type = cdrTextShape Then
+        CheckShapeType = mtText
+        Exit Function
+    End If
+        
+    If shpCheck.Name = "cc" Then
+        CheckShapeType = mtCircleWell
+        Exit Function
+    End If
+    
+    
+    If sx <> sy Then
+        CheckShapeType = mtBoundary
+        Exit Function
+    Else
+        If sx500 = sx Then
+            CheckShapeType = mtCircle500
+            Exit Function
+        Else
+            CheckShapeType = mtCircleER
+            Exit Function
+        End If
+    End If
+
+End Function
+
+Private Sub ZDoAllLineWork()
+    Dim AllShapes As Shapes
+    Dim shpCheck As Shape
+    Dim sx500 As Double
+    
+    
+    sx500 = FindCircle500()
+
+    ActivePage.Layers("0").Activate
+    Set AllShapes = ActivePage.ActiveLayer.Shapes
+    
+    
+    For Each shpCheck In AllShapes
+        Select Case CheckShapeType(shpCheck, sx500)
+            Case mtBoundary
+                Call DoBoundary(shpCheck)
+                
+            Case mtCircleWell
+                Call DoCircleWell(shpCheck)
+            
+            Case mtCircleER
+                Call DoCircleER(shpCheck)
+                
+            Case mtCircle500
+                Call DoCircle500(shpCheck)
+        
+            Case mtText
+                
+        End Select
+    Next
+    
+End Sub
+
+
+Sub ZFinalWork()
+
+    Call LayerMove
+    Call ZDoAllLineWork
+
+End Sub
+
+
+Private Sub DoBoundary(shpCheck As Shape)
+    shpCheck.ObjectData("Name").Value = "BoundaryLine"
+    shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""35278"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+    shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""35278"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""4,5,1,1,1"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+End Sub
+
+
+Private Sub DoCircleER(shpCheck As Shape)
+    ' 1.0 pt
+    shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""3528"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+    
+    '1.5pt
+    'shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""5292"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+End Sub
+
+
+Private Sub DoCircle500(shpCheck As Shape)
+    shpCheck.Style.StringAssign "{""fill"":{""type"":""0"",""overprint"":""0"",""winding"":""0""},""outline"":{""type"":""0"",""overprint"":""0"",""angle"":""0"",""screenSpec"":""0,0,45000000,60,0"",""justification"":""0"",""behindFill"":""0"",""rightArrowAttributes"":""0|0|0|0|0|0|0"",""projectMatrix"":""1,0,0,0,1,0"",""matrix"":""1,0,0,0,1,0"",""joinType"":""2"",""shareArrow"":""0"",""width"":""5292"",""leftArrow"":""|0"",""scaleWithObject"":""0"",""miterLimit"":""5"",""color"":""RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000"",""leftArrowAttributes"":""0|0|0|0|0|0|0"",""overlapArrow"":""0"",""dashDotSpec"":""0"",""dotLength"":""0"",""dashAdjust"":""0"",""aspect"":""100"",""rightArrow"":""|0"",""endCaps"":""0""},""transparency"":{}}"
+End Sub
+
+
+Private Sub DoCircleWell(shpCheck As Shape)
+    shpCheck.Fill.UniformColor.CMYKAssign 0, 100, 100, 0
+End Sub
+
+
+
+Private Sub ReGroupOneGong()
+    ' Recorded 2024-02-23
+    Dim OrigSelection As ShapeRange
+    Set OrigSelection = ActiveSelectionRange
+    Dim grp1 As ShapeRange
+    Set grp1 = OrigSelection.UngroupEx
+    
+    ActiveDocument.RemoveFromSelection grp1(40), grp1(41), grp1(42), grp1(43), grp1(44), grp1(45), grp1(46), grp1(47), grp1(48), grp1(49), grp1(50)
+    ActiveDocument.RemoveFromSelection grp1(51), grp1(52), grp1(53), grp1(54), grp1(55), grp1(56), grp1(57), grp1(58), grp1(59), grp1(60), grp1(61)
+    ActiveDocument.RemoveFromSelection grp1(62), grp1(63), grp1(64)
+    Dim s1 As Shape
+    Set s1 = ActiveSelection.Group
+    ActiveDocument.CreateSelection grp1(64), grp1(63), grp1(62), grp1(61), grp1(60), grp1(59), grp1(58), grp1(57), grp1(56), grp1(55), grp1(54)
+    ActiveDocument.AddToSelection grp1(53), grp1(52), grp1(51), grp1(50), grp1(49), grp1(48), grp1(47), grp1(46), grp1(45), grp1(44), grp1(43)
+    ActiveDocument.AddToSelection grp1(42), grp1(41), grp1(40)
+    Dim s2 As Shape
+    Set s2 = ActiveSelection.Group
+    Dim s3 As Shape
+    Set s3 = ActiveDocument.CreateShapeRangeFromArray(s1, s2).Group
+End Sub
+
+
+Sub ResizeFontAndReGroup()
+    ' Recorded 2024-02-23
+    Dim i, SHAPE_COUNT, gStart As Integer
+    Dim IS_CREATE As Boolean
+    
+    Dim OrigSelection As ShapeRange
+    Set OrigSelection = ActiveSelectionRange
+    Dim grp1 As ShapeRange
+    Set grp1 = OrigSelection.UngroupEx
+    
+    IS_CREATE = True
+    SHAPE_COUNT = grp1.Count
+    gStart = SHAPE_COUNT - 38
+    
+    For i = 1 To SHAPE_COUNT
+        If grp1(i).Type <> 3 Then
+            Debug.Print "this is text:", i, grp1(i).Type
+            grp1(i).Text.FontProperties.Size = 14
+        End If
+    Next i
+    
+    
+    
+    For i = 1 To gStart - 1
+        
+        If IS_CREATE Then
+            IS_CREATE = False
+            ActiveDocument.CreateSelection ActiveLayer.Shapes(i)
+        Else
+            ActiveDocument.AddToSelection ActiveLayer.Shapes(i)
+        End If
+        
+    Next i
+    
+    Dim s1 As Shape
+    Set s1 = ActiveSelection.Group
+    
+    
+    gStart = SHAPE_COUNT - 24
+    
+    IS_CREATE = True
+    For i = 2 To gStart
+        
+        If IS_CREATE Then
+            IS_CREATE = False
+            ActiveDocument.CreateSelection ActiveLayer.Shapes(i)
+        Else
+            On Error Resume Next
+            ActiveDocument.AddToSelection ActiveLayer.Shapes(i)
+        End If
+        
+    Next i
+    
+    Dim s2 As Shape
+    Set s2 = ActiveSelection.Group
+    
+    Dim s3 As Shape
+    Set s3 = ActiveDocument.CreateShapeRangeFromArray(s1, s2).Group
+    
+End Sub
+
+Function HexToDecimal(hexValue As String) As Long
+    HexToDecimal = Val("&H" & hexValue)
+End Function
+
+Private Sub ChangeFontSize()
+    ' Select the shape or text object containing the character you want to change
+    ' ActiveDocument.SelectShapeRange(Array(<index_of_shape_or_text_object>))
+    
+    ' Check if a shape or text object is selected
+    If ActiveSelection.Shapes.Count > 0 Then
+        ' Check if the selection is a text object
+        If ActiveSelection.Shapes(1).Type = cdrTextShape Then
+            ' Access the text range of the selected text object
+            Dim textRange As textRange
+            Set textRange = ActiveSelection.Shapes(1).Text
+    
+            ' Check if there is a character selected within the text object
+            If textRange.Characters.Count > 0 Then
+                ' Select the character you want to change (e.g., the first character)
+                textRange.Characters(1).Select
+                ' Change the font size of the selected character (e.g., set font size to 20)
+                textRange.FontProperties.Size = 20
+            End If
+        Else
+            MsgBox "The selected object is not a text object."
+        End If
+    Else
+        MsgBox "No object selected."
+    End If
+End Sub
+
+
+
+
+
+
+
+
+
+
