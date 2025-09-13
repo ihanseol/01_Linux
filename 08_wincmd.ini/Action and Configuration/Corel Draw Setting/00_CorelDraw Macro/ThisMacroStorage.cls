@@ -1,5 +1,4 @@
 
-
 Sub ConvertToCDR11_inSend()
 
     Dim fso As Object ' FileSystemObject
@@ -58,7 +57,6 @@ ErrorHandler:
     ' Resume to the next line of code, effectively skipping the problematic file.
     Resume Next
 End Sub
-
 
 
 
@@ -165,6 +163,7 @@ Sub GetCurrentDirectory()
     currentDirectory = CurDir
     MsgBox "Current Directory: " & currentDirectory
 End Sub
+
 
 
 
