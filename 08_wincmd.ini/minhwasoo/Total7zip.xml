@@ -44,6 +44,7 @@
 		</format>
 		<format description="7z" guid="{23170F69-40C1-278A-1000-000110070000}">
 			<ext val="7z" />
+			<ext val="zip" />
 		</format>
 		<format description="Cab" guid="{23170F69-40C1-278A-1000-000110080000}">
 			<ext val="cab" />
@@ -103,6 +104,7 @@
 		<format description="PE" guid="{23170F69-40C1-278A-1000-000110DD0000}">
 			<ext val="dll" />
 			<ext val="exe" />
+			<ext val="ocx" />
 			<ext val="sys" />
 		</format>
 		<format description="ELF" guid="{23170F69-40C1-278A-1000-000110DE0000}" />
@@ -123,6 +125,7 @@
 		</format>
 		<format description="Compound" guid="{23170F69-40C1-278A-1000-000110E50000}">
 			<ext val="doc" />
+			<ext val="hwp" />
 			<ext val="msi" />
 			<ext val="msp" />
 			<ext val="ppt" />
