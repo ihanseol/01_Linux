@@ -28,7 +28,7 @@ Sub ConvertToCDR11_inSend()
 
             ' If the document was successfully opened...
             If Not doc Is Nothing Then
-                Call SaveFor_cdrVersion11_inSend
+                Call SaveFor_cdrVersion11
                 ActiveDocument.Close
 
                 Debug.Print "Successfully converted and saved: " & f.Name
@@ -165,6 +165,8 @@ Sub GetCurrentDirectory()
     currentDirectory = CurDir
     MsgBox "Current Directory: " & currentDirectory
 End Sub
+
+
 
 
 
