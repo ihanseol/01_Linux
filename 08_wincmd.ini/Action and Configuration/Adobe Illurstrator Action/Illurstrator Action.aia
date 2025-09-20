@@ -105,7 +105,7 @@
 	/keyIndex 11
 	/colorIndex 0
 	/isOpen 0
-	/eventCount 7
+	/eventCount 8
 	/event-1 {
 		/useRulersIn1stQuadrant 0
 		/internalName (adobe_move)
@@ -191,6 +191,32 @@
 	}
 	/event-5 {
 		/useRulersIn1stQuadrant 0
+		/internalName (adobe_stop)
+		/localizedName [ 4
+			53746f70
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 1
+		/parameterCount 2
+		/parameter-1 {
+			/key 1952807028
+			/showInPalette 1
+			/type (ustring)
+			/value [ 12
+				53656c656374205768697465
+			]
+		}
+		/parameter-2 {
+			/key 1668247156
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-6 {
+		/useRulersIn1stQuadrant 0
 		/internalName (adobe_setSelection)
 		/localizedName [ 13
 			5365742053656c656374696f6e
@@ -220,7 +246,7 @@
 			/value 1
 		}
 	}
-	/event-6 {
+	/event-7 {
 		/useRulersIn1stQuadrant 0
 		/internalName (ai_plugin_find)
 		/localizedName [ 8
@@ -240,7 +266,7 @@
 			/value 2
 		}
 	}
-	/event-7 {
+	/event-8 {
 		/useRulersIn1stQuadrant 0
 		/internalName (adobe_clear)
 		/localizedName [ 5
