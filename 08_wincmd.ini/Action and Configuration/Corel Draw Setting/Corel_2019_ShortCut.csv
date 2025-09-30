@@ -1,405 +1,405 @@
-﻿"2-Point Line","Main","Alt+L","Draw a straight line by drawing from the starting point to the endpoint.",
-"Add Column...","Print Merge","Ctrl+A","Add Column...",
-"Add column ending value","Print Merge","Ctrl+E","Add number ending value (Ctrl+E)",
-"Add column starting vlue","Print Merge","Ctrl+S","Add number starting vlue (Ctrl+S)",
-"Add to Selection Group 0","Main","Alt+0","Add to Selection Group 0",
-"Add to Selection Group 1","Main","Alt+1","Add to Selection Group 1",
-"Add to Selection Group 2","Main","Alt+2","Add to Selection Group 2",
-"Add to Selection Group 3","Main","Alt+3","Add to Selection Group 3",
-"Add to Selection Group 4","Main","Alt+4","Add to Selection Group 4",
-"Add to Selection Group 5","Main","Alt+5","Add to Selection Group 5",
-"Add to Selection Group 6","Main","Alt+6","Add to Selection Group 6",
-"Add to Selection Group 7","Main","Alt+7","Add to Selection Group 7",
-"Add to Selection Group 8","Main","Alt+8","Add to Selection Group 8",
-"Add to Selection Group 9","Main","Alt+9","Add to Selection Group 9",
-"Align Bottom","Main","B","Align Bottom",
-"Align Centers Horizontally","Main","C","Align Centers Horizontally",
-"Align Centers Vertically","Main","E","Align Centers Vertically",
-"Align Left","Main","L","Align Left",
-"Align Right","Main","R","Align Right",
-"Align Top","Main","T","Align Top",
-"Align and Distribute","Main","Ctrl+Shift+A","Precisely position objects in relation to each other or to specific locations on the page.",
-"Align to Baseline","Main","Alt+F12","Align to Baseline",
-"Alignment Guides","Main","Alt+Shift+A","Enable or disable alignment guides.",
-"Artistic Media","Main","I","Add artistic brush, spray, and calligraphic effects by using freehand strokes.",
-"B-Spline","Main","Alt+B","Draw curved lines by setting control points that shape the curve without breaking it into segments.",
-"Back One","Main","Ctrl+PgDn","Move object one level down in the stacking order.",
-"Bold","Table Text Editing","Ctrl+B","Make the text bold.",
-"Bold","Text Editing","Ctrl+B","Make the text bold.",
-"Break Apart","Main","Ctrl+K","Break the object apart to create multiple objects and paths.",
-"Break Symmetry Link","Main","Alt+X","Break the symmetry link to create a group of objects and paths.",
-"Brightness/Contrast/Intensity...","Main","Ctrl+B","Brightness/Contrast/Intensity",
-"Bring up Property Bar","Main","Ctrl+Enter","Bring up Property Bar",
-"Bézier","Main","Alt+Shift+B","Draw curves one segment at a time.",
-"Center","Table Text Editing","Ctrl+E","Center text within the bounding box.",
-"Center","Text Editing","Ctrl+E","Center text within the bounding box.",
-"Change Case...","Table Text Editing","Shift+F3","Change Case",
-"Change Case...","Text Editing","Shift+F3","Change Case",
-"Close Print Preview","Print Preview","Alt+C","Close Print Preview",
-"Close Print Preview","Print Preview","Alt+F4","Close Print Preview",
-"Close Window","Main","Ctrl+F4","Close Window",
-"Color Balance...","Main","Ctrl+Shift+B","Color Balance",
-"Color Styles","Main","Ctrl+F6","Open the Color Styles docker.",
-"Column/Frame Break","Table Text Editing","Ctrl+Enter","Column/Frame Break",
-"Column/Frame Break","Text Editing","Ctrl+Enter","Column/Frame Break",
-"Combine","Main","Ctrl+L","Combine  objects into a single object with common properties.",
-"Configure Columns","Print Merge","Ctrl+D","Configure Columns",
-"Continually increment value","Print Merge","Ctrl+C","Continually increment value",
-"Continually increment value","Print Merge","Ctrl+C","Continually increment value",
-"Contour","Main","Ctrl+F9","Contour Docker Window",
-"Convert","Main","Ctrl+F8","Convert Text",
-"Convert Outline to Object","Main","Ctrl+Shift+Q","Convert outline to object",
-"Convert to Curves","Main","Ctrl+Q","Allow the object to be modified by using the shape tools.",
-"Copy","Main","Ctrl+C","Place copies of one or more objects on the Clipboard.",
-"Copy","Main","Ctrl+Insert","Place copies of one or more objects on the Clipboard.",
-"CorelDRAW...","Main","Ctrl+J","CorelDRAW Options",
-"Create New Symmetry","Main","Alt+S","Create and add objects to a symmetry group, or convert an existing curve to a symmetry group.",
-"Crop","Main","Shift+C","Remove the areas outside a selection.",
-"Cut","Main","Ctrl+X","Move one or more objects to the Clipboard.",
-"Cut","Main","Shift+Delete","Move one or more objects to the Clipboard.",
-"Define Selection Group 1","Main","Ctrl+1","Define Selection Group 1",
-"Define Selection Group 4","Main","Ctrl+4","Define Selection Group 4",
-"Define Selection Group 5","Main","Ctrl+5","Define Selection Group 5",
-"Define Selection Group 6","Main","Ctrl+6","Define Selection Group 6",
-"Define Selection Group 7","Main","Ctrl+7","Define Selection Group 7",
-"Define Selection Group 8","Main","Ctrl+8","Define Selection Group 8",
-"Define Selection Group 9","Main","Ctrl+9","Define Selection Group 9",
-"Delete","Main","Delete","Delete",
-"Delete","Main","Backspace","Delete",
-"Delete","Main","Alt+E","Delete",
-"Delete Character to Right","Table Text Editing","Delete","Delete Character to Right",
-"Delete Character to Right","Text Editing","Delete","Delete Character to Right",
-"Delete Word to Right","Table Text Editing","Ctrl+Delete","Delete Word to Right",
-"Delete Word to Right","Text Editing","Ctrl+Delete","Delete Word to Right",
-"Distribute Bottom","Main","Shift+B","Distribute Bottom",
-"Distribute Centers Horizontally","Main","Shift+E","Distribute Centers Horizontally",
-"Distribute Left","Main","Shift+L","Distribute Left",
-"Distribute Right","Main","Shift+R","Distribute Right",
-"Distribute Spacing Horizontally","Main","Shift+P","Distribute Spacing Horizontally",
-"Distribute Top","Main","Shift+T","Distribute Top",
-"Document Grid","Main","Alt+Y","Align objects with the document grid.",
-"Duplexing Setup Wizard...","Print Preview","Ctrl+D","Duplexing Setup Wizard...",
-"Duplicate","Main","Ctrl+D","Duplicate",
-"Dynamic Guides","Main","Alt+Shift+D","Align objects with other objects by using dynamic guidelines.",
-"Edit Text...","Main","Ctrl+Shift+T","Modify text by using a text editor.",
-"Edit column starting value","Print Merge","Ctrl+S","Edit number starting value (Ctrl+S)",
-"Edit ending value","Print Merge","Ctrl+E","Edit number ending value (Ctrl+E)",
-"Ellipse","Main","F7","Draw circles and ellipses by dragging in the drawing window.",
-"Em Dash","Table Text Editing","Alt+_","Em Dash",
-"Em Dash","Text Editing","Alt+_","Em Dash",
-"Em Space","Table Text Editing","Ctrl+Shift+M","Em Space",
-"Em Space","Text Editing","Ctrl+Shift+M","Em Space",
-"En Dash","Table Text Editing","Alt+-","En Dash",
-"En Dash","Text Editing","Alt+-","En Dash",
-"En Space","Table Text Editing","Ctrl+Shift+N","En Space",
-"En Space","Text Editing","Ctrl+Shift+N","En Space",
-"Envelope","Main","Ctrl+F7","Envelope Docker Window",
-"Eraser","Main","X","Remove unwanted areas in a drawing.",
-"Exit","Main","Alt+F4","Exit",
-"Expand Selection","Table Editing","Ctrl+A","Expand Selection",
-"Expand Selection","Table Text Editing","Ctrl+A","Expand Selection",
-"Export...","Main","Ctrl+E","Save a duplicate of the document to a different file format.",
-"Find and Replace","Main","Ctrl+F","Find and Replace",
-"Find and Replace Text...","Table Text Editing","Alt+F3","Find and Replace Text",
-"Finish Editing Symmetry","Main","Alt+Shift+E","Exit the Edit Symmetry mode.",
-"Font List","Table Text Editing","Ctrl+Shift+F","Choose a typeface for new or selected text.",
-"Font List","Text Editing","Ctrl+Shift+F","Choose a typeface for new or selected text.",
-"Font Size","Table Text Editing","Ctrl+Shift+P","Specify the font size.",
-"Font Size Decrease","Main","Ctrl+NUMPAD2","Font Size Decrease",
-"Font Size Decrease","Table Text Editing","Ctrl+NUMPAD2","Font Size Decrease",
-"Font Size Decrease","Text Editing","Ctrl+NUMPAD2","Font Size Decrease",
-"Font Size Increase","Main","Ctrl+NUMPAD8","Font Size Increase",
-"Font Size Increase","Table Text Editing","Ctrl+NUMPAD8","Font Size Increase",
-"Font Size Increase","Text Editing","Ctrl+NUMPAD8","Font Size Increase",
-"Font Size Next Combo Size","Main","Ctrl+NUMPAD6","Font Size Next Combo Size",
-"Font Size Next Combo Size","Table Text Editing","Ctrl+NUMPAD6","Font Size Next Combo Size",
-"Font Size Next Combo Size","Text Editing","Ctrl+NUMPAD6","Font Size Next Combo Size",
-"Font Size Previous Combo Size","Main","Ctrl+NUMPAD4","Font Size Previous Combo Size",
-"Font Size Previous Combo Size","Table Text Editing","Ctrl+NUMPAD4","Font Size Previous Combo Size",
-"Font Size Previous Combo Size","Text Editing","Ctrl+NUMPAD4","Font Size Previous Combo Size",
-"Font Style","Table Text Editing","Ctrl+Shift+W","Choose a font style for the text.",
-"Font Style","Text Editing","Ctrl+Shift+W","Choose a font style for the text.",
-"Force Justify","Table Text Editing","Ctrl+H","Align all text with both the left and right sides of the bounding box. ",
-"Force Justify","Text Editing","Ctrl+H","Align all text with both the left and right sides of the bounding box. ",
-"Forward One","Main","Ctrl+PgUp","Move object one level up in the stacking order.",
-"Fountain Fill","Main","F11","Fill an object with a gradient of colors or shades.",
-"Freehand","Main","F5","Draw curves and straight line segments.",
-"Full Justify","Table Text Editing","Ctrl+J","Align all text, excluding the last line, with both the left and right sides of the bounding box.",
-"Full Justify","Text Editing","Ctrl+J","Align all text, excluding the last line, with both the left and right sides of the bounding box.",
-"Full Screen","Print Preview","Ctrl+U","Full Screen",
-"Full Screen","Print Preview","F9","Full Screen",
-"Full-screen Preview","Main","F9","Show a full-screen preview of the document.",
-"General...","Print Preview","Ctrl+E","General...",
-"Glyphs","Main","Ctrl+F11","Explore characters, glyphs, and OpenType features within fonts.",
-"Go To...","Print Preview","Ctrl+G","Go To...",
-"Graph Paper","Main","D","Draw a grid.",
-"Group","Main","Ctrl+G","Group objects while preserving their individual attributes.",
-"Guidelines","Main","","Align objects with guidelines in the document.",
-"HTML Font Size List","Text Editing","Ctrl+Shift+H","HTML Font Size List",
-"Help Topics...","Print Preview","Ctrl+F1","Help Topics...",
-"Hide","Main","Ctrl+3","Hide object",
-"Horizontal Text","Main","Ctrl+,","Changes the text to horizontal direction",
-"Hue/Saturation/Lightness...","Main","Ctrl+Shift+U","Hue/Saturation/Lightness",
-"Import File...","Print Merge","Ctrl+M","Import File...",
-"Import...","Main","Ctrl+I","Import a file into the active document.",
-"Interactive Fill","Main","G","Dynamically apply the current fill to an object in the drawing window.",
-"Italic","Table Text Editing","Ctrl+I","Make the text italic.",
-"Italic","Text Editing","Ctrl+I","Make the text italic.",
-"Join Curves","Main","Ctrl+Shift+J","Join Curves",
-"Knife","Main","K","Slice an object to split it into two separate objects, either directly, with a gap, or an overlap.",
-"Layout...","Print Preview","Ctrl+L","Layout...",
-"Left","Table Text Editing","Ctrl+L","Align text with the left side of the bounding box.",
-"Left","Text Editing","Ctrl+L","Align text with the left side of the bounding box.",
-"Lens","Main","Alt+F3","Lens Docker Window",
-"LiveSketch","Main","S","Sketch naturally and fluidly with intelligent stroke adjustment.",
-"Lock","Main","Ctrl+2","Disable editing on selected objects.",
-"Merge Cells","Table Editing","Ctrl+M","Merge cells into one cell.",
-"Mesh Fill","Main","M","Fill an object by blending multiple colors or shades arranged over a mesh grid.",
-"Micro Nudge Anchor Down","Anchor Editing","Ctrl+DnArrow","Micro Nudge Anchor Down",
-"Micro Nudge Anchor Left","Anchor Editing","Ctrl+LeftArrow","Micro Nudge Anchor Left",
-"Micro Nudge Anchor Right","Anchor Editing","Ctrl+RightArrow","Micro Nudge Anchor Right",
-"Micro Nudge Anchor Up","Anchor Editing","Ctrl+UpArrow","Micro Nudge Anchor Up",
-"Micro Nudge Down","Main","Ctrl+DnArrow","Micro Nudge Down",
-"Micro Nudge Left","Main","Ctrl+LeftArrow","Micro Nudge Left",
-"Micro Nudge Right","Main","Ctrl+RightArrow","Micro Nudge Right",
-"Micro Nudge Up","Main","Ctrl+UpArrow","Micro Nudge Up",
-"Mirror Symmetry","Main","Alt+Shift+M","Create identical shapes mirrored on a set of planes.",
-"Move Down","Table Editing","DnArrow","Move Down",
-"Move Down 1 Frame","Table Text Editing","PgDn","Move Down 1 Frame",
-"Move Down 1 Frame","Text Editing","PgDn","Move Down 1 Frame",
-"Move Down 1 Line","Table Text Editing","DnArrow","Move Down 1 Line",
-"Move Down 1 Line","Text Editing","DnArrow","Move Down 1 Line",
-"Move Down 1 Paragraph","Table Text Editing","Ctrl+DnArrow","Move Down 1 Paragraph",
-"Move Down 1 Paragraph","Text Editing","Ctrl+DnArrow","Move Down 1 Paragraph",
-"Move Left","Table Editing","LeftArrow","Move Left",
-"Move Left 1 Character","Table Text Editing","LeftArrow","Move Left 1 Character",
-"Move Left 1 Character","Text Editing","LeftArrow","Move Left 1 Character",
-"Move Left 1 Word","Table Text Editing","Ctrl+LeftArrow","Move Left 1 Word",
-"Move Left 1 Word","Text Editing","Ctrl+LeftArrow","Move Left 1 Word",
-"Move Right","Table Editing","RightArrow","Move Right",
-"Move Right 1 Character","Table Text Editing","RightArrow","Move Right 1 Character",
-"Move Right 1 Character","Text Editing","RightArrow","Move Right 1 Character",
-"Move Right 1 Word","Table Text Editing","Ctrl+RightArrow","Move Right 1 Word",
-"Move Right 1 Word","Text Editing","Ctrl+RightArrow","Move Right 1 Word",
-"Move Up","Table Editing","UpArrow","Move Up",
-"Move Up 1 Frame","Table Text Editing","PgUp","Move Up 1 Frame",
-"Move Up 1 Frame","Text Editing","PgUp","Move Up 1 Frame",
-"Move Up 1 Line","Table Text Editing","UpArrow","Move Up 1 Line",
-"Move Up 1 Line","Text Editing","UpArrow","Move Up 1 Line",
-"Move Up 1 Paragraph","Table Text Editing","Ctrl+UpArrow","Move Up 1 Paragraph",
-"Move Up 1 Paragraph","Text Editing","Ctrl+UpArrow","Move Up 1 Paragraph",
-"Move to Beginning of Frame","Table Text Editing","Ctrl+Home","Move to Beginning of Frame",
-"Move to Beginning of Frame","Text Editing","Ctrl+Home","Move to Beginning of Frame",
-"Move to Beginning of Line","Table Text Editing","Home","Move to Beginning of Line",
-"Move to Beginning of Line","Text Editing","Home","Move to Beginning of Line",
-"Move to Beginning of Text","Table Text Editing","Ctrl+PgUp","Move to Beginning of Text",
-"Move to Beginning of Text","Text Editing","Ctrl+PgUp","Move to Beginning of Text",
-"Move to End of Frame","Table Text Editing","Ctrl+End","Move to End of Frame",
-"Move to End of Frame","Text Editing","Ctrl+End","Move to End of Frame",
-"Move to End of Line","Table Text Editing","End","Move to End of Line",
-"Move to End of Line","Text Editing","End","Move to End of Line",
-"Move to End of Text","Table Text Editing","Ctrl+PgDn","Move to End of Text",
-"Move to End of Text","Text Editing","Ctrl+PgDn","Move to End of Text",
-"Navigator","Main","N","Navigator",
-"New...","Main","Ctrl+N","Start a new document.",
-"Next Page","Main","PgDn","Next Page",
-"Non-breaking Hyphen","Table Text Editing","Ctrl+Shift+-","Non-breaking Hyphen",
-"Non-breaking Hyphen","Table Text Editing","Ctrl+_","Non-breaking Hyphen",
-"Non-breaking Hyphen","Text Editing","Ctrl+Shift+-","Non-breaking Hyphen",
-"Non-breaking Hyphen","Text Editing","Ctrl+_","Non-breaking Hyphen",
-"Non-breaking Space","Table Text Editing","Ctrl+Shift+Space","Non-breaking Space",
-"Non-breaking Space","Text Editing","Ctrl+Shift+Space","Non-breaking Space",
-"None","Table Text Editing","Ctrl+N","Do not align text with the bounding box.",
-"None","Text Editing","Ctrl+N","Do not align text with the bounding box.",
-"Nudge Anchor Down","Anchor Editing","DnArrow","Nudge Anchor Down",
-"Nudge Anchor Left","Anchor Editing","LeftArrow","Nudge Anchor Left",
-"Nudge Anchor Right","Anchor Editing","RightArrow","Nudge Anchor Right",
-"Nudge Anchor Up","Anchor Editing","UpArrow","Nudge Anchor Up",
-"Nudge Down","Main","DnArrow","Nudge Down",
-"Nudge Left","Main","LeftArrow","Nudge Left",
-"Nudge Right","Main","RightArrow","Nudge Right",
-"Nudge Up","Main","UpArrow","Nudge Up",
-"Object Styles","Main","Ctrl+F5","Open the Object Styles docker.",
-"Objects","Main","Alt+Z","Align objects with other objects in the document.",
-"Open ODBC Data Source...","Print Merge","Ctrl+O","Open ODBC Data Source...",
-"Open...","Main","Ctrl+O","Open an existing document by browsing to the folder where the document is located.",
-"Optional Hyphen","Table Text Editing","Ctrl+-","Optional Hyphen",
-"Optional Hyphen","Text Editing","Ctrl+-","Optional Hyphen",
-"Outline Color","Main","Shift+F12","Choose the outline color by using color viewers and color palettes.",
-"Outline Pen","Main","F12","Set outline properties such as line thickness, corner shape, and arrow type.",
-"Pan","Main","Space","Drag hidden areas of a drawing into view without changing the zoom level.",
-"Pan Down","Main","Alt+DnArrow","Pan Down",
-"Pan Left","Main","Alt+LeftArrow","Pan Left",
-"Pan Right","Main","Alt+RightArrow","Pan Right",
-"Pan Up","Main","Alt+UpArrow","Pan Up",
-"Paste","Main","Ctrl+V","Place the Clipboard contents in the document.",
-"Paste","Main","Shift+Insert","Place the Clipboard contents in the document.",
-"Paste in View","Main","Ctrl+Shift+V","Paste in View",
-"Pen","Main","P","Draw curves in segments, and preview each segment as you draw.",
-"Pick","Main","Esc","Select, position, or transform objects.",
-"Pick","Main","V","Select, position, or transform objects.",
-"Polygon","Main","Y","Draw polygons by dragging in the drawing window.",
-"Polyline","Main","Alt+P","Draw connected curves and straight lines in one continuous action.",
-"Preflight...","Print Preview","Ctrl+I","Preflight...",
-"Prepress...","Print Preview","Ctrl+M","Prepress...",
-"Previous Page","Main","PgUp","Previous Page",
-"Print","Print Preview","Ctrl+P","Print",
-"Print Options","Print Preview","Alt+O","Print Options",
-"Print This Sheet Now","Print Preview","Ctrl+T","Print This Sheet Now",
-"Print...","Main","Ctrl+P","Choose printing options, and print the active document.",
-"Properties","Main","Alt+Enter","Allows the properties of an object to be viewed and edited.",
-"Recall Selection Group 0","Main","0","Recall Selection Group 0",
-"Recall Selection Group 1","Main","1","Recall Selection Group 1",
-"Recall Selection Group 2","Main","2","Recall Selection Group 2",
-"Recall Selection Group 3","Main","3","Recall Selection Group 3",
-"Recall Selection Group 4","Main","4","Recall Selection Group 4",
-"Recall Selection Group 5","Main","5","Recall Selection Group 5",
-"Recall Selection Group 6","Main","6","Recall Selection Group 6",
-"Recall Selection Group 7","Main","7","Recall Selection Group 7",
-"Recall Selection Group 8","Main","8","Recall Selection Group 8",
-"Recall Selection Group 9","Main","9","Recall Selection Group 9",
-"Record Temporary Script","Main","Ctrl+Shift+R","Record Temporary Script",
-"Rectangle","Main","F6","Draw squares and rectangles by dragging in the drawing window.",
-"Redo %s","Main","Ctrl+Shift+Z","Reapply the last undone action.",
-"Refresh Window","Main","Ctrl+W","Redraw",
-"Remove Symmetry","Main","Alt+Shift+S","Revert primary objects to basic objects, and delete all object copies.",
-"Repeat %s","Main","Ctrl+R","Repeat",
-"Right","Table Text Editing","Ctrl+R","Align text with the right side of the bounding box.",
-"Right","Text Editing","Ctrl+R","Align text with the right side of the bounding box.",
-"Rotate","Main","Alt+F8","Specify the object's rotation.",
-"Rulers","Main","Alt+Shift+R","Show or hide the rulers.",
-"Rulers","Print Preview","Ctrl+R","Rulers",
-"Run Temporary Script","Main","Ctrl+Shift+P","Run Temporary Script",
-"Sample Mesh Fill Color","Main","Ctrl+Shift+E","Sample a color from the desktop to apply to the selected nodes.",
-"Save As...","Main","Ctrl+Shift+S","Save As...",
-"Save Data Source...","Print Merge","Ctrl+S","Save Data Source...",
-"Save Print Style As...","Print Preview","Ctrl+A","Save Print Style As...",
-"Save Print Style As...","Print Preview","F12","Save Print Style As...",
-"Save...","Main","Ctrl+S","Save the active document.",
-"Scale and mirror","Main","Alt+F9","Resize the object by specifying a percentage, and mirror the object.",
-"Script Editor...","Main","Alt+F11","Open a script for VBA editing.",
-"Scripts","Main","Alt+Shift+F11","Create, load, and manage script projects.",
-"Select All Anchors","Anchor Editing","Ctrl+A","Select All Anchors",
-"Select Down","Table Editing","Shift+DnArrow","Select Down",
-"Select Down 1 Frame","Table Text Editing","Shift+PgDn","Select Down 1 Frame",
-"Select Down 1 Frame","Text Editing","Shift+PgDn","Select Down 1 Frame",
-"Select Down 1 Line","Table Text Editing","Shift+DnArrow","Select Down 1 Line",
-"Select Down 1 Line","Text Editing","Shift+DnArrow","Select Down 1 Line",
-"Select Down 1 Paragraph","Table Text Editing","Ctrl+Shift+DnArrow","Select Down 1 Paragraph",
-"Select Down 1 Paragraph","Text Editing","Ctrl+Shift+DnArrow","Select Down 1 Paragraph",
-"Select Left","Table Editing","Shift+LeftArrow","Select Left",
-"Select Left 1 Character","Table Text Editing","Shift+LeftArrow","Select Left 1 Character",
-"Select Left 1 Character","Text Editing","Shift+LeftArrow","Select Left 1 Character",
-"Select Left 1 Word","Table Text Editing","Ctrl+Shift+LeftArrow","Select Left 1 Word",
-"Select Left 1 Word","Text Editing","Ctrl+Shift+LeftArrow","Select Left 1 Word",
-"Select Right","Table Editing","Shift+RightArrow","Select Right",
-"Select Right 1 Character","Table Text Editing","Shift+RightArrow","Select Right 1 Character",
-"Select Right 1 Character","Text Editing","Shift+RightArrow","Select Right 1 Character",
-"Select Right 1 Word","Table Text Editing","Ctrl+Shift+RightArrow","Select Right 1 Word",
-"Select Right 1 Word","Text Editing","Ctrl+Shift+RightArrow","Select Right 1 Word",
-"Select Up","Table Editing","Shift+UpArrow","Select Up",
-"Select Up 1 Frame","Table Text Editing","Shift+PgUp","Select Up 1 Frame",
-"Select Up 1 Frame","Text Editing","Shift+PgUp","Select Up 1 Frame",
-"Select Up 1 Line","Table Text Editing","Shift+UpArrow","Select Up 1 Line",
-"Select Up 1 Line","Text Editing","Shift+UpArrow","Select Up 1 Line",
-"Select Up 1 Paragraph","Table Text Editing","Ctrl+Shift+UpArrow","Select Up 1 Paragraph",
-"Select Up 1 Paragraph","Text Editing","Ctrl+Shift+UpArrow","Select Up 1 Paragraph",
-"Select all objects","Main","Ctrl+A","Select all objects",
-"Select to Beginning of Frame","Table Text Editing","Ctrl+Shift+Home","Select to Beginning of Frame",
-"Select to Beginning of Frame","Text Editing","Ctrl+Shift+Home","Select to Beginning of Frame",
-"Select to Beginning of Line","Table Text Editing","Shift+Home","Select to Beginning of Line",
-"Select to Beginning of Line","Text Editing","Shift+Home","Select to Beginning of Line",
-"Select to Beginning of Text","Table Text Editing","Ctrl+Shift+PgUp","Select to Beginning of Text",
-"Select to Beginning of Text","Text Editing","Ctrl+Shift+PgUp","Select to Beginning of Text",
-"Select to End of Frame","Table Text Editing","Ctrl+Shift+End","Select to End of Frame",
-"Select to End of Frame","Text Editing","Ctrl+Shift+End","Select to End of Frame",
-"Select to End of Line","Table Text Editing","Shift+End","Select to End of Line",
-"Select to End of Line","Text Editing","Shift+End","Select to End of Line",
-"Select to End of Text","Table Text Editing","Ctrl+Shift+PgDn","Select to End of Text",
-"Select to End of Text","Text Editing","Ctrl+Shift+PgDn","Select to End of Text",
-"Separations...","Print Preview","Ctrl+S","Separations...",
-"Shape","Main","F10","Edit a curve object or text character by manipulating nodes.",
-"Shape","Main","A","Edit a curve object or text character by manipulating nodes.",
-"Show All","Main","Ctrl+Alt+3","Show all objects",
-"Show Current Tile","Print Preview","Ctrl+H","Show Current Tile",
-"Show Non-Printing Characters","Table Text Editing","Ctrl+Shift+C","Non-printing Characters",
-"Show Non-Printing Characters","Text Editing","Ctrl+Shift+C","Non-printing Characters",
-"Show full preview","Main","Alt+Shift+P","Show object copies as outlines or full objects.",
-"Show unselected nodes with fill","Main","Ctrl+Shift+G","Show unselected nodes with fill",
-"Size","Main","Alt+F10","Specify the dimensions of the object.",
-"Small Capitals","Table Text Editing","Ctrl+Shift+K","Small Capitals",
-"Small Capitals","Text Editing","Ctrl+Shift+K","Small Capitals",
-"Smart Drawing","Main","Shift+S","Convert freehand strokes to basic shapes or smoothed curves.",
-"Smooth","Main","Shift+A","Smooth object by dragging along its outline.",
-"Snap Off","Main","Alt+Q","Turn off all snapping. Click again to restore selected snapping options.",
-"Spell Check...","Main","Ctrl+F12","Spelling",
-"Step and Repeat","Main","Ctrl+Shift+D","Show Step and Repeat docker",
-"Stop Recording","Main","Ctrl+Shift+O","Stop recording the script.",
-"Style List","Table Text Editing","Ctrl+Shift+S","Style List",
-"Style List","Text Editing","Ctrl+Shift+S","Style List",
-"Super Nudge Anchor Down","Anchor Editing","Shift+DnArrow","Super Nudge Anchor Down",
-"Super Nudge Anchor Left","Anchor Editing","Shift+LeftArrow","Super Nudge Anchor Left",
-"Super Nudge Anchor Right","Anchor Editing","Shift+RightArrow","Super Nudge Anchor Right",
-"Super Nudge Anchor Up","Anchor Editing","Shift+UpArrow","Super Nudge Anchor Up",
-"Super Nudge Down","Main","Shift+DnArrow","Super Nudge Down",
-"Super Nudge Left","Main","Shift+LeftArrow","Super Nudge Left",
-"Super Nudge Right","Main","Shift+RightArrow","Super Nudge Right",
-"Super Nudge Up","Main","Shift+UpArrow","Super Nudge Up",
-"Symbols","Main","Ctrl+F3","Symbols Docker",
-"Table","Table Editing","Delete","Delete the selected table",
-"Text","Main","Ctrl+T","Edit paragraph and artistic text properties.",
-"Text","Main","F8","Add and edit paragraph and artistic text.",
-"Text","Table Text Editing","Ctrl+F10","Text Options",
-"Text","Text Editing","Ctrl+F10","Text Options",
-"To Back of Layer","Main","Shift+PgDn","Move object to the bottom of the stacking order.",
-"To Back of Page","Main","Ctrl+End","Move the object to the back of the page.",
-"To Front of Layer","Main","Shift+PgUp","Move object to the top of the stacking order.",
-"To Front of Page","Main","Ctrl+Home","Move the object to the front of the page.",
-"Toggle Cusp and Smooth","Curve Editing","C","Toggle the selected nodes between cusp and smooth.",
-"Toggle Line","Curve Editing","L","Toggle the selected nodes between a line and curve segment.",
-"Toggle Pick State","Main","Ctrl+Space","Toggle Pick State",
-"Toggle Smooth and Symmetrical","Curve Editing","S","Toggle the selected nodes between smooth and symmetrical.",
-"Toggle View","Main","Shift+F9","Toggle View",
-"Toggle preview colors","Main","Ctrl+Shift+I","Switch between the main and the secondary preview color.",
-"Transform","Main","Alt+F7","Specify the object's position on the drawing page.",
-"Underline","Table Text Editing","Ctrl+U","Underline the text.",
-"Underline","Text Editing","Ctrl+U","Underline the text.",
-"Undo %s","Main","Ctrl+Z","Cancel the previous action.",
-"Undo %s","Main","Alt+Backspace","Cancel the previous action.",
-"Ungroup","Main","Ctrl+U","Break a group into individual objects or groups.",
-"Uniform Fill","Main","Shift+F11","Choose a solid fill color for an object by using color palettes, color viewers, color harmonies, or color blends.",
-"Unlock All","Main","Ctrl+Alt+2","Enable editing on all objects.",
-"Use bullets","Main","Ctrl+M","Add or remove a bulleted-list format.",
-"Use drop cap","Table Text Editing","Ctrl+Shift+D","Add or remove a drop cap.",
-"Use drop cap","Text Editing","Ctrl+Shift+D","Add or remove a drop cap.",
-"Vertical Text","Main","Ctrl+.","Changes the text to vertical",
-"View Single Record","Print Merge","Ctrl+V","View Single Record",
-"Views","Main","Ctrl+F2","Views docker",
-"Virtual Segment Delete","Main","Shift+K","Remove overlapping segments in objects.",
-"Visual Studio Editor...","Main","Alt+Shift+F12","Visual Studio Editor...",
-"What's This?","Main","Shift+F1","Invokes context sensitive Help",
-"Zoom","Main","Z","Change the magnification level of the document window.",
-"Zoom In","Main","Ctrl++","Increase the magnification level to view more detail.",
-"Zoom In","Main","Ctrl+NUMPAD+","Increase the magnification level to view more detail.",
-"Zoom In","Main","Ctrl+=","Increase the magnification level to view more detail.",
-"Zoom In","Print Preview","Ctrl++","Zoom In",
-"Zoom In","Print Preview","Ctrl+NUMPAD+","Zoom In",
-"Zoom In","Print Preview","Ctrl+=","Zoom In",
-"Zoom One-Shot","Main","F2","Zoom One-Shot",
-"Zoom Out","Main","Ctrl+-","Decrease the magnification level to view a larger portion of the document.",
-"Zoom Out","Main","F3","Decrease the magnification level to view a larger portion of the document.",
-"Zoom Out","Main","Ctrl+NUMPAD-","Decrease the magnification level to view a larger portion of the document.",
-"Zoom Out","Main","Ctrl+_","Decrease the magnification level to view a larger portion of the document.",
-"Zoom Out","Print Preview","F3","Zoom Out",
-"Zoom Out","Print Preview","Ctrl+-","Zoom Out",
-"Zoom Out","Print Preview","Ctrl+NUMPAD-","Zoom Out",
-"Zoom Out","Print Preview","Ctrl+_","Zoom Out",
-"Zoom To Fit","Main","F4","Adjust the magnification level to include all objects",
-"Zoom To Fit","Main","Ctrl+0","Adjust the magnification level to include all objects",
-"Zoom To Page","Main","Shift+F4","Adjust the magnification level to fit the entire page.",
-"Zoom To Selection","Main","Shift+F2","Magnify only the selected object.",
-"Zoom to Fit","Print Preview","F4","Zoom to Fit",
-"Zoom to Page","Print Preview","Shift+F4","Zoom to Page",
-"Zoom to Selection","Print Preview","Shift+F2","Zoom to Selection",
-"¼ Em Space","Table Text Editing","Ctrl+Alt+Space","¼ Em Space",
-"¼ Em Space","Text Editing","Ctrl+Alt+Space","¼ Em Space",
+﻿2-Point Line,Main,Alt+L,Draw a straight line by drawing from the starting point to the endpoint.
+Add Column...,Print Merge,Ctrl+A,Add Column...
+Add column ending value,Print Merge,Ctrl+E,Add number ending value (Ctrl+E)
+Add column starting vlue,Print Merge,Ctrl+S,Add number starting vlue (Ctrl+S)
+Add to Selection Group 0,Main,Alt+0,Add to Selection Group 0
+Add to Selection Group 1,Main,Alt+1,Add to Selection Group 1
+Add to Selection Group 2,Main,Alt+2,Add to Selection Group 2
+Add to Selection Group 3,Main,Alt+3,Add to Selection Group 3
+Add to Selection Group 4,Main,Alt+4,Add to Selection Group 4
+Add to Selection Group 5,Main,Alt+5,Add to Selection Group 5
+Add to Selection Group 6,Main,Alt+6,Add to Selection Group 6
+Add to Selection Group 7,Main,Alt+7,Add to Selection Group 7
+Add to Selection Group 8,Main,Alt+8,Add to Selection Group 8
+Add to Selection Group 9,Main,Alt+9,Add to Selection Group 9
+Align Bottom,Main,B,Align Bottom
+Align Centers Horizontally,Main,C,Align Centers Horizontally
+Align Centers Vertically,Main,E,Align Centers Vertically
+Align Left,Main,L,Align Left
+Align Right,Main,R,Align Right
+Align Top,Main,T,Align Top
+Align and Distribute,Main,Ctrl+Shift+A,Precisely position objects in relation to each other or to specific locations on the page.
+Align to Baseline,Main,Alt+F12,Align to Baseline
+Alignment Guides,Main,Alt+Shift+A,Enable or disable alignment guides.
+Artistic Media,Main,I,"Add artistic brush, spray, and calligraphic effects by using freehand strokes."
+B-Spline,Main,Alt+B,Draw curved lines by setting control points that shape the curve without breaking it into segments.
+Back One,Main,Ctrl+PgDn,Move object one level down in the stacking order.
+Bold,Table Text Editing,Ctrl+B,Make the text bold.
+Bold,Text Editing,Ctrl+B,Make the text bold.
+Break Apart,Main,Ctrl+K,Break the object apart to create multiple objects and paths.
+Break Symmetry Link,Main,Alt+X,Break the symmetry link to create a group of objects and paths.
+Brightness/Contrast/Intensity...,Main,Ctrl+B,Brightness/Contrast/Intensity
+Bring up Property Bar,Main,Ctrl+Enter,Bring up Property Bar
+Bézier,Main,Alt+Shift+B,Draw curves one segment at a time.
+Center,Table Text Editing,Ctrl+E,Center text within the bounding box.
+Center,Text Editing,Ctrl+E,Center text within the bounding box.
+Change Case...,Table Text Editing,Shift+F3,Change Case
+Change Case...,Text Editing,Shift+F3,Change Case
+Close Print Preview,Print Preview,Alt+C,Close Print Preview
+Close Print Preview,Print Preview,Alt+F4,Close Print Preview
+Close Window,Main,Ctrl+F4,Close Window
+Color Balance...,Main,Ctrl+Shift+B,Color Balance
+Color Styles,Main,Ctrl+F6,Open the Color Styles docker.
+Column/Frame Break,Table Text Editing,Ctrl+Enter,Column/Frame Break
+Column/Frame Break,Text Editing,Ctrl+Enter,Column/Frame Break
+Combine,Main,Ctrl+L,Combine  objects into a single object with common properties.
+Configure Columns,Print Merge,Ctrl+D,Configure Columns
+Continually increment value,Print Merge,Ctrl+C,Continually increment value
+Continually increment value,Print Merge,Ctrl+C,Continually increment value
+Contour,Main,Ctrl+F9,Contour Docker Window
+Convert,Main,Ctrl+F8,Convert Text
+Convert Outline to Object,Main,Ctrl+Shift+Q,Convert outline to object
+Convert to Curves,Main,Ctrl+Q,Allow the object to be modified by using the shape tools.
+Copy,Main,Ctrl+C,Place copies of one or more objects on the Clipboard.
+Copy,Main,Ctrl+Insert,Place copies of one or more objects on the Clipboard.
+CorelDRAW...,Main,Ctrl+J,CorelDRAW Options
+Create New Symmetry,Main,Alt+S,"Create and add objects to a symmetry group, or convert an existing curve to a symmetry group."
+Crop,Main,Shift+C,Remove the areas outside a selection.
+Cut,Main,Ctrl+X,Move one or more objects to the Clipboard.
+Cut,Main,Shift+Delete,Move one or more objects to the Clipboard.
+Define Selection Group 1,Main,Ctrl+1,Define Selection Group 1
+Define Selection Group 4,Main,Ctrl+4,Define Selection Group 4
+Define Selection Group 5,Main,Ctrl+5,Define Selection Group 5
+Define Selection Group 6,Main,Ctrl+6,Define Selection Group 6
+Define Selection Group 7,Main,Ctrl+7,Define Selection Group 7
+Define Selection Group 8,Main,Ctrl+8,Define Selection Group 8
+Define Selection Group 9,Main,Ctrl+9,Define Selection Group 9
+Delete,Main,Delete,Delete
+Delete,Main,Backspace,Delete
+Delete,Main,Alt+E,Delete
+Delete Character to Right,Table Text Editing,Delete,Delete Character to Right
+Delete Character to Right,Text Editing,Delete,Delete Character to Right
+Delete Word to Right,Table Text Editing,Ctrl+Delete,Delete Word to Right
+Delete Word to Right,Text Editing,Ctrl+Delete,Delete Word to Right
+Distribute Bottom,Main,Shift+B,Distribute Bottom
+Distribute Centers Horizontally,Main,Shift+E,Distribute Centers Horizontally
+Distribute Left,Main,Shift+L,Distribute Left
+Distribute Right,Main,Shift+R,Distribute Right
+Distribute Spacing Horizontally,Main,Shift+P,Distribute Spacing Horizontally
+Distribute Top,Main,Shift+T,Distribute Top
+Document Grid,Main,Alt+Y,Align objects with the document grid.
+Duplexing Setup Wizard...,Print Preview,Ctrl+D,Duplexing Setup Wizard...
+Duplicate,Main,Ctrl+D,Duplicate
+Dynamic Guides,Main,Alt+Shift+D,Align objects with other objects by using dynamic guidelines.
+Edit Text...,Main,Ctrl+Shift+T,Modify text by using a text editor.
+Edit column starting value,Print Merge,Ctrl+S,Edit number starting value (Ctrl+S)
+Edit ending value,Print Merge,Ctrl+E,Edit number ending value (Ctrl+E)
+Ellipse,Main,F7,Draw circles and ellipses by dragging in the drawing window.
+Em Dash,Table Text Editing,Alt+_,Em Dash
+Em Dash,Text Editing,Alt+_,Em Dash
+Em Space,Table Text Editing,Ctrl+Shift+M,Em Space
+Em Space,Text Editing,Ctrl+Shift+M,Em Space
+En Dash,Table Text Editing,Alt+-,En Dash
+En Dash,Text Editing,Alt+-,En Dash
+En Space,Table Text Editing,Ctrl+Shift+N,En Space
+En Space,Text Editing,Ctrl+Shift+N,En Space
+Envelope,Main,Ctrl+F7,Envelope Docker Window
+Eraser,Main,X,Remove unwanted areas in a drawing.
+Exit,Main,Alt+F4,Exit
+Expand Selection,Table Editing,Ctrl+A,Expand Selection
+Expand Selection,Table Text Editing,Ctrl+A,Expand Selection
+Export...,Main,Ctrl+E,Save a duplicate of the document to a different file format.
+Find and Replace,Main,Ctrl+F,Find and Replace
+Find and Replace Text...,Table Text Editing,Alt+F3,Find and Replace Text
+Finish Editing Symmetry,Main,Alt+Shift+E,Exit the Edit Symmetry mode.
+Font List,Table Text Editing,Ctrl+Shift+F,Choose a typeface for new or selected text.
+Font List,Text Editing,Ctrl+Shift+F,Choose a typeface for new or selected text.
+Font Size,Table Text Editing,Ctrl+Shift+P,Specify the font size.
+Font Size Decrease,Main,Ctrl+NUMPAD2,Font Size Decrease
+Font Size Decrease,Table Text Editing,Ctrl+NUMPAD2,Font Size Decrease
+Font Size Decrease,Text Editing,Ctrl+NUMPAD2,Font Size Decrease
+Font Size Increase,Main,Ctrl+NUMPAD8,Font Size Increase
+Font Size Increase,Table Text Editing,Ctrl+NUMPAD8,Font Size Increase
+Font Size Increase,Text Editing,Ctrl+NUMPAD8,Font Size Increase
+Font Size Next Combo Size,Main,Ctrl+NUMPAD6,Font Size Next Combo Size
+Font Size Next Combo Size,Table Text Editing,Ctrl+NUMPAD6,Font Size Next Combo Size
+Font Size Next Combo Size,Text Editing,Ctrl+NUMPAD6,Font Size Next Combo Size
+Font Size Previous Combo Size,Main,Ctrl+NUMPAD4,Font Size Previous Combo Size
+Font Size Previous Combo Size,Table Text Editing,Ctrl+NUMPAD4,Font Size Previous Combo Size
+Font Size Previous Combo Size,Text Editing,Ctrl+NUMPAD4,Font Size Previous Combo Size
+Font Style,Table Text Editing,Ctrl+Shift+W,Choose a font style for the text.
+Font Style,Text Editing,Ctrl+Shift+W,Choose a font style for the text.
+Force Justify,Table Text Editing,Ctrl+H,Align all text with both the left and right sides of the bounding box. 
+Force Justify,Text Editing,Ctrl+H,Align all text with both the left and right sides of the bounding box. 
+Forward One,Main,Ctrl+PgUp,Move object one level up in the stacking order.
+Fountain Fill,Main,F11,Fill an object with a gradient of colors or shades.
+Freehand,Main,F5,Draw curves and straight line segments.
+Full Justify,Table Text Editing,Ctrl+J,"Align all text, excluding the last line, with both the left and right sides of the bounding box."
+Full Justify,Text Editing,Ctrl+J,"Align all text, excluding the last line, with both the left and right sides of the bounding box."
+Full Screen,Print Preview,Ctrl+U,Full Screen
+Full Screen,Print Preview,F9,Full Screen
+Full-screen Preview,Main,F9,Show a full-screen preview of the document.
+General...,Print Preview,Ctrl+E,General...
+Glyphs,Main,Ctrl+F11,"Explore characters, glyphs, and OpenType features within fonts."
+Go To...,Print Preview,Ctrl+G,Go To...
+Graph Paper,Main,D,Draw a grid.
+Group,Main,Ctrl+G,Group objects while preserving their individual attributes.
+Guidelines,Main,,Align objects with guidelines in the document.
+HTML Font Size List,Text Editing,Ctrl+Shift+H,HTML Font Size List
+Help Topics...,Print Preview,Ctrl+F1,Help Topics...
+Hide,Main,Ctrl+3,Hide object
+Horizontal Text,Main,"Ctrl+,",Changes the text to horizontal direction
+Hue/Saturation/Lightness...,Main,Ctrl+Shift+U,Hue/Saturation/Lightness
+Import File...,Print Merge,Ctrl+M,Import File...
+Import...,Main,Ctrl+I,Import a file into the active document.
+Interactive Fill,Main,G,Dynamically apply the current fill to an object in the drawing window.
+Italic,Table Text Editing,Ctrl+I,Make the text italic.
+Italic,Text Editing,Ctrl+I,Make the text italic.
+Join Curves,Main,Ctrl+Shift+J,Join Curves
+Knife,Main,K,"Slice an object to split it into two separate objects, either directly, with a gap, or an overlap."
+Layout...,Print Preview,Ctrl+L,Layout...
+Left,Table Text Editing,Ctrl+L,Align text with the left side of the bounding box.
+Left,Text Editing,Ctrl+L,Align text with the left side of the bounding box.
+Lens,Main,Alt+F3,Lens Docker Window
+LiveSketch,Main,S,Sketch naturally and fluidly with intelligent stroke adjustment.
+Lock,Main,Ctrl+2,Disable editing on selected objects.
+Merge Cells,Table Editing,Ctrl+M,Merge cells into one cell.
+Mesh Fill,Main,M,Fill an object by blending multiple colors or shades arranged over a mesh grid.
+Micro Nudge Anchor Down,Anchor Editing,Ctrl+DnArrow,Micro Nudge Anchor Down
+Micro Nudge Anchor Left,Anchor Editing,Ctrl+LeftArrow,Micro Nudge Anchor Left
+Micro Nudge Anchor Right,Anchor Editing,Ctrl+RightArrow,Micro Nudge Anchor Right
+Micro Nudge Anchor Up,Anchor Editing,Ctrl+UpArrow,Micro Nudge Anchor Up
+Micro Nudge Down,Main,Ctrl+DnArrow,Micro Nudge Down
+Micro Nudge Left,Main,Ctrl+LeftArrow,Micro Nudge Left
+Micro Nudge Right,Main,Ctrl+RightArrow,Micro Nudge Right
+Micro Nudge Up,Main,Ctrl+UpArrow,Micro Nudge Up
+Mirror Symmetry,Main,Alt+Shift+M,Create identical shapes mirrored on a set of planes.
+Move Down,Table Editing,DnArrow,Move Down
+Move Down 1 Frame,Table Text Editing,PgDn,Move Down 1 Frame
+Move Down 1 Frame,Text Editing,PgDn,Move Down 1 Frame
+Move Down 1 Line,Table Text Editing,DnArrow,Move Down 1 Line
+Move Down 1 Line,Text Editing,DnArrow,Move Down 1 Line
+Move Down 1 Paragraph,Table Text Editing,Ctrl+DnArrow,Move Down 1 Paragraph
+Move Down 1 Paragraph,Text Editing,Ctrl+DnArrow,Move Down 1 Paragraph
+Move Left,Table Editing,LeftArrow,Move Left
+Move Left 1 Character,Table Text Editing,LeftArrow,Move Left 1 Character
+Move Left 1 Character,Text Editing,LeftArrow,Move Left 1 Character
+Move Left 1 Word,Table Text Editing,Ctrl+LeftArrow,Move Left 1 Word
+Move Left 1 Word,Text Editing,Ctrl+LeftArrow,Move Left 1 Word
+Move Right,Table Editing,RightArrow,Move Right
+Move Right 1 Character,Table Text Editing,RightArrow,Move Right 1 Character
+Move Right 1 Character,Text Editing,RightArrow,Move Right 1 Character
+Move Right 1 Word,Table Text Editing,Ctrl+RightArrow,Move Right 1 Word
+Move Right 1 Word,Text Editing,Ctrl+RightArrow,Move Right 1 Word
+Move Up,Table Editing,UpArrow,Move Up
+Move Up 1 Frame,Table Text Editing,PgUp,Move Up 1 Frame
+Move Up 1 Frame,Text Editing,PgUp,Move Up 1 Frame
+Move Up 1 Line,Table Text Editing,UpArrow,Move Up 1 Line
+Move Up 1 Line,Text Editing,UpArrow,Move Up 1 Line
+Move Up 1 Paragraph,Table Text Editing,Ctrl+UpArrow,Move Up 1 Paragraph
+Move Up 1 Paragraph,Text Editing,Ctrl+UpArrow,Move Up 1 Paragraph
+Move to Beginning of Frame,Table Text Editing,Ctrl+Home,Move to Beginning of Frame
+Move to Beginning of Frame,Text Editing,Ctrl+Home,Move to Beginning of Frame
+Move to Beginning of Line,Table Text Editing,Home,Move to Beginning of Line
+Move to Beginning of Line,Text Editing,Home,Move to Beginning of Line
+Move to Beginning of Text,Table Text Editing,Ctrl+PgUp,Move to Beginning of Text
+Move to Beginning of Text,Text Editing,Ctrl+PgUp,Move to Beginning of Text
+Move to End of Frame,Table Text Editing,Ctrl+End,Move to End of Frame
+Move to End of Frame,Text Editing,Ctrl+End,Move to End of Frame
+Move to End of Line,Table Text Editing,End,Move to End of Line
+Move to End of Line,Text Editing,End,Move to End of Line
+Move to End of Text,Table Text Editing,Ctrl+PgDn,Move to End of Text
+Move to End of Text,Text Editing,Ctrl+PgDn,Move to End of Text
+Navigator,Main,N,Navigator
+New...,Main,Ctrl+N,Start a new document.
+Next Page,Main,PgDn,Next Page
+Non-breaking Hyphen,Table Text Editing,Ctrl+Shift+-,Non-breaking Hyphen
+Non-breaking Hyphen,Table Text Editing,Ctrl+_,Non-breaking Hyphen
+Non-breaking Hyphen,Text Editing,Ctrl+Shift+-,Non-breaking Hyphen
+Non-breaking Hyphen,Text Editing,Ctrl+_,Non-breaking Hyphen
+Non-breaking Space,Table Text Editing,Ctrl+Shift+Space,Non-breaking Space
+Non-breaking Space,Text Editing,Ctrl+Shift+Space,Non-breaking Space
+None,Table Text Editing,Ctrl+N,Do not align text with the bounding box.
+None,Text Editing,Ctrl+N,Do not align text with the bounding box.
+Nudge Anchor Down,Anchor Editing,DnArrow,Nudge Anchor Down
+Nudge Anchor Left,Anchor Editing,LeftArrow,Nudge Anchor Left
+Nudge Anchor Right,Anchor Editing,RightArrow,Nudge Anchor Right
+Nudge Anchor Up,Anchor Editing,UpArrow,Nudge Anchor Up
+Nudge Down,Main,DnArrow,Nudge Down
+Nudge Left,Main,LeftArrow,Nudge Left
+Nudge Right,Main,RightArrow,Nudge Right
+Nudge Up,Main,UpArrow,Nudge Up
+Object Styles,Main,Ctrl+F5,Open the Object Styles docker.
+Objects,Main,Alt+Z,Align objects with other objects in the document.
+Open ODBC Data Source...,Print Merge,Ctrl+O,Open ODBC Data Source...
+Open...,Main,Ctrl+O,Open an existing document by browsing to the folder where the document is located.
+Optional Hyphen,Table Text Editing,Ctrl+-,Optional Hyphen
+Optional Hyphen,Text Editing,Ctrl+-,Optional Hyphen
+Outline Color,Main,Shift+F12,Choose the outline color by using color viewers and color palettes.
+Outline Pen,Main,F12,"Set outline properties such as line thickness, corner shape, and arrow type."
+Pan,Main,Space,Drag hidden areas of a drawing into view without changing the zoom level.
+Pan Down,Main,Alt+DnArrow,Pan Down
+Pan Left,Main,Alt+LeftArrow,Pan Left
+Pan Right,Main,Alt+RightArrow,Pan Right
+Pan Up,Main,Alt+UpArrow,Pan Up
+Paste,Main,Ctrl+V,Place the Clipboard contents in the document.
+Paste,Main,Shift+Insert,Place the Clipboard contents in the document.
+Paste in View,Main,Ctrl+Shift+V,Paste in View
+Pen,Main,P,"Draw curves in segments, and preview each segment as you draw."
+Pick,Main,Esc,"Select, position, or transform objects."
+Pick,Main,V,"Select, position, or transform objects."
+Polygon,Main,Y,Draw polygons by dragging in the drawing window.
+Polyline,Main,Alt+P,Draw connected curves and straight lines in one continuous action.
+Preflight...,Print Preview,Ctrl+I,Preflight...
+Prepress...,Print Preview,Ctrl+M,Prepress...
+Previous Page,Main,PgUp,Previous Page
+Print,Print Preview,Ctrl+P,Print
+Print Options,Print Preview,Alt+O,Print Options
+Print This Sheet Now,Print Preview,Ctrl+T,Print This Sheet Now
+Print...,Main,Ctrl+P,"Choose printing options, and print the active document."
+Properties,Main,Alt+Enter,Allows the properties of an object to be viewed and edited.
+Recall Selection Group 0,Main,0,Recall Selection Group 0
+Recall Selection Group 1,Main,1,Recall Selection Group 1
+Recall Selection Group 2,Main,2,Recall Selection Group 2
+Recall Selection Group 3,Main,3,Recall Selection Group 3
+Recall Selection Group 4,Main,4,Recall Selection Group 4
+Recall Selection Group 5,Main,5,Recall Selection Group 5
+Recall Selection Group 6,Main,6,Recall Selection Group 6
+Recall Selection Group 7,Main,7,Recall Selection Group 7
+Recall Selection Group 8,Main,8,Recall Selection Group 8
+Recall Selection Group 9,Main,9,Recall Selection Group 9
+Record Temporary Script,Main,Ctrl+Shift+R,Record Temporary Script
+Rectangle,Main,F6,Draw squares and rectangles by dragging in the drawing window.
+Redo %s,Main,Ctrl+Shift+Z,Reapply the last undone action.
+Refresh Window,Main,Ctrl+W,Redraw
+Remove Symmetry,Main,Alt+Shift+S,"Revert primary objects to basic objects, and delete all object copies."
+Repeat %s,Main,Ctrl+R,Repeat
+Right,Table Text Editing,Ctrl+R,Align text with the right side of the bounding box.
+Right,Text Editing,Ctrl+R,Align text with the right side of the bounding box.
+Rotate,Main,Alt+F8,Specify the object's rotation.
+Rulers,Main,Alt+Shift+R,Show or hide the rulers.
+Rulers,Print Preview,Ctrl+R,Rulers
+Run Temporary Script,Main,Ctrl+Shift+P,Run Temporary Script
+Sample Mesh Fill Color,Main,Ctrl+Shift+E,Sample a color from the desktop to apply to the selected nodes.
+Save As...,Main,Ctrl+Shift+S,Save As...
+Save Data Source...,Print Merge,Ctrl+S,Save Data Source...
+Save Print Style As...,Print Preview,Ctrl+A,Save Print Style As...
+Save Print Style As...,Print Preview,F12,Save Print Style As...
+Save...,Main,Ctrl+S,Save the active document.
+Scale and mirror,Main,Alt+F9,"Resize the object by specifying a percentage, and mirror the object."
+Script Editor...,Main,Alt+F11,Open a script for VBA editing.
+Scripts,Main,Alt+Shift+F11,"Create, load, and manage script projects."
+Select All Anchors,Anchor Editing,Ctrl+A,Select All Anchors
+Select Down,Table Editing,Shift+DnArrow,Select Down
+Select Down 1 Frame,Table Text Editing,Shift+PgDn,Select Down 1 Frame
+Select Down 1 Frame,Text Editing,Shift+PgDn,Select Down 1 Frame
+Select Down 1 Line,Table Text Editing,Shift+DnArrow,Select Down 1 Line
+Select Down 1 Line,Text Editing,Shift+DnArrow,Select Down 1 Line
+Select Down 1 Paragraph,Table Text Editing,Ctrl+Shift+DnArrow,Select Down 1 Paragraph
+Select Down 1 Paragraph,Text Editing,Ctrl+Shift+DnArrow,Select Down 1 Paragraph
+Select Left,Table Editing,Shift+LeftArrow,Select Left
+Select Left 1 Character,Table Text Editing,Shift+LeftArrow,Select Left 1 Character
+Select Left 1 Character,Text Editing,Shift+LeftArrow,Select Left 1 Character
+Select Left 1 Word,Table Text Editing,Ctrl+Shift+LeftArrow,Select Left 1 Word
+Select Left 1 Word,Text Editing,Ctrl+Shift+LeftArrow,Select Left 1 Word
+Select Right,Table Editing,Shift+RightArrow,Select Right
+Select Right 1 Character,Table Text Editing,Shift+RightArrow,Select Right 1 Character
+Select Right 1 Character,Text Editing,Shift+RightArrow,Select Right 1 Character
+Select Right 1 Word,Table Text Editing,Ctrl+Shift+RightArrow,Select Right 1 Word
+Select Right 1 Word,Text Editing,Ctrl+Shift+RightArrow,Select Right 1 Word
+Select Up,Table Editing,Shift+UpArrow,Select Up
+Select Up 1 Frame,Table Text Editing,Shift+PgUp,Select Up 1 Frame
+Select Up 1 Frame,Text Editing,Shift+PgUp,Select Up 1 Frame
+Select Up 1 Line,Table Text Editing,Shift+UpArrow,Select Up 1 Line
+Select Up 1 Line,Text Editing,Shift+UpArrow,Select Up 1 Line
+Select Up 1 Paragraph,Table Text Editing,Ctrl+Shift+UpArrow,Select Up 1 Paragraph
+Select Up 1 Paragraph,Text Editing,Ctrl+Shift+UpArrow,Select Up 1 Paragraph
+Select all objects,Main,Ctrl+A,Select all objects
+Select to Beginning of Frame,Table Text Editing,Ctrl+Shift+Home,Select to Beginning of Frame
+Select to Beginning of Frame,Text Editing,Ctrl+Shift+Home,Select to Beginning of Frame
+Select to Beginning of Line,Table Text Editing,Shift+Home,Select to Beginning of Line
+Select to Beginning of Line,Text Editing,Shift+Home,Select to Beginning of Line
+Select to Beginning of Text,Table Text Editing,Ctrl+Shift+PgUp,Select to Beginning of Text
+Select to Beginning of Text,Text Editing,Ctrl+Shift+PgUp,Select to Beginning of Text
+Select to End of Frame,Table Text Editing,Ctrl+Shift+End,Select to End of Frame
+Select to End of Frame,Text Editing,Ctrl+Shift+End,Select to End of Frame
+Select to End of Line,Table Text Editing,Shift+End,Select to End of Line
+Select to End of Line,Text Editing,Shift+End,Select to End of Line
+Select to End of Text,Table Text Editing,Ctrl+Shift+PgDn,Select to End of Text
+Select to End of Text,Text Editing,Ctrl+Shift+PgDn,Select to End of Text
+Separations...,Print Preview,Ctrl+S,Separations...
+Shape,Main,F10,Edit a curve object or text character by manipulating nodes.
+Shape,Main,A,Edit a curve object or text character by manipulating nodes.
+Show All,Main,Ctrl+Alt+3,Show all objects
+Show Current Tile,Print Preview,Ctrl+H,Show Current Tile
+Show Non-Printing Characters,Table Text Editing,Ctrl+Shift+C,Non-printing Characters
+Show Non-Printing Characters,Text Editing,Ctrl+Shift+C,Non-printing Characters
+Show full preview,Main,Alt+Shift+P,Show object copies as outlines or full objects.
+Show unselected nodes with fill,Main,Ctrl+Shift+G,Show unselected nodes with fill
+Size,Main,Alt+F10,Specify the dimensions of the object.
+Small Capitals,Table Text Editing,Ctrl+Shift+K,Small Capitals
+Small Capitals,Text Editing,Ctrl+Shift+K,Small Capitals
+Smart Drawing,Main,Shift+S,Convert freehand strokes to basic shapes or smoothed curves.
+Smooth,Main,Shift+A,Smooth object by dragging along its outline.
+Snap Off,Main,Alt+Q,Turn off all snapping. Click again to restore selected snapping options.
+Spell Check...,Main,Ctrl+F12,Spelling
+Step and Repeat,Main,Ctrl+Shift+D,Show Step and Repeat docker
+Stop Recording,Main,Ctrl+Shift+O,Stop recording the script.
+Style List,Table Text Editing,Ctrl+Shift+S,Style List
+Style List,Text Editing,Ctrl+Shift+S,Style List
+Super Nudge Anchor Down,Anchor Editing,Shift+DnArrow,Super Nudge Anchor Down
+Super Nudge Anchor Left,Anchor Editing,Shift+LeftArrow,Super Nudge Anchor Left
+Super Nudge Anchor Right,Anchor Editing,Shift+RightArrow,Super Nudge Anchor Right
+Super Nudge Anchor Up,Anchor Editing,Shift+UpArrow,Super Nudge Anchor Up
+Super Nudge Down,Main,Shift+DnArrow,Super Nudge Down
+Super Nudge Left,Main,Shift+LeftArrow,Super Nudge Left
+Super Nudge Right,Main,Shift+RightArrow,Super Nudge Right
+Super Nudge Up,Main,Shift+UpArrow,Super Nudge Up
+Symbols,Main,Ctrl+F3,Symbols Docker
+Table,Table Editing,Delete,Delete the selected table
+Text,Main,Ctrl+T,Edit paragraph and artistic text properties.
+Text,Main,F8,Add and edit paragraph and artistic text.
+Text,Table Text Editing,Ctrl+F10,Text Options
+Text,Text Editing,Ctrl+F10,Text Options
+To Back of Layer,Main,Shift+PgDn,Move object to the bottom of the stacking order.
+To Back of Page,Main,Ctrl+End,Move the object to the back of the page.
+To Front of Layer,Main,Shift+PgUp,Move object to the top of the stacking order.
+To Front of Page,Main,Ctrl+Home,Move the object to the front of the page.
+Toggle Cusp and Smooth,Curve Editing,C,Toggle the selected nodes between cusp and smooth.
+Toggle Line,Curve Editing,L,Toggle the selected nodes between a line and curve segment.
+Toggle Pick State,Main,Ctrl+Space,Toggle Pick State
+Toggle Smooth and Symmetrical,Curve Editing,S,Toggle the selected nodes between smooth and symmetrical.
+Toggle View,Main,Shift+F9,Toggle View
+Toggle preview colors,Main,Ctrl+Shift+I,Switch between the main and the secondary preview color.
+Transform,Main,Alt+F7,Specify the object's position on the drawing page.
+Underline,Table Text Editing,Ctrl+U,Underline the text.
+Underline,Text Editing,Ctrl+U,Underline the text.
+Undo %s,Main,Ctrl+Z,Cancel the previous action.
+Undo %s,Main,Alt+Backspace,Cancel the previous action.
+Ungroup,Main,Ctrl+U,Break a group into individual objects or groups.
+Uniform Fill,Main,Shift+F11,"Choose a solid fill color for an object by using color palettes, color viewers, color harmonies, or color blends."
+Unlock All,Main,Ctrl+Alt+2,Enable editing on all objects.
+Use bullets,Main,Ctrl+M,Add or remove a bulleted-list format.
+Use drop cap,Table Text Editing,Ctrl+Shift+D,Add or remove a drop cap.
+Use drop cap,Text Editing,Ctrl+Shift+D,Add or remove a drop cap.
+Vertical Text,Main,Ctrl+.,Changes the text to vertical
+View Single Record,Print Merge,Ctrl+V,View Single Record
+Views,Main,Ctrl+F2,Views docker
+Virtual Segment Delete,Main,Shift+K,Remove overlapping segments in objects.
+Visual Studio Editor...,Main,Alt+Shift+F12,Visual Studio Editor...
+What's This?,Main,Shift+F1,Invokes context sensitive Help
+Zoom,Main,Z,Change the magnification level of the document window.
+Zoom In,Main,Ctrl++,Increase the magnification level to view more detail.
+Zoom In,Main,Ctrl+NUMPAD+,Increase the magnification level to view more detail.
+Zoom In,Main,Ctrl+=,Increase the magnification level to view more detail.
+Zoom In,Print Preview,Ctrl++,Zoom In
+Zoom In,Print Preview,Ctrl+NUMPAD+,Zoom In
+Zoom In,Print Preview,Ctrl+=,Zoom In
+Zoom One-Shot,Main,F2,Zoom One-Shot
+Zoom Out,Main,Ctrl+-,Decrease the magnification level to view a larger portion of the document.
+Zoom Out,Main,F3,Decrease the magnification level to view a larger portion of the document.
+Zoom Out,Main,Ctrl+NUMPAD-,Decrease the magnification level to view a larger portion of the document.
+Zoom Out,Main,Ctrl+_,Decrease the magnification level to view a larger portion of the document.
+Zoom Out,Print Preview,F3,Zoom Out
+Zoom Out,Print Preview,Ctrl+-,Zoom Out
+Zoom Out,Print Preview,Ctrl+NUMPAD-,Zoom Out
+Zoom Out,Print Preview,Ctrl+_,Zoom Out
+Zoom To Fit,Main,F4,Adjust the magnification level to include all objects
+Zoom To Fit,Main,Ctrl+0,Adjust the magnification level to include all objects
+Zoom To Page,Main,Shift+F4,Adjust the magnification level to fit the entire page.
+Zoom To Selection,Main,Shift+F2,Magnify only the selected object.
+Zoom to Fit,Print Preview,F4,Zoom to Fit
+Zoom to Page,Print Preview,Shift+F4,Zoom to Page
+Zoom to Selection,Print Preview,Shift+F2,Zoom to Selection
+¼ Em Space,Table Text Editing,Ctrl+Alt+Space,¼ Em Space
+¼ Em Space,Text Editing,Ctrl+Alt+Space,¼ Em Space
