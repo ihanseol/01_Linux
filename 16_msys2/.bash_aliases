@@ -13,7 +13,7 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
-# Default to human readable figures 
+# Default to human readable figures
 alias df='df -h'
 alias du='du -h'
 
@@ -28,9 +28,9 @@ alias fgrep='fgrep --color=auto'              # show differences in colour
 alias ls='ls -ahF --color=tty'                 # classify files in colour
 alias dir='ls -al --color=auto --format=vertical'
 alias vdir='ls --color=auto --format=long'
-alias ll='ls -al'                              # long list
+alias ll='ls -alF'                              # long list
 alias la='ls -A'                              # all but . and ..
-alias l='ls -ACF'                              #
+alias l='ls -alF'                              #
 
 
 alias ..='cd ..'
@@ -45,8 +45,8 @@ alias cdprog='cd /c/ProgramData'
 alias cdcmder='cd "/c/Program Files/totalcmd"'
 alias cdtc='cd "/c/Program Files/totalcmd"'
 
-alias cddev='cd /d/12_dev'
-alias cddesk='cd /c/Users/minhwasoo/Desktop'
+alias cddev='cd /12_dev'
+alias cddesk='cd c/Users/minhwasoo/Desktop'
 alias cddown='cd /c/Users/minhwasoo/Downloads/'
 alias cdhome='cd  /c/Users/minhwasoo/'
 
@@ -58,14 +58,17 @@ alias cdhost='cd  /c/Windows/System32/Drivers/etc/'
 alias cdgame='cd /d/11_exaData/06_util/099_Game/'
 alias cdsend='cd /d/05_Send/'
 alias cdsend2='cd /d/06_Send2/'
+alias cdsend3='cd /d/06_Send3/'
 
+alias cdappdat='cd /d/Users/minhwasoo/AppData/Roaming/'
+alias cdlocal='cd /d/Users/minhwasoo/AppData/Local/'
 
 alias vi='vim'
 
 
 # git command ..
 
-alias gl='git log --oneline --all --graph --decorate' 
+alias gl='git log --oneline --all --graph --decorate'
 
 alias gs='git status'
 alias ga='git add'
@@ -76,8 +79,10 @@ alias gpull='git pull'
 
 
 alias cls='clear'
-alias reload='source .bashrc'
+alias bload='source .bashrc'
+alias zload='source .zshrc'
+
 alias qal='cd; vi .bash_aliases'
 alias qpr='cd; vi .bashrc'
-
-
+alias zpr='cd; vi .zshrc'
+alias zal='cd; vi .zsh_aliases'
