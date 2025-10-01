@@ -45,8 +45,8 @@ alias cdprog='cd /c/ProgramData'
 alias cdcmder='cd "/c/Program Files/totalcmd"'
 alias cdtc='cd "/c/Program Files/totalcmd"'
 
-alias cddev='cd /12_dev'
-alias cddesk='cd c/Users/minhwasoo/Desktop'
+alias cddev='cd /d/12_dev'
+alias cddesk='cd /c/Users/minhwasoo/Desktop'
 alias cddown='cd /c/Users/minhwasoo/Downloads/'
 alias cdhome='cd  /c/Users/minhwasoo/'
 
