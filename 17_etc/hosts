@@ -165,6 +165,16 @@
 # 팟플레이어 광고차단
 
 
+# 알씨리즈 광고차단
+
+127.0.0.1 displayadimg.zumst.com
+127.0.0.1 displayad.zum.com
+127.0.0.1 ad.estsoft.com
+127.0.0.1 popup.estsoft.com
+
+
+# 알씨리즈 광고차단
+
 
 0.0.0.0 apps.corel.com
 0.0.0.0 mc.corel.com
