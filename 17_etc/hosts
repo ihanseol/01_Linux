@@ -1,4 +1,4 @@
-# Copyright (c) 1993-2009 Microsoft Corp.
+﻿# Copyright (c) 1993-2009 Microsoft Corp.
 #
 # This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
 #
@@ -348,7 +348,8 @@
 #-----------------------------------------------------
 # Adobe PhotoShop
 #-----------------------------------------------------
-# Last update: 2026-01-30 22:14 UTC
+
+# Last update: 2026-04-16 05:48 UTC
 0.0.0.0 ic.adobe.io
 0.0.0.0 cc-api-data.adobe.io
 0.0.0.0 fp.adobestats.io
@@ -3832,8 +3833,88 @@
 0.0.0.0 v0u9bgv3wz7.lqn0m.adobestats.io
 0.0.0.0 zhaiedcbbct.sf7e3.adobestats.io
 0.0.0.0 sy811sdgx.sf7e3.adobestats.io
+0.0.0.0 1gg934fnkz.adobestats.io
+0.0.0.0 ffjogzoitp.adobestats.io
+0.0.0.0 rghtw9pred.adobestats.io
+0.0.0.0 uz6u99sogq.adobestats.io
+0.0.0.0 zsmfdin64f.adobestats.io
+0.0.0.0 fws4vh5fdv.lqn0m.adobestats.io
+0.0.0.0 po4n0kof38.lqn0m.adobestats.io
+0.0.0.0 k1ng9mmtchc.xwk4b.adobestats.io
+0.0.0.0 exlquyexb3yx.lqn0m.adobestats.io
+0.0.0.0 13l8nos4pr.xwk4b.adobestats.io
+0.0.0.0 y3l4e58u3.lqn0m.adobestats.io
+0.0.0.0 ra8uwgz9hvvn.lqn0m.adobestats.io
+0.0.0.0 zwrwmv0m.lqn0m.adobestats.io
+0.0.0.0 zuqaksd6ztm.lqn0m.adobestats.io
+0.0.0.0 2avt70xu.lqn0m.adobestats.io
+0.0.0.0 lvpqjnv39n7t.xwk4b.adobestats.io
+0.0.0.0 1ju6ljsd.xwk4b.adobestats.io
+0.0.0.0 pdigcboi.lqn0m.adobestats.io
+0.0.0.0 syykdibnn26.lqn0m.adobestats.io
+0.0.0.0 pvfc20xsp.lqn0m.adobestats.io
+0.0.0.0 nlbc4bwh2.lqn0m.adobestats.io
+0.0.0.0 kqqoyl239xp.lqn0m.adobestats.io
+0.0.0.0 6x6eiwu4gwr.61y77.adobestats.io
+0.0.0.0 n2pmadrg.lqn0m.adobestats.io
+0.0.0.0 1ahooy1t2u.lqn0m.adobestats.io
+0.0.0.0 2vlc3klrgo.adobestats.io
+0.0.0.0 3wmjjz9b5y.adobestats.io
+0.0.0.0 5a4qtjy8bz.adobestats.io
+0.0.0.0 5mtoma9t7x.adobestats.io
+0.0.0.0 634xwsh30h.adobestats.io
+0.0.0.0 7ejmus3t89.adobestats.io
+0.0.0.0 9df15gmgnu.adobestats.io
+0.0.0.0 9y33to8ctd.adobestats.io
+0.0.0.0 ablvc2zw03.adobestats.io
+0.0.0.0 ark45out56.adobestats.io
+0.0.0.0 iu11w2nb7q.adobestats.io
+0.0.0.0 j3km3zqhwa.adobestats.io
+0.0.0.0 msgp6h9k9l.adobestats.io
+0.0.0.0 n17thwa6kn.adobestats.io
+0.0.0.0 nlgp0ymlsz.adobestats.io
+0.0.0.0 uji9cjpbaf.adobestats.io
+0.0.0.0 w21od3qoq9.adobestats.io
+0.0.0.0 warh1jvuzu.adobestats.io
+0.0.0.0 x4lveg8u7v.adobestats.io
+0.0.0.0 ytusax0qaj.adobestats.io
+0.0.0.0 wzx3nh1vrk.lqn0m.adobestats.io
+0.0.0.0 8y7e1z7z.xwk4b.adobestats.io
+0.0.0.0 fp077nj91.xwk4b.adobestats.io
+0.0.0.0 nk3etkofoq18.lqn0m.adobestats.io
+0.0.0.0 74z242v3618g.lqn0m.adobestats.io
+0.0.0.0 tn1ylf9bs.lqn0m.adobestats.io
+0.0.0.0 f9zukyoc5j.lqn0m.adobestats.io
+0.0.0.0 iihvelujfb.adobestats.io
+0.0.0.0 jz1gqq4k1pr.xwk4b.adobestats.io
+0.0.0.0 f0fnvdt3as.lqn0m.adobestats.io
+0.0.0.0 zz014o1wl3.xwk4b.adobestats.io
+0.0.0.0 vq3imgkmkl.lqn0m.adobestats.io
+0.0.0.0 dd00n4z1pg.xwk4b.adobestats.io
+0.0.0.0 3pf09tc4ecwz.xwk4b.adobestats.io
+0.0.0.0 t01w4lwuc.xwk4b.adobestats.io
+0.0.0.0 q97bkqcvwh.adobestats.io
+0.0.0.0 lqkw18jb.sf7e3.adobestats.io
+0.0.0.0 m6zd0jnw.xwk4b.adobestats.io
+0.0.0.0 adobe.io
+0.0.0.0 v8qopmtw.lqn0m.adobestats.io
+0.0.0.0 yfin3djujv.xwk4b.adobestats.io
+0.0.0.0 f5jeo6zi0.xwk4b.adobestats.io
+0.0.0.0 id15spd31omb.xwk4b.adobestats.io
+0.0.0.0 vsbqj3atp.wzwva.adobestats.io
+0.0.0.0 sqn39rzb3l.wzwva.adobestats.io
+0.0.0.0 4odc7l19nu7f.iwl5c.adobestats.io
+0.0.0.0 e88wkvhp.61ro5.adobestats.io
+0.0.0.0 a26kuilijy1.xwk4b.adobestats.io
+0.0.0.0 aagzuhp6.xwk4b.adobestats.io
 
 
 #-----------------------------------------------------
 
 
+# Added by Docker Desktop
+192.168.0.97 host.docker.internal
+192.168.0.97 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
